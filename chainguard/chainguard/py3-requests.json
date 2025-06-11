@@ -1,11 +1,7 @@
 {
-  "name": "airflow-core-3",
+  "name": "py3-requests",
   "secfixes": {
-    "3.0.1-r1": [
-      "CVE-2025-47278",
-      "GHSA-4grg-w6v8-c28g"
-    ],
-    "3.0.2-r0": [
+    "2.32.4-r0": [
       "CVE-2024-47081",
       "GHSA-9hjg-9r4m-mvj7"
     ]
