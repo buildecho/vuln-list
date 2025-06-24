@@ -1,19 +1,19 @@
 {
-  "Title": "ELSA-2025-9184:  ipa security update (IMPORTANT)",
-  "Description": "[4.12.2-14.0.1]\n- Set IPAPLATFORM=rhel when build on Oracle Linux [Orabug: 29516674]\n- Add bind to ipa-server-common Requires [Orabug: 36518596]\n\n[4.12.2-14.1]\n- Resolves: RHEL-89908\n  EMBARGOED CVE-2025-4404 ipa: Privilege escalation from host to domain admin in FreeIPA\n- Resolves: RHEL-89144\n  kdb: ipadb_get_connection() succeeds but returns null LDAP context",
+  "Title": "ELSA-2025-9327:  libblockdev security update (IMPORTANT)",
+  "Description": "[2.28-14.0.1]\n- enable btrfs support [Orabug: 30792917]\n\n[2.28-14]\n- Don't allow suid and dev set on fs resize (CVE-2025-6019)\n  Resolves: RHEL-96038",
   "Platform": [
     "Oracle Linux 9"
   ],
   "References": [
     {
       "Source": "elsa",
-      "URI": "https://linux.oracle.com/errata/ELSA-2025-9184.html",
-      "ID": "ELSA-2025-9184"
+      "URI": "https://linux.oracle.com/errata/ELSA-2025-9327.html",
+      "ID": "ELSA-2025-9327"
     },
     {
       "Source": "CVE",
-      "URI": "https://linux.oracle.com/cve/CVE-2025-4404.html",
-      "ID": "CVE-2025-4404"
+      "URI": "https://linux.oracle.com/cve/CVE-2025-6019.html",
+      "ID": "CVE-2025-6019"
     }
   ],
   "Criteria": {
@@ -33,10 +33,10 @@
                     "Criterias": null,
                     "Criterions": [
                       {
-                        "Comment": "python3-ipatests is earlier than 0:4.12.2-14.0.1.el9_6.1"
+                        "Comment": "libblockdev is earlier than 0:2.28-14.0.1.el9_6"
                       },
                       {
-                        "Comment": "python3-ipatests is signed with the Oracle Linux 9 key"
+                        "Comment": "libblockdev is signed with the Oracle Linux 9 key"
                       }
                     ]
                   },
@@ -45,10 +45,10 @@
                     "Criterias": null,
                     "Criterions": [
                       {
-                        "Comment": "ipa-client is earlier than 0:4.12.2-14.0.1.el9_6.1"
+                        "Comment": "libblockdev-btrfs is earlier than 0:2.28-14.0.1.el9_6"
                       },
                       {
-                        "Comment": "ipa-client is signed with the Oracle Linux 9 key"
+                        "Comment": "libblockdev-btrfs is signed with the Oracle Linux 9 key"
                       }
                     ]
                   },
@@ -57,10 +57,10 @@
                     "Criterias": null,
                     "Criterions": [
                       {
-                        "Comment": "ipa-client-common is earlier than 0:4.12.2-14.0.1.el9_6.1"
+                        "Comment": "libblockdev-crypto is earlier than 0:2.28-14.0.1.el9_6"
                       },
                       {
-                        "Comment": "ipa-client-common is signed with the Oracle Linux 9 key"
+                        "Comment": "libblockdev-crypto is signed with the Oracle Linux 9 key"
                       }
                     ]
                   },
@@ -69,10 +69,10 @@
                     "Criterias": null,
                     "Criterions": [
                       {
-                        "Comment": "ipa-client-encrypted-dns is earlier than 0:4.12.2-14.0.1.el9_6.1"
+                        "Comment": "libblockdev-dm is earlier than 0:2.28-14.0.1.el9_6"
                       },
                       {
-                        "Comment": "ipa-client-encrypted-dns is signed with the Oracle Linux 9 key"
+                        "Comment": "libblockdev-dm is signed with the Oracle Linux 9 key"
                       }
                     ]
                   },
@@ -81,10 +81,10 @@
                     "Criterias": null,
                     "Criterions": [
                       {
-                        "Comment": "ipa-client-epn is earlier than 0:4.12.2-14.0.1.el9_6.1"
+                        "Comment": "libblockdev-fs is earlier than 0:2.28-14.0.1.el9_6"
                       },
                       {
-                        "Comment": "ipa-client-epn is signed with the Oracle Linux 9 key"
+                        "Comment": "libblockdev-fs is signed with the Oracle Linux 9 key"
                       }
                     ]
                   },
@@ -93,10 +93,10 @@
                     "Criterias": null,
                     "Criterions": [
                       {
-                        "Comment": "ipa-client-samba is earlier than 0:4.12.2-14.0.1.el9_6.1"
+                        "Comment": "libblockdev-kbd is earlier than 0:2.28-14.0.1.el9_6"
                       },
                       {
-                        "Comment": "ipa-client-samba is signed with the Oracle Linux 9 key"
+                        "Comment": "libblockdev-kbd is signed with the Oracle Linux 9 key"
                       }
                     ]
                   },
@@ -105,10 +105,10 @@
                     "Criterias": null,
                     "Criterions": [
                       {
-                        "Comment": "ipa-common is earlier than 0:4.12.2-14.0.1.el9_6.1"
+                        "Comment": "libblockdev-loop is earlier than 0:2.28-14.0.1.el9_6"
                       },
                       {
-                        "Comment": "ipa-common is signed with the Oracle Linux 9 key"
+                        "Comment": "libblockdev-loop is signed with the Oracle Linux 9 key"
                       }
                     ]
                   },
@@ -117,10 +117,10 @@
                     "Criterias": null,
                     "Criterions": [
                       {
-                        "Comment": "ipa-selinux is earlier than 0:4.12.2-14.0.1.el9_6.1"
+                        "Comment": "libblockdev-lvm is earlier than 0:2.28-14.0.1.el9_6"
                       },
                       {
-                        "Comment": "ipa-selinux is signed with the Oracle Linux 9 key"
+                        "Comment": "libblockdev-lvm is signed with the Oracle Linux 9 key"
                       }
                     ]
                   },
@@ -129,10 +129,10 @@
                     "Criterias": null,
                     "Criterions": [
                       {
-                        "Comment": "ipa-selinux-luna is earlier than 0:4.12.2-14.0.1.el9_6.1"
+                        "Comment": "libblockdev-lvm-dbus is earlier than 0:2.28-14.0.1.el9_6"
                       },
                       {
-                        "Comment": "ipa-selinux-luna is signed with the Oracle Linux 9 key"
+                        "Comment": "libblockdev-lvm-dbus is signed with the Oracle Linux 9 key"
                       }
                     ]
                   },
@@ -141,10 +141,10 @@
                     "Criterias": null,
                     "Criterions": [
                       {
-                        "Comment": "ipa-selinux-nfast is earlier than 0:4.12.2-14.0.1.el9_6.1"
+                        "Comment": "libblockdev-mdraid is earlier than 0:2.28-14.0.1.el9_6"
                       },
                       {
-                        "Comment": "ipa-selinux-nfast is signed with the Oracle Linux 9 key"
+                        "Comment": "libblockdev-mdraid is signed with the Oracle Linux 9 key"
                       }
                     ]
                   },
@@ -153,10 +153,10 @@
                     "Criterias": null,
                     "Criterions": [
                       {
-                        "Comment": "ipa-server is earlier than 0:4.12.2-14.0.1.el9_6.1"
+                        "Comment": "libblockdev-mpath is earlier than 0:2.28-14.0.1.el9_6"
                       },
                       {
-                        "Comment": "ipa-server is signed with the Oracle Linux 9 key"
+                        "Comment": "libblockdev-mpath is signed with the Oracle Linux 9 key"
                       }
                     ]
                   },
@@ -165,10 +165,10 @@
                     "Criterias": null,
                     "Criterions": [
                       {
-                        "Comment": "ipa-server-common is earlier than 0:4.12.2-14.0.1.el9_6.1"
+                        "Comment": "libblockdev-nvdimm is earlier than 0:2.28-14.0.1.el9_6"
                       },
                       {
-                        "Comment": "ipa-server-common is signed with the Oracle Linux 9 key"
+                        "Comment": "libblockdev-nvdimm is signed with the Oracle Linux 9 key"
                       }
                     ]
                   },
@@ -177,10 +177,10 @@
                     "Criterias": null,
                     "Criterions": [
                       {
-                        "Comment": "ipa-server-dns is earlier than 0:4.12.2-14.0.1.el9_6.1"
+                        "Comment": "libblockdev-nvme is earlier than 0:2.28-14.0.1.el9_6"
                       },
                       {
-                        "Comment": "ipa-server-dns is signed with the Oracle Linux 9 key"
+                        "Comment": "libblockdev-nvme is signed with the Oracle Linux 9 key"
                       }
                     ]
                   },
@@ -189,10 +189,10 @@
                     "Criterias": null,
                     "Criterions": [
                       {
-                        "Comment": "ipa-server-encrypted-dns is earlier than 0:4.12.2-14.0.1.el9_6.1"
+                        "Comment": "libblockdev-part is earlier than 0:2.28-14.0.1.el9_6"
                       },
                       {
-                        "Comment": "ipa-server-encrypted-dns is signed with the Oracle Linux 9 key"
+                        "Comment": "libblockdev-part is signed with the Oracle Linux 9 key"
                       }
                     ]
                   },
@@ -201,10 +201,10 @@
                     "Criterias": null,
                     "Criterions": [
                       {
-                        "Comment": "ipa-server-trust-ad is earlier than 0:4.12.2-14.0.1.el9_6.1"
+                        "Comment": "libblockdev-plugins-all is earlier than 0:2.28-14.0.1.el9_6"
                       },
                       {
-                        "Comment": "ipa-server-trust-ad is signed with the Oracle Linux 9 key"
+                        "Comment": "libblockdev-plugins-all is signed with the Oracle Linux 9 key"
                       }
                     ]
                   },
@@ -213,10 +213,10 @@
                     "Criterias": null,
                     "Criterions": [
                       {
-                        "Comment": "python3-ipaclient is earlier than 0:4.12.2-14.0.1.el9_6.1"
+                        "Comment": "libblockdev-swap is earlier than 0:2.28-14.0.1.el9_6"
                       },
                       {
-                        "Comment": "python3-ipaclient is signed with the Oracle Linux 9 key"
+                        "Comment": "libblockdev-swap is signed with the Oracle Linux 9 key"
                       }
                     ]
                   },
@@ -225,10 +225,10 @@
                     "Criterias": null,
                     "Criterions": [
                       {
-                        "Comment": "python3-ipalib is earlier than 0:4.12.2-14.0.1.el9_6.1"
+                        "Comment": "libblockdev-tools is earlier than 0:2.28-14.0.1.el9_6"
                       },
                       {
-                        "Comment": "python3-ipalib is signed with the Oracle Linux 9 key"
+                        "Comment": "libblockdev-tools is signed with the Oracle Linux 9 key"
                       }
                     ]
                   },
@@ -237,10 +237,22 @@
                     "Criterias": null,
                     "Criterions": [
                       {
-                        "Comment": "python3-ipaserver is earlier than 0:4.12.2-14.0.1.el9_6.1"
+                        "Comment": "libblockdev-utils is earlier than 0:2.28-14.0.1.el9_6"
                       },
                       {
-                        "Comment": "python3-ipaserver is signed with the Oracle Linux 9 key"
+                        "Comment": "libblockdev-utils is signed with the Oracle Linux 9 key"
+                      }
+                    ]
+                  },
+                  {
+                    "Operator": "AND",
+                    "Criterias": null,
+                    "Criterions": [
+                      {
+                        "Comment": "python3-blockdev is earlier than 0:2.28-14.0.1.el9_6"
+                      },
+                      {
+                        "Comment": "python3-blockdev is signed with the Oracle Linux 9 key"
                       }
                     ]
                   }
@@ -265,10 +277,10 @@
                     "Criterias": null,
                     "Criterions": [
                       {
-                        "Comment": "ipa-client is earlier than 0:4.12.2-14.0.1.el9_6.1"
+                        "Comment": "libblockdev is earlier than 0:2.28-14.0.1.el9_6"
                       },
                       {
-                        "Comment": "ipa-client is signed with the Oracle Linux 9 key"
+                        "Comment": "libblockdev is signed with the Oracle Linux 9 key"
                       }
                     ]
                   },
@@ -277,10 +289,10 @@
                     "Criterias": null,
                     "Criterions": [
                       {
-                        "Comment": "ipa-client-common is earlier than 0:4.12.2-14.0.1.el9_6.1"
+                        "Comment": "libblockdev-btrfs is earlier than 0:2.28-14.0.1.el9_6"
                       },
                       {
-                        "Comment": "ipa-client-common is signed with the Oracle Linux 9 key"
+                        "Comment": "libblockdev-btrfs is signed with the Oracle Linux 9 key"
                       }
                     ]
                   },
@@ -289,10 +301,10 @@
                     "Criterias": null,
                     "Criterions": [
                       {
-                        "Comment": "ipa-client-encrypted-dns is earlier than 0:4.12.2-14.0.1.el9_6.1"
+                        "Comment": "libblockdev-crypto is earlier than 0:2.28-14.0.1.el9_6"
                       },
                       {
-                        "Comment": "ipa-client-encrypted-dns is signed with the Oracle Linux 9 key"
+                        "Comment": "libblockdev-crypto is signed with the Oracle Linux 9 key"
                       }
                     ]
                   },
@@ -301,10 +313,10 @@
                     "Criterias": null,
                     "Criterions": [
                       {
-                        "Comment": "ipa-client-epn is earlier than 0:4.12.2-14.0.1.el9_6.1"
+                        "Comment": "libblockdev-dm is earlier than 0:2.28-14.0.1.el9_6"
                       },
                       {
-                        "Comment": "ipa-client-epn is signed with the Oracle Linux 9 key"
+                        "Comment": "libblockdev-dm is signed with the Oracle Linux 9 key"
                       }
                     ]
                   },
@@ -313,10 +325,10 @@
                     "Criterias": null,
                     "Criterions": [
                       {
-                        "Comment": "ipa-client-samba is earlier than 0:4.12.2-14.0.1.el9_6.1"
+                        "Comment": "libblockdev-fs is earlier than 0:2.28-14.0.1.el9_6"
                       },
                       {
-                        "Comment": "ipa-client-samba is signed with the Oracle Linux 9 key"
+                        "Comment": "libblockdev-fs is signed with the Oracle Linux 9 key"
                       }
                     ]
                   },
@@ -325,10 +337,10 @@
                     "Criterias": null,
                     "Criterions": [
                       {
-                        "Comment": "ipa-common is earlier than 0:4.12.2-14.0.1.el9_6.1"
+                        "Comment": "libblockdev-kbd is earlier than 0:2.28-14.0.1.el9_6"
                       },
                       {
-                        "Comment": "ipa-common is signed with the Oracle Linux 9 key"
+                        "Comment": "libblockdev-kbd is signed with the Oracle Linux 9 key"
                       }
                     ]
                   },
@@ -337,10 +349,10 @@
                     "Criterias": null,
                     "Criterions": [
                       {
-                        "Comment": "ipa-selinux is earlier than 0:4.12.2-14.0.1.el9_6.1"
+                        "Comment": "libblockdev-loop is earlier than 0:2.28-14.0.1.el9_6"
                       },
                       {
-                        "Comment": "ipa-selinux is signed with the Oracle Linux 9 key"
+                        "Comment": "libblockdev-loop is signed with the Oracle Linux 9 key"
                       }
                     ]
                   },
@@ -349,10 +361,10 @@
                     "Criterias": null,
                     "Criterions": [
                       {
-                        "Comment": "ipa-selinux-luna is earlier than 0:4.12.2-14.0.1.el9_6.1"
+                        "Comment": "libblockdev-lvm is earlier than 0:2.28-14.0.1.el9_6"
                       },
                       {
-                        "Comment": "ipa-selinux-luna is signed with the Oracle Linux 9 key"
+                        "Comment": "libblockdev-lvm is signed with the Oracle Linux 9 key"
                       }
                     ]
                   },
@@ -361,10 +373,10 @@
                     "Criterias": null,
                     "Criterions": [
                       {
-                        "Comment": "ipa-selinux-nfast is earlier than 0:4.12.2-14.0.1.el9_6.1"
+                        "Comment": "libblockdev-lvm-dbus is earlier than 0:2.28-14.0.1.el9_6"
                       },
                       {
-                        "Comment": "ipa-selinux-nfast is signed with the Oracle Linux 9 key"
+                        "Comment": "libblockdev-lvm-dbus is signed with the Oracle Linux 9 key"
                       }
                     ]
                   },
@@ -373,10 +385,10 @@
                     "Criterias": null,
                     "Criterions": [
                       {
-                        "Comment": "ipa-server is earlier than 0:4.12.2-14.0.1.el9_6.1"
+                        "Comment": "libblockdev-mdraid is earlier than 0:2.28-14.0.1.el9_6"
                       },
                       {
-                        "Comment": "ipa-server is signed with the Oracle Linux 9 key"
+                        "Comment": "libblockdev-mdraid is signed with the Oracle Linux 9 key"
                       }
                     ]
                   },
@@ -385,10 +397,10 @@
                     "Criterias": null,
                     "Criterions": [
                       {
-                        "Comment": "ipa-server-common is earlier than 0:4.12.2-14.0.1.el9_6.1"
+                        "Comment": "libblockdev-mpath is earlier than 0:2.28-14.0.1.el9_6"
                       },
                       {
-                        "Comment": "ipa-server-common is signed with the Oracle Linux 9 key"
+                        "Comment": "libblockdev-mpath is signed with the Oracle Linux 9 key"
                       }
                     ]
                   },
@@ -397,10 +409,10 @@
                     "Criterias": null,
                     "Criterions": [
                       {
-                        "Comment": "ipa-server-dns is earlier than 0:4.12.2-14.0.1.el9_6.1"
+                        "Comment": "libblockdev-nvdimm is earlier than 0:2.28-14.0.1.el9_6"
                       },
                       {
-                        "Comment": "ipa-server-dns is signed with the Oracle Linux 9 key"
+                        "Comment": "libblockdev-nvdimm is signed with the Oracle Linux 9 key"
                       }
                     ]
                   },
@@ -409,10 +421,10 @@
                     "Criterias": null,
                     "Criterions": [
                       {
-                        "Comment": "ipa-server-encrypted-dns is earlier than 0:4.12.2-14.0.1.el9_6.1"
+                        "Comment": "libblockdev-nvme is earlier than 0:2.28-14.0.1.el9_6"
                       },
                       {
-                        "Comment": "ipa-server-encrypted-dns is signed with the Oracle Linux 9 key"
+                        "Comment": "libblockdev-nvme is signed with the Oracle Linux 9 key"
                       }
                     ]
                   },
@@ -421,10 +433,10 @@
                     "Criterias": null,
                     "Criterions": [
                       {
-                        "Comment": "ipa-server-trust-ad is earlier than 0:4.12.2-14.0.1.el9_6.1"
+                        "Comment": "libblockdev-part is earlier than 0:2.28-14.0.1.el9_6"
                       },
                       {
-                        "Comment": "ipa-server-trust-ad is signed with the Oracle Linux 9 key"
+                        "Comment": "libblockdev-part is signed with the Oracle Linux 9 key"
                       }
                     ]
                   },
@@ -433,10 +445,10 @@
                     "Criterias": null,
                     "Criterions": [
                       {
-                        "Comment": "python3-ipaclient is earlier than 0:4.12.2-14.0.1.el9_6.1"
+                        "Comment": "libblockdev-plugins-all is earlier than 0:2.28-14.0.1.el9_6"
                       },
                       {
-                        "Comment": "python3-ipaclient is signed with the Oracle Linux 9 key"
+                        "Comment": "libblockdev-plugins-all is signed with the Oracle Linux 9 key"
                       }
                     ]
                   },
@@ -445,10 +457,10 @@
                     "Criterias": null,
                     "Criterions": [
                       {
-                        "Comment": "python3-ipalib is earlier than 0:4.12.2-14.0.1.el9_6.1"
+                        "Comment": "libblockdev-swap is earlier than 0:2.28-14.0.1.el9_6"
                       },
                       {
-                        "Comment": "python3-ipalib is signed with the Oracle Linux 9 key"
+                        "Comment": "libblockdev-swap is signed with the Oracle Linux 9 key"
                       }
                     ]
                   },
@@ -457,10 +469,10 @@
                     "Criterias": null,
                     "Criterions": [
                       {
-                        "Comment": "python3-ipaserver is earlier than 0:4.12.2-14.0.1.el9_6.1"
+                        "Comment": "libblockdev-tools is earlier than 0:2.28-14.0.1.el9_6"
                       },
                       {
-                        "Comment": "python3-ipaserver is signed with the Oracle Linux 9 key"
+                        "Comment": "libblockdev-tools is signed with the Oracle Linux 9 key"
                       }
                     ]
                   },
@@ -469,10 +481,22 @@
                     "Criterias": null,
                     "Criterions": [
                       {
-                        "Comment": "python3-ipatests is earlier than 0:4.12.2-14.0.1.el9_6.1"
+                        "Comment": "libblockdev-utils is earlier than 0:2.28-14.0.1.el9_6"
                       },
                       {
-                        "Comment": "python3-ipatests is signed with the Oracle Linux 9 key"
+                        "Comment": "libblockdev-utils is signed with the Oracle Linux 9 key"
+                      }
+                    ]
+                  },
+                  {
+                    "Operator": "AND",
+                    "Criterias": null,
+                    "Criterions": [
+                      {
+                        "Comment": "python3-blockdev is earlier than 0:2.28-14.0.1.el9_6"
+                      },
+                      {
+                        "Comment": "python3-blockdev is signed with the Oracle Linux 9 key"
                       }
                     ]
                   }
@@ -500,11 +524,11 @@
   "Cves": [
     {
       "Impact": "",
-      "Href": "https://linux.oracle.com/cve/CVE-2025-4404.html",
-      "ID": "CVE-2025-4404"
+      "Href": "https://linux.oracle.com/cve/CVE-2025-6019.html",
+      "ID": "CVE-2025-6019"
     }
   ],
   "Issued": {
-    "Date": "2025-06-17"
+    "Date": "2025-06-23"
   }
 }
