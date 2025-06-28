@@ -9,6 +9,11 @@
       "Source": "elsa",
       "URI": "https://linux.oracle.com/errata/ELSA-2025-9190.html",
       "ID": "ELSA-2025-9190"
+    },
+    {
+      "Source": "CVE",
+      "URI": "https://linux.oracle.com/cve/CVE-2025-4404.html",
+      "ID": "CVE-2025-4404"
     }
   ],
   "Criteria": {
@@ -492,7 +497,13 @@
     ]
   },
   "Severity": "IMPORTANT",
-  "Cves": null,
+  "Cves": [
+    {
+      "Impact": "",
+      "Href": "https://linux.oracle.com/cve/CVE-2025-4404.html",
+      "ID": "CVE-2025-4404"
+    }
+  ],
   "Issued": {
     "Date": "2025-06-27"
   }

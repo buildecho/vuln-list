@@ -9,6 +9,11 @@
       "Source": "elsa",
       "URI": "https://linux.oracle.com/errata/ELSA-2025-8047.html",
       "ID": "ELSA-2025-8047"
+    },
+    {
+      "Source": "CVE",
+      "URI": "https://linux.oracle.com/cve/CVE-2024-8508.html",
+      "ID": "CVE-2024-8508"
     }
   ],
   "Criteria": {
@@ -204,7 +209,13 @@
     ]
   },
   "Severity": "MODERATE",
-  "Cves": null,
+  "Cves": [
+    {
+      "Impact": "",
+      "Href": "https://linux.oracle.com/cve/CVE-2024-8508.html",
+      "ID": "CVE-2024-8508"
+    }
+  ],
   "Issued": {
     "Date": "2025-06-27"
   }

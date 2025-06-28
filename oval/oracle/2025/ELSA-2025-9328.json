@@ -9,6 +9,11 @@
       "Source": "elsa",
       "URI": "https://linux.oracle.com/errata/ELSA-2025-9328.html",
       "ID": "ELSA-2025-9328"
+    },
+    {
+      "Source": "CVE",
+      "URI": "https://linux.oracle.com/cve/CVE-2025-6019.html",
+      "ID": "CVE-2025-6019"
     }
   ],
   "Criteria": {
@@ -540,7 +545,13 @@
     ]
   },
   "Severity": "IMPORTANT",
-  "Cves": null,
+  "Cves": [
+    {
+      "Impact": "",
+      "Href": "https://linux.oracle.com/cve/CVE-2025-6019.html",
+      "ID": "CVE-2025-6019"
+    }
+  ],
   "Issued": {
     "Date": "2025-06-27"
   }

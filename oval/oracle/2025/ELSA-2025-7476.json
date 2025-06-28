@@ -9,6 +9,11 @@
       "Source": "elsa",
       "URI": "https://linux.oracle.com/errata/ELSA-2025-7476.html",
       "ID": "ELSA-2025-7476"
+    },
+    {
+      "Source": "CVE",
+      "URI": "https://linux.oracle.com/cve/CVE-2025-27516.html",
+      "ID": "CVE-2025-27516"
     }
   ],
   "Criteria": {
@@ -108,7 +113,13 @@
     ]
   },
   "Severity": "IMPORTANT",
-  "Cves": null,
+  "Cves": [
+    {
+      "Impact": "",
+      "Href": "https://linux.oracle.com/cve/CVE-2025-27516.html",
+      "ID": "CVE-2025-27516"
+    }
+  ],
   "Issued": {
     "Date": "2025-06-27"
   }

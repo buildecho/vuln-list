@@ -9,6 +9,21 @@
       "Source": "elsa",
       "URI": "https://linux.oracle.com/errata/ELSA-2025-7466.html",
       "ID": "ELSA-2025-7466"
+    },
+    {
+      "Source": "CVE",
+      "URI": "https://linux.oracle.com/cve/CVE-2025-22866.html",
+      "ID": "CVE-2025-22866"
+    },
+    {
+      "Source": "CVE",
+      "URI": "https://linux.oracle.com/cve/CVE-2024-45341.html",
+      "ID": "CVE-2024-45341"
+    },
+    {
+      "Source": "CVE",
+      "URI": "https://linux.oracle.com/cve/CVE-2024-45336.html",
+      "ID": "CVE-2024-45336"
     }
   ],
   "Criteria": {
@@ -252,7 +267,23 @@
     ]
   },
   "Severity": "MODERATE",
-  "Cves": null,
+  "Cves": [
+    {
+      "Impact": "",
+      "Href": "https://linux.oracle.com/cve/CVE-2025-22866.html",
+      "ID": "CVE-2025-22866"
+    },
+    {
+      "Impact": "",
+      "Href": "https://linux.oracle.com/cve/CVE-2024-45341.html",
+      "ID": "CVE-2024-45341"
+    },
+    {
+      "Impact": "",
+      "Href": "https://linux.oracle.com/cve/CVE-2024-45336.html",
+      "ID": "CVE-2024-45336"
+    }
+  ],
   "Issued": {
     "Date": "2025-06-27"
   }
