@@ -2,6 +2,306 @@
   "RpminfoTests": [
     {
       "Check": "at least one",
+      "Comment": "Package mysql is earlier than 8.0.42-1, affected by CVE-2025-30687",
+      "ID": "oval:com.microsoft.cbl-mariner:tst:62226000",
+      "Version": "1",
+      "Object": {
+        "ObjectRef": "oval:com.microsoft.cbl-mariner:obj:62226001"
+      },
+      "State": {
+        "StateRef": "oval:com.microsoft.cbl-mariner:ste:62226002"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "Package mysql is earlier than 8.0.42-1, affected by CVE-2025-30699",
+      "ID": "oval:com.microsoft.cbl-mariner:tst:62223000",
+      "Version": "1",
+      "Object": {
+        "ObjectRef": "oval:com.microsoft.cbl-mariner:obj:62223001"
+      },
+      "State": {
+        "StateRef": "oval:com.microsoft.cbl-mariner:ste:62223002"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "Package mysql is earlier than 8.0.42-1, affected by CVE-2025-30704",
+      "ID": "oval:com.microsoft.cbl-mariner:tst:62216000",
+      "Version": "1",
+      "Object": {
+        "ObjectRef": "oval:com.microsoft.cbl-mariner:obj:62216001"
+      },
+      "State": {
+        "StateRef": "oval:com.microsoft.cbl-mariner:ste:62216002"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "Package mysql is earlier than 8.0.42-1, affected by CVE-2025-21585",
+      "ID": "oval:com.microsoft.cbl-mariner:tst:62213000",
+      "Version": "1",
+      "Object": {
+        "ObjectRef": "oval:com.microsoft.cbl-mariner:obj:62213001"
+      },
+      "State": {
+        "StateRef": "oval:com.microsoft.cbl-mariner:ste:62213002"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "Package mysql is earlier than 8.0.42-1, affected by CVE-2025-30681",
+      "ID": "oval:com.microsoft.cbl-mariner:tst:62210000",
+      "Version": "1",
+      "Object": {
+        "ObjectRef": "oval:com.microsoft.cbl-mariner:obj:62210001"
+      },
+      "State": {
+        "StateRef": "oval:com.microsoft.cbl-mariner:ste:62210002"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "Package mysql is earlier than 8.0.42-1, affected by CVE-2025-30715",
+      "ID": "oval:com.microsoft.cbl-mariner:tst:62209000",
+      "Version": "1",
+      "Object": {
+        "ObjectRef": "oval:com.microsoft.cbl-mariner:obj:62209001"
+      },
+      "State": {
+        "StateRef": "oval:com.microsoft.cbl-mariner:ste:62209002"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "Package mysql is earlier than 8.0.42-1, affected by CVE-2025-30685",
+      "ID": "oval:com.microsoft.cbl-mariner:tst:62206000",
+      "Version": "1",
+      "Object": {
+        "ObjectRef": "oval:com.microsoft.cbl-mariner:obj:62206001"
+      },
+      "State": {
+        "StateRef": "oval:com.microsoft.cbl-mariner:ste:62206002"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "Package mysql is earlier than 8.0.42-1, affected by CVE-2025-21584",
+      "ID": "oval:com.microsoft.cbl-mariner:tst:62203000",
+      "Version": "1",
+      "Object": {
+        "ObjectRef": "oval:com.microsoft.cbl-mariner:obj:62203001"
+      },
+      "State": {
+        "StateRef": "oval:com.microsoft.cbl-mariner:ste:62203002"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "Package mysql is earlier than 8.0.42-1, affected by CVE-2025-21580",
+      "ID": "oval:com.microsoft.cbl-mariner:tst:62199000",
+      "Version": "1",
+      "Object": {
+        "ObjectRef": "oval:com.microsoft.cbl-mariner:obj:62199001"
+      },
+      "State": {
+        "StateRef": "oval:com.microsoft.cbl-mariner:ste:62199002"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "Package mysql is earlier than 8.0.42-1, affected by CVE-2025-30684",
+      "ID": "oval:com.microsoft.cbl-mariner:tst:62197000",
+      "Version": "1",
+      "Object": {
+        "ObjectRef": "oval:com.microsoft.cbl-mariner:obj:62197001"
+      },
+      "State": {
+        "StateRef": "oval:com.microsoft.cbl-mariner:ste:62197002"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "Package mysql is earlier than 8.0.42-1, affected by CVE-2025-30689",
+      "ID": "oval:com.microsoft.cbl-mariner:tst:62190000",
+      "Version": "1",
+      "Object": {
+        "ObjectRef": "oval:com.microsoft.cbl-mariner:obj:62190001"
+      },
+      "State": {
+        "StateRef": "oval:com.microsoft.cbl-mariner:ste:62190002"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "Package mysql is earlier than 8.0.42-1, affected by CVE-2025-30683",
+      "ID": "oval:com.microsoft.cbl-mariner:tst:62187000",
+      "Version": "1",
+      "Object": {
+        "ObjectRef": "oval:com.microsoft.cbl-mariner:obj:62187001"
+      },
+      "State": {
+        "StateRef": "oval:com.microsoft.cbl-mariner:ste:62187002"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "Package mysql is earlier than 8.0.42-1, affected by CVE-2025-30682",
+      "ID": "oval:com.microsoft.cbl-mariner:tst:62183000",
+      "Version": "1",
+      "Object": {
+        "ObjectRef": "oval:com.microsoft.cbl-mariner:obj:62183001"
+      },
+      "State": {
+        "StateRef": "oval:com.microsoft.cbl-mariner:ste:62183002"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "Package mysql is earlier than 8.0.42-1, affected by CVE-2025-21581",
+      "ID": "oval:com.microsoft.cbl-mariner:tst:62179000",
+      "Version": "1",
+      "Object": {
+        "ObjectRef": "oval:com.microsoft.cbl-mariner:obj:62179001"
+      },
+      "State": {
+        "StateRef": "oval:com.microsoft.cbl-mariner:ste:62179002"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "Package mysql is earlier than 8.0.42-1, affected by CVE-2025-30693",
+      "ID": "oval:com.microsoft.cbl-mariner:tst:62174000",
+      "Version": "1",
+      "Object": {
+        "ObjectRef": "oval:com.microsoft.cbl-mariner:obj:62174001"
+      },
+      "State": {
+        "StateRef": "oval:com.microsoft.cbl-mariner:ste:62174002"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "Package mysql is earlier than 8.0.42-1, affected by CVE-2025-30705",
+      "ID": "oval:com.microsoft.cbl-mariner:tst:62173000",
+      "Version": "1",
+      "Object": {
+        "ObjectRef": "oval:com.microsoft.cbl-mariner:obj:62173001"
+      },
+      "State": {
+        "StateRef": "oval:com.microsoft.cbl-mariner:ste:62173002"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "Package mysql is earlier than 8.0.42-1, affected by CVE-2025-30688",
+      "ID": "oval:com.microsoft.cbl-mariner:tst:62167000",
+      "Version": "1",
+      "Object": {
+        "ObjectRef": "oval:com.microsoft.cbl-mariner:obj:62167001"
+      },
+      "State": {
+        "StateRef": "oval:com.microsoft.cbl-mariner:ste:62167002"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "Package mysql is earlier than 8.0.42-1, affected by CVE-2025-30721",
+      "ID": "oval:com.microsoft.cbl-mariner:tst:62163000",
+      "Version": "1",
+      "Object": {
+        "ObjectRef": "oval:com.microsoft.cbl-mariner:obj:62163001"
+      },
+      "State": {
+        "StateRef": "oval:com.microsoft.cbl-mariner:ste:62163002"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "Package mysql is earlier than 8.0.42-1, affected by CVE-2025-21579",
+      "ID": "oval:com.microsoft.cbl-mariner:tst:62157000",
+      "Version": "1",
+      "Object": {
+        "ObjectRef": "oval:com.microsoft.cbl-mariner:obj:62157001"
+      },
+      "State": {
+        "StateRef": "oval:com.microsoft.cbl-mariner:ste:62157002"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "Package mysql is earlier than 8.0.42-1, affected by CVE-2025-30696",
+      "ID": "oval:com.microsoft.cbl-mariner:tst:62153000",
+      "Version": "1",
+      "Object": {
+        "ObjectRef": "oval:com.microsoft.cbl-mariner:obj:62153001"
+      },
+      "State": {
+        "StateRef": "oval:com.microsoft.cbl-mariner:ste:62153002"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "Package mysql is earlier than 8.0.42-1, affected by CVE-2025-21574",
+      "ID": "oval:com.microsoft.cbl-mariner:tst:62148000",
+      "Version": "1",
+      "Object": {
+        "ObjectRef": "oval:com.microsoft.cbl-mariner:obj:62148001"
+      },
+      "State": {
+        "StateRef": "oval:com.microsoft.cbl-mariner:ste:62148002"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "Package mysql is earlier than 8.0.42-1, affected by CVE-2025-30703",
+      "ID": "oval:com.microsoft.cbl-mariner:tst:62144000",
+      "Version": "1",
+      "Object": {
+        "ObjectRef": "oval:com.microsoft.cbl-mariner:obj:62144001"
+      },
+      "State": {
+        "StateRef": "oval:com.microsoft.cbl-mariner:ste:62144002"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "Package mysql is earlier than 8.0.42-1, affected by CVE-2025-21577",
+      "ID": "oval:com.microsoft.cbl-mariner:tst:62138000",
+      "Version": "1",
+      "Object": {
+        "ObjectRef": "oval:com.microsoft.cbl-mariner:obj:62138001"
+      },
+      "State": {
+        "StateRef": "oval:com.microsoft.cbl-mariner:ste:62138002"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "Package mysql is earlier than 8.0.42-1, affected by CVE-2025-30695",
+      "ID": "oval:com.microsoft.cbl-mariner:tst:62135000",
+      "Version": "1",
+      "Object": {
+        "ObjectRef": "oval:com.microsoft.cbl-mariner:obj:62135001"
+      },
+      "State": {
+        "StateRef": "oval:com.microsoft.cbl-mariner:ste:62135002"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "Package mysql is earlier than 8.0.42-1, affected by CVE-2025-21575",
+      "ID": "oval:com.microsoft.cbl-mariner:tst:62133000",
+      "Version": "1",
+      "Object": {
+        "ObjectRef": "oval:com.microsoft.cbl-mariner:obj:62133001"
+      },
+      "State": {
+        "StateRef": "oval:com.microsoft.cbl-mariner:ste:62133002"
+      }
+    },
+    {
+      "Check": "at least one",
       "Comment": "Package syslog-ng is earlier than 3.33.2-8, affected by CVE-2024-47619",
       "ID": "oval:com.microsoft.cbl-mariner:tst:61731000",
       "Version": "1",
@@ -21014,18 +21314,6 @@
     },
     {
       "Check": "at least one",
-      "Comment": "Package openvswitch is earlier than 2.17.9-1, affected by CVE-2023-3966",
-      "ID": "oval:com.microsoft.cbl-mariner:tst:34438000",
-      "Version": "1",
-      "Object": {
-        "ObjectRef": "oval:com.microsoft.cbl-mariner:obj:34438001"
-      },
-      "State": {
-        "StateRef": "oval:com.microsoft.cbl-mariner:ste:34438002"
-      }
-    },
-    {
-      "Check": "at least one",
       "Comment": "Package dnsmasq is earlier than 2.90-1, affected by CVE-2023-50387",
       "ID": "oval:com.microsoft.cbl-mariner:tst:34419000",
       "Version": "1",
@@ -33866,7 +34154,7 @@
     },
     {
       "Check": "at least one",
-      "Comment": "Package qt5-qtbase is installed with version 5.12.11-15 or earlier",
+      "Comment": "Package qt5-qtbase is installed with version 5.12.11-16 or earlier",
       "ID": "oval:com.microsoft.cbl-mariner:tst:13829000",
       "Version": "0",
       "Object": {
@@ -34346,7 +34634,7 @@
     },
     {
       "Check": "at least one",
-      "Comment": "Package golang is installed with version 1.22.7-3 or earlier",
+      "Comment": "Package golang is installed with version 1.22.7-4 or earlier",
       "ID": "oval:com.microsoft.cbl-mariner:tst:13730000",
       "Version": "1",
       "Object": {
@@ -35354,7 +35642,7 @@
     },
     {
       "Check": "at least one",
-      "Comment": "Package binutils is installed with version 2.37-14 or earlier",
+      "Comment": "Package binutils is installed with version 2.37-15 or earlier",
       "ID": "oval:com.microsoft.cbl-mariner:tst:13275000",
       "Version": "0",
       "Object": {
@@ -35366,7 +35654,7 @@
     },
     {
       "Check": "at least one",
-      "Comment": "Package binutils is installed with version 2.37-14 or earlier",
+      "Comment": "Package binutils is installed with version 2.37-15 or earlier",
       "ID": "oval:com.microsoft.cbl-mariner:tst:13274000",
       "Version": "0",
       "Object": {
@@ -35378,7 +35666,7 @@
     },
     {
       "Check": "at least one",
-      "Comment": "Package binutils is installed with version 2.37-14 or earlier",
+      "Comment": "Package binutils is installed with version 2.37-15 or earlier",
       "ID": "oval:com.microsoft.cbl-mariner:tst:13273000",
       "Version": "0",
       "Object": {
@@ -35390,7 +35678,7 @@
     },
     {
       "Check": "at least one",
-      "Comment": "Package binutils is installed with version 2.37-14 or earlier",
+      "Comment": "Package binutils is installed with version 2.37-15 or earlier",
       "ID": "oval:com.microsoft.cbl-mariner:tst:13272000",
       "Version": "0",
       "Object": {
@@ -35402,7 +35690,7 @@
     },
     {
       "Check": "at least one",
-      "Comment": "Package binutils is installed with version 2.37-14 or earlier",
+      "Comment": "Package binutils is installed with version 2.37-15 or earlier",
       "ID": "oval:com.microsoft.cbl-mariner:tst:13271000",
       "Version": "0",
       "Object": {
@@ -35414,7 +35702,7 @@
     },
     {
       "Check": "at least one",
-      "Comment": "Package binutils is installed with version 2.37-14 or earlier",
+      "Comment": "Package binutils is installed with version 2.37-15 or earlier",
       "ID": "oval:com.microsoft.cbl-mariner:tst:13270000",
       "Version": "0",
       "Object": {
@@ -35486,7 +35774,7 @@
     },
     {
       "Check": "at least one",
-      "Comment": "Package qt5-qtbase is installed with version 5.12.11-15 or earlier",
+      "Comment": "Package qt5-qtbase is installed with version 5.12.11-16 or earlier",
       "ID": "oval:com.microsoft.cbl-mariner:tst:13231000",
       "Version": "0",
       "Object": {
@@ -36290,7 +36578,7 @@
     },
     {
       "Check": "at least one",
-      "Comment": "Package kernel is installed with version 5.15.182.1-1 or earlier",
+      "Comment": "Package kernel is installed with version 5.15.184.1-1 or earlier",
       "ID": "oval:com.microsoft.cbl-mariner:tst:12989000",
       "Version": "0",
       "Object": {
@@ -36878,7 +37166,7 @@
     },
     {
       "Check": "at least one",
-      "Comment": "Package kernel is installed with version 5.15.182.1-1 or earlier",
+      "Comment": "Package kernel is installed with version 5.15.184.1-1 or earlier",
       "ID": "oval:com.microsoft.cbl-mariner:tst:11614000",
       "Version": "0",
       "Object": {
@@ -37526,7 +37814,7 @@
     },
     {
       "Check": "at least one",
-      "Comment": "Package kernel is installed with version 5.15.182.1-1 or earlier",
+      "Comment": "Package kernel is installed with version 5.15.184.1-1 or earlier",
       "ID": "oval:com.microsoft.cbl-mariner:tst:11484000",
       "Version": "0",
       "Object": {
@@ -39338,7 +39626,7 @@
     },
     {
       "Check": "at least one",
-      "Comment": "Package kernel is installed with version 5.15.182.1-1 or earlier",
+      "Comment": "Package kernel is installed with version 5.15.184.1-1 or earlier",
       "ID": "oval:com.microsoft.cbl-mariner:tst:10903000",
       "Version": "0",
       "Object": {
@@ -39350,7 +39638,7 @@
     },
     {
       "Check": "at least one",
-      "Comment": "Package kernel is installed with version 5.15.182.1-1 or earlier",
+      "Comment": "Package kernel is installed with version 5.15.184.1-1 or earlier",
       "ID": "oval:com.microsoft.cbl-mariner:tst:10902000",
       "Version": "0",
       "Object": {
