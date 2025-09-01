@@ -420,7 +420,7 @@
     "fixed_version": "2.36-9+deb12u7"
   },
   "CVE-2025-0395": {
-    "fixed_version": "2.36-9+deb12u10"
+    "fixed_version": "2.36-9+deb12u7-e1"
   },
   "CVE-2025-4802": {
     "fixed_version": "2.36-9+deb12u7-e2"

@@ -38,6 +38,9 @@
   "CVE-2024-12718": {
     "fixed_version": "3.11.13"
   },
+  "CVE-2024-3220": {
+    "fixed_version": "3.9"
+  },
   "CVE-2024-4032": {
     "fixed_version": "3.11.2-6+deb12u3"
   },

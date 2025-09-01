@@ -1,4 +1,7 @@
 {
+  "CVE-2024-3220": {
+    "fixed_version": "3.9"
+  },
   "CVE-2025-1795": {
     "fixed_version": "3.12.4"
   }
