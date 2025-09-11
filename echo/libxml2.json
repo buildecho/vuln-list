@@ -308,9 +308,6 @@
   "CVE-2025-49794": {
     "fixed_version": "2.9.14+dfsg-1.3~deb12u3"
   },
-  "CVE-2025-49795": {
-    "fixed_version": "2.13.8-e2"
-  },
   "CVE-2025-49796": {
     "fixed_version": "2.9.14+dfsg-1.3~deb12u3"
   },
@@ -320,11 +317,8 @@
   "CVE-2025-6170": {
     "fixed_version": "2.9.14+dfsg-1.3~deb12u3"
   },
-  "CVE-2025-7425": {
-    "fixed_version": "2.13.8-e3"
-  },
   "CVE-2025-8732": {},
   "CVE-2025-9714": {
-    "fixed_version": "2.13.8-e6"
+    "fixed_version": "2.11.0"
   }
 }
