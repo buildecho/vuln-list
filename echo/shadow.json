@@ -17,7 +17,9 @@
   "CVE-2006-3378": {
     "fixed_version": "1:4.0.14-1"
   },
-  "CVE-2007-5686": {},
+  "CVE-2007-5686": {
+    "fixed_version": "1:4.13+dfsg1-1"
+  },
   "CVE-2008-5394": {
     "fixed_version": "1:4.1.1-6"
   },
@@ -51,9 +53,13 @@
   "CVE-2023-4641": {
     "fixed_version": "1:4.13+dfsg1-1+deb12u1"
   },
-  "CVE-2024-56433": {},
+  "CVE-2024-56433": {
+    "fixed_version": "1:4.13+dfsg1-1"
+  },
   "TEMP-0000000-6F6CD4": {
     "fixed_version": "4.0.8"
   },
-  "TEMP-0628843-DBAD28": {}
+  "TEMP-0628843-DBAD28": {
+    "fixed_version": "1:4.13+dfsg1-1"
+  }
 }
