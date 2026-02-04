@@ -9,48 +9,6 @@
   },
   "severity": "Important",
   "description": "Spice client MSI installers for Windows clients\n\nSecurity Fix(es):\n\n* libsoup: libsoup: Duplicate Host Header Handling Causes Host-Parsing Discrepancy (First- vs Last-Value Wins) (CVE-2025-14523)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.",
-  "collections": [
-    {
-      "packages": [
-        {
-          "name": "spice-client-win-x64",
-          "epoch": "0",
-          "version": "8.10",
-          "release": "6.el8_10.1",
-          "arch": "noarch",
-          "src": "spice-client-win-8.10-6.el8_10.1.src.rpm",
-          "filename": "spice-client-win-x64-8.10-6.el8_10.1.noarch.rpm"
-        },
-        {
-          "name": "spice-client-win-x64",
-          "epoch": "0",
-          "version": "8.10",
-          "release": "6.el8_10.1",
-          "arch": "noarch",
-          "src": "spice-client-win-8.10-6.el8_10.1.src.rpm",
-          "filename": "spice-client-win-x64-8.10-6.el8_10.1.noarch.rpm"
-        },
-        {
-          "name": "spice-client-win-x86",
-          "epoch": "0",
-          "version": "8.10",
-          "release": "6.el8_10.1",
-          "arch": "noarch",
-          "src": "spice-client-win-8.10-6.el8_10.1.src.rpm",
-          "filename": "spice-client-win-x86-8.10-6.el8_10.1.noarch.rpm"
-        },
-        {
-          "name": "spice-client-win-x86",
-          "epoch": "0",
-          "version": "8.10",
-          "release": "6.el8_10.1",
-          "arch": "noarch",
-          "src": "spice-client-win-8.10-6.el8_10.1.src.rpm",
-          "filename": "spice-client-win-x86-8.10-6.el8_10.1.noarch.rpm"
-        }
-      ]
-    }
-  ],
   "packages": [
     {
       "name": "spice-client-win-x64",
