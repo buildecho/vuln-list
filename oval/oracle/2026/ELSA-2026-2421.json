@@ -51,119 +51,71 @@
             "Operator": "AND",
             "Criterias": [
               {
-                "Operator": "OR",
+                "Operator": "AND",
                 "Criterias": [
                   {
-                    "Operator": "AND",
-                    "Criterias": null,
-                    "Criterions": [
-                      {
-                        "Comment": "nodejs is earlier than 1:22.22.0-1.module+el8.10.0+90783+325ded07"
-                      },
-                      {
-                        "Comment": "nodejs is signed with the Oracle Linux 8 key"
-                      }
-                    ]
-                  },
-                  {
-                    "Operator": "AND",
-                    "Criterias": null,
-                    "Criterions": [
-                      {
-                        "Comment": "nodejs-devel is earlier than 1:22.22.0-1.module+el8.10.0+90783+325ded07"
-                      },
-                      {
-                        "Comment": "nodejs-devel is signed with the Oracle Linux 8 key"
-                      }
-                    ]
-                  },
-                  {
-                    "Operator": "AND",
-                    "Criterias": null,
-                    "Criterions": [
-                      {
-                        "Comment": "nodejs-docs is earlier than 1:22.22.0-1.module+el8.10.0+90783+325ded07"
-                      },
-                      {
-                        "Comment": "nodejs-docs is signed with the Oracle Linux 8 key"
-                      }
-                    ]
-                  },
-                  {
-                    "Operator": "AND",
-                    "Criterias": null,
-                    "Criterions": [
-                      {
-                        "Comment": "nodejs-full-i18n is earlier than 1:22.22.0-1.module+el8.10.0+90783+325ded07"
-                      },
-                      {
-                        "Comment": "nodejs-full-i18n is signed with the Oracle Linux 8 key"
-                      }
-                    ]
-                  },
-                  {
-                    "Operator": "AND",
-                    "Criterias": null,
-                    "Criterions": [
-                      {
-                        "Comment": "nodejs-libs is earlier than 1:22.22.0-1.module+el8.10.0+90783+325ded07"
-                      },
-                      {
-                        "Comment": "nodejs-libs is signed with the Oracle Linux 8 key"
-                      }
-                    ]
-                  },
-                  {
-                    "Operator": "AND",
-                    "Criterias": null,
-                    "Criterions": [
-                      {
-                        "Comment": "nodejs-packaging is earlier than 0:2021.06-4.module+el8.10.0+90783+325ded07"
-                      },
-                      {
-                        "Comment": "nodejs-packaging is signed with the Oracle Linux 8 key"
-                      }
-                    ]
-                  },
-                  {
-                    "Operator": "AND",
-                    "Criterias": null,
-                    "Criterions": [
-                      {
-                        "Comment": "nodejs-packaging-bundler is earlier than 0:2021.06-4.module+el8.10.0+90783+325ded07"
-                      },
-                      {
-                        "Comment": "nodejs-packaging-bundler is signed with the Oracle Linux 8 key"
-                      }
-                    ]
-                  },
-                  {
-                    "Operator": "AND",
-                    "Criterias": null,
-                    "Criterions": [
-                      {
-                        "Comment": "npm is earlier than 1:10.9.4-1.22.22.0.1.module+el8.10.0+90783+325ded07"
-                      },
-                      {
-                        "Comment": "npm is signed with the Oracle Linux 8 key"
-                      }
-                    ]
-                  },
-                  {
-                    "Operator": "AND",
-                    "Criterias": null,
-                    "Criterions": [
-                      {
-                        "Comment": "v8-12.4-devel is earlier than 3:12.4.254.21-1.22.22.0.1.module+el8.10.0+90783+325ded07"
-                      },
-                      {
-                        "Comment": "v8-12.4-devel is signed with the Oracle Linux 8 key"
-                      }
-                    ]
-                  },
-                  {
-                    "Operator": "AND",
+                    "Operator": "OR",
                     "Criterias": [
+                      {
+                        "Operator": "AND",
+                        "Criterias": null,
+                        "Criterions": [
+                          {
+                            "Comment": "nodejs is earlier than 1:22.22.0-1.module+el8.10.0+90783+325ded07"
+                          },
+                          {
+                            "Comment": "nodejs is signed with the Oracle Linux 8 key"
+                          }
+                        ]
+                      },
+                      {
+                        "Operator": "AND",
+                        "Criterias": null,
+                        "Criterions": [
+                          {
+                            "Comment": "nodejs-devel is earlier than 1:22.22.0-1.module+el8.10.0+90783+325ded07"
+                          },
+                          {
+                            "Comment": "nodejs-devel is signed with the Oracle Linux 8 key"
+                          }
+                        ]
+                      },
+                      {
+                        "Operator": "AND",
+                        "Criterias": null,
+                        "Criterions": [
+                          {
+                            "Comment": "nodejs-docs is earlier than 1:22.22.0-1.module+el8.10.0+90783+325ded07"
+                          },
+                          {
+                            "Comment": "nodejs-docs is signed with the Oracle Linux 8 key"
+                          }
+                        ]
+                      },
+                      {
+                        "Operator": "AND",
+                        "Criterias": null,
+                        "Criterions": [
+                          {
+                            "Comment": "nodejs-full-i18n is earlier than 1:22.22.0-1.module+el8.10.0+90783+325ded07"
+                          },
+                          {
+                            "Comment": "nodejs-full-i18n is signed with the Oracle Linux 8 key"
+                          }
+                        ]
+                      },
+                      {
+                        "Operator": "AND",
+                        "Criterias": null,
+                        "Criterions": [
+                          {
+                            "Comment": "nodejs-libs is earlier than 1:22.22.0-1.module+el8.10.0+90783+325ded07"
+                          },
+                          {
+                            "Comment": "nodejs-libs is signed with the Oracle Linux 8 key"
+                          }
+                        ]
+                      },
                       {
                         "Operator": "AND",
                         "Criterias": null,
@@ -175,16 +127,64 @@
                             "Comment": "nodejs-nodemon is signed with the Oracle Linux 8 key"
                           }
                         ]
+                      },
+                      {
+                        "Operator": "AND",
+                        "Criterias": null,
+                        "Criterions": [
+                          {
+                            "Comment": "nodejs-packaging is earlier than 0:2021.06-4.module+el8.10.0+90783+325ded07"
+                          },
+                          {
+                            "Comment": "nodejs-packaging is signed with the Oracle Linux 8 key"
+                          }
+                        ]
+                      },
+                      {
+                        "Operator": "AND",
+                        "Criterias": null,
+                        "Criterions": [
+                          {
+                            "Comment": "nodejs-packaging-bundler is earlier than 0:2021.06-4.module+el8.10.0+90783+325ded07"
+                          },
+                          {
+                            "Comment": "nodejs-packaging-bundler is signed with the Oracle Linux 8 key"
+                          }
+                        ]
+                      },
+                      {
+                        "Operator": "AND",
+                        "Criterias": null,
+                        "Criterions": [
+                          {
+                            "Comment": "npm is earlier than 1:10.9.4-1.22.22.0.1.module+el8.10.0+90783+325ded07"
+                          },
+                          {
+                            "Comment": "npm is signed with the Oracle Linux 8 key"
+                          }
+                        ]
+                      },
+                      {
+                        "Operator": "AND",
+                        "Criterias": null,
+                        "Criterions": [
+                          {
+                            "Comment": "v8-12.4-devel is earlier than 3:12.4.254.21-1.22.22.0.1.module+el8.10.0+90783+325ded07"
+                          },
+                          {
+                            "Comment": "v8-12.4-devel is signed with the Oracle Linux 8 key"
+                          }
+                        ]
                       }
                     ],
-                    "Criterions": [
-                      {
-                        "Comment": "Module nodejs:22 is enabled"
-                      }
-                    ]
+                    "Criterions": null
                   }
                 ],
-                "Criterions": null
+                "Criterions": [
+                  {
+                    "Comment": "Module nodejs:22 is enabled"
+                  }
+                ]
               }
             ],
             "Criterions": [
@@ -197,119 +197,71 @@
             "Operator": "AND",
             "Criterias": [
               {
-                "Operator": "OR",
+                "Operator": "AND",
                 "Criterias": [
                   {
-                    "Operator": "AND",
-                    "Criterias": null,
-                    "Criterions": [
-                      {
-                        "Comment": "nodejs is earlier than 1:22.22.0-1.module+el8.10.0+90783+325ded07"
-                      },
-                      {
-                        "Comment": "nodejs is signed with the Oracle Linux 8 key"
-                      }
-                    ]
-                  },
-                  {
-                    "Operator": "AND",
-                    "Criterias": null,
-                    "Criterions": [
-                      {
-                        "Comment": "nodejs-devel is earlier than 1:22.22.0-1.module+el8.10.0+90783+325ded07"
-                      },
-                      {
-                        "Comment": "nodejs-devel is signed with the Oracle Linux 8 key"
-                      }
-                    ]
-                  },
-                  {
-                    "Operator": "AND",
-                    "Criterias": null,
-                    "Criterions": [
-                      {
-                        "Comment": "nodejs-docs is earlier than 1:22.22.0-1.module+el8.10.0+90783+325ded07"
-                      },
-                      {
-                        "Comment": "nodejs-docs is signed with the Oracle Linux 8 key"
-                      }
-                    ]
-                  },
-                  {
-                    "Operator": "AND",
-                    "Criterias": null,
-                    "Criterions": [
-                      {
-                        "Comment": "nodejs-full-i18n is earlier than 1:22.22.0-1.module+el8.10.0+90783+325ded07"
-                      },
-                      {
-                        "Comment": "nodejs-full-i18n is signed with the Oracle Linux 8 key"
-                      }
-                    ]
-                  },
-                  {
-                    "Operator": "AND",
-                    "Criterias": null,
-                    "Criterions": [
-                      {
-                        "Comment": "nodejs-libs is earlier than 1:22.22.0-1.module+el8.10.0+90783+325ded07"
-                      },
-                      {
-                        "Comment": "nodejs-libs is signed with the Oracle Linux 8 key"
-                      }
-                    ]
-                  },
-                  {
-                    "Operator": "AND",
-                    "Criterias": null,
-                    "Criterions": [
-                      {
-                        "Comment": "nodejs-packaging is earlier than 0:2021.06-4.module+el8.10.0+90783+325ded07"
-                      },
-                      {
-                        "Comment": "nodejs-packaging is signed with the Oracle Linux 8 key"
-                      }
-                    ]
-                  },
-                  {
-                    "Operator": "AND",
-                    "Criterias": null,
-                    "Criterions": [
-                      {
-                        "Comment": "nodejs-packaging-bundler is earlier than 0:2021.06-4.module+el8.10.0+90783+325ded07"
-                      },
-                      {
-                        "Comment": "nodejs-packaging-bundler is signed with the Oracle Linux 8 key"
-                      }
-                    ]
-                  },
-                  {
-                    "Operator": "AND",
-                    "Criterias": null,
-                    "Criterions": [
-                      {
-                        "Comment": "npm is earlier than 1:10.9.4-1.22.22.0.1.module+el8.10.0+90783+325ded07"
-                      },
-                      {
-                        "Comment": "npm is signed with the Oracle Linux 8 key"
-                      }
-                    ]
-                  },
-                  {
-                    "Operator": "AND",
-                    "Criterias": null,
-                    "Criterions": [
-                      {
-                        "Comment": "v8-12.4-devel is earlier than 3:12.4.254.21-1.22.22.0.1.module+el8.10.0+90783+325ded07"
-                      },
-                      {
-                        "Comment": "v8-12.4-devel is signed with the Oracle Linux 8 key"
-                      }
-                    ]
-                  },
-                  {
-                    "Operator": "AND",
+                    "Operator": "OR",
                     "Criterias": [
+                      {
+                        "Operator": "AND",
+                        "Criterias": null,
+                        "Criterions": [
+                          {
+                            "Comment": "nodejs is earlier than 1:22.22.0-1.module+el8.10.0+90783+325ded07"
+                          },
+                          {
+                            "Comment": "nodejs is signed with the Oracle Linux 8 key"
+                          }
+                        ]
+                      },
+                      {
+                        "Operator": "AND",
+                        "Criterias": null,
+                        "Criterions": [
+                          {
+                            "Comment": "nodejs-devel is earlier than 1:22.22.0-1.module+el8.10.0+90783+325ded07"
+                          },
+                          {
+                            "Comment": "nodejs-devel is signed with the Oracle Linux 8 key"
+                          }
+                        ]
+                      },
+                      {
+                        "Operator": "AND",
+                        "Criterias": null,
+                        "Criterions": [
+                          {
+                            "Comment": "nodejs-docs is earlier than 1:22.22.0-1.module+el8.10.0+90783+325ded07"
+                          },
+                          {
+                            "Comment": "nodejs-docs is signed with the Oracle Linux 8 key"
+                          }
+                        ]
+                      },
+                      {
+                        "Operator": "AND",
+                        "Criterias": null,
+                        "Criterions": [
+                          {
+                            "Comment": "nodejs-full-i18n is earlier than 1:22.22.0-1.module+el8.10.0+90783+325ded07"
+                          },
+                          {
+                            "Comment": "nodejs-full-i18n is signed with the Oracle Linux 8 key"
+                          }
+                        ]
+                      },
+                      {
+                        "Operator": "AND",
+                        "Criterias": null,
+                        "Criterions": [
+                          {
+                            "Comment": "nodejs-libs is earlier than 1:22.22.0-1.module+el8.10.0+90783+325ded07"
+                          },
+                          {
+                            "Comment": "nodejs-libs is signed with the Oracle Linux 8 key"
+                          }
+                        ]
+                      },
                       {
                         "Operator": "AND",
                         "Criterias": null,
@@ -321,16 +273,64 @@
                             "Comment": "nodejs-nodemon is signed with the Oracle Linux 8 key"
                           }
                         ]
+                      },
+                      {
+                        "Operator": "AND",
+                        "Criterias": null,
+                        "Criterions": [
+                          {
+                            "Comment": "nodejs-packaging is earlier than 0:2021.06-4.module+el8.10.0+90783+325ded07"
+                          },
+                          {
+                            "Comment": "nodejs-packaging is signed with the Oracle Linux 8 key"
+                          }
+                        ]
+                      },
+                      {
+                        "Operator": "AND",
+                        "Criterias": null,
+                        "Criterions": [
+                          {
+                            "Comment": "nodejs-packaging-bundler is earlier than 0:2021.06-4.module+el8.10.0+90783+325ded07"
+                          },
+                          {
+                            "Comment": "nodejs-packaging-bundler is signed with the Oracle Linux 8 key"
+                          }
+                        ]
+                      },
+                      {
+                        "Operator": "AND",
+                        "Criterias": null,
+                        "Criterions": [
+                          {
+                            "Comment": "npm is earlier than 1:10.9.4-1.22.22.0.1.module+el8.10.0+90783+325ded07"
+                          },
+                          {
+                            "Comment": "npm is signed with the Oracle Linux 8 key"
+                          }
+                        ]
+                      },
+                      {
+                        "Operator": "AND",
+                        "Criterias": null,
+                        "Criterions": [
+                          {
+                            "Comment": "v8-12.4-devel is earlier than 3:12.4.254.21-1.22.22.0.1.module+el8.10.0+90783+325ded07"
+                          },
+                          {
+                            "Comment": "v8-12.4-devel is signed with the Oracle Linux 8 key"
+                          }
+                        ]
                       }
                     ],
-                    "Criterions": [
-                      {
-                        "Comment": "Module nodejs:22 is enabled"
-                      }
-                    ]
+                    "Criterions": null
                   }
                 ],
-                "Criterions": null
+                "Criterions": [
+                  {
+                    "Comment": "Module nodejs:22 is enabled"
+                  }
+                ]
               }
             ],
             "Criterions": [
