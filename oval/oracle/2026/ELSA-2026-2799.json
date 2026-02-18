@@ -1,5 +1,5 @@
 {
-  "Title": "ELSA-2026-2799:  php security update (LOW)",
+  "Title": "ELSA-2026-2799:  php security update (MODERATE)",
   "Description": "[8.0.30-5]\n- Fix Null byte termination in dns_get_record()\n  GHSA-www2-q4fc-65wf\n- Fix Heap buffer overflow in array_merge()\n  CVE-2025-14178\n- Fix Information Leak of Memory in getimagesize\n  CVE-2025-14177",
   "Platform": [
     "Oracle Linux 9"
@@ -669,7 +669,7 @@
       }
     ]
   },
-  "Severity": "LOW",
+  "Severity": "MODERATE",
   "Cves": [
     {
       "Impact": "",
