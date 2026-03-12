@@ -52,7 +52,7 @@
     "fixed_version": "1:4.1.48-7+deb12u1"
   },
   "CVE-2024-29025": {
-    "fixed_version": "1:4.1.48-10"
+    "fixed_version": "1:4.1.48-7+deb12u2"
   },
   "CVE-2025-55163": {
     "fixed_version": "1:4.1.48-7+deb12u2"
