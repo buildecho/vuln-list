@@ -2,6 +2,7 @@
   "Title": "ELSA-2026-50152: dtrace security update (MODERATE)",
   "Description": "[2.0.6-1]\n- Fix dtprobed unsafe probe description handling (CVE-2026-21991).\n  [Orabug: 39054018]\n\n  Credit Statement\n  The following people or organizations reported security vulnerabilities addressed by this ELSA to Oracle:\n    Dhiraj Mishra: CVE-2026-21991",
   "Platform": [
+    "Oracle Linux 8",
     "Oracle Linux 9"
   ],
   "References": [
@@ -17,124 +18,250 @@
     }
   ],
   "Criteria": {
-    "Operator": "AND",
+    "Operator": "OR",
     "Criterias": [
       {
-        "Operator": "OR",
+        "Operator": "AND",
         "Criterias": [
           {
-            "Operator": "AND",
+            "Operator": "OR",
             "Criterias": [
               {
-                "Operator": "OR",
+                "Operator": "AND",
                 "Criterias": [
                   {
-                    "Operator": "AND",
-                    "Criterias": null,
-                    "Criterions": [
+                    "Operator": "OR",
+                    "Criterias": [
                       {
-                        "Comment": "dtrace is earlier than 0:2.0.6-1.el9"
+                        "Operator": "AND",
+                        "Criterias": null,
+                        "Criterions": [
+                          {
+                            "Comment": "dtrace is earlier than 0:2.0.6-1.el8"
+                          },
+                          {
+                            "Comment": "dtrace is signed with the Oracle Linux 8 key"
+                          }
+                        ]
                       },
                       {
-                        "Comment": "dtrace is signed with the Oracle Linux 9 key"
-                      }
-                    ]
-                  },
-                  {
-                    "Operator": "AND",
-                    "Criterias": null,
-                    "Criterions": [
-                      {
-                        "Comment": "dtrace-devel is earlier than 0:2.0.6-1.el9"
+                        "Operator": "AND",
+                        "Criterias": null,
+                        "Criterions": [
+                          {
+                            "Comment": "dtrace-devel is earlier than 0:2.0.6-1.el8"
+                          },
+                          {
+                            "Comment": "dtrace-devel is signed with the Oracle Linux 8 key"
+                          }
+                        ]
                       },
                       {
-                        "Comment": "dtrace-devel is signed with the Oracle Linux 9 key"
+                        "Operator": "AND",
+                        "Criterias": null,
+                        "Criterions": [
+                          {
+                            "Comment": "dtrace-testsuite is earlier than 0:2.0.6-1.el8"
+                          },
+                          {
+                            "Comment": "dtrace-testsuite is signed with the Oracle Linux 8 key"
+                          }
+                        ]
                       }
-                    ]
-                  },
-                  {
-                    "Operator": "AND",
-                    "Criterias": null,
-                    "Criterions": [
-                      {
-                        "Comment": "dtrace-testsuite is earlier than 0:2.0.6-1.el9"
-                      },
-                      {
-                        "Comment": "dtrace-testsuite is signed with the Oracle Linux 9 key"
-                      }
-                    ]
+                    ],
+                    "Criterions": null
                   }
                 ],
-                "Criterions": null
-              }
-            ],
-            "Criterions": [
+                "Criterions": [
+                  {
+                    "Comment": "Oracle Linux arch is aarch64"
+                  }
+                ]
+              },
               {
-                "Comment": "Oracle Linux arch is aarch64"
-              }
-            ]
-          },
-          {
-            "Operator": "AND",
-            "Criterias": [
-              {
-                "Operator": "OR",
+                "Operator": "AND",
                 "Criterias": [
                   {
-                    "Operator": "AND",
-                    "Criterias": null,
-                    "Criterions": [
+                    "Operator": "OR",
+                    "Criterias": [
                       {
-                        "Comment": "dtrace is earlier than 0:2.0.6-1.el9"
+                        "Operator": "AND",
+                        "Criterias": null,
+                        "Criterions": [
+                          {
+                            "Comment": "dtrace is earlier than 0:2.0.6-1.el8"
+                          },
+                          {
+                            "Comment": "dtrace is signed with the Oracle Linux 8 key"
+                          }
+                        ]
                       },
                       {
-                        "Comment": "dtrace is signed with the Oracle Linux 9 key"
-                      }
-                    ]
-                  },
-                  {
-                    "Operator": "AND",
-                    "Criterias": null,
-                    "Criterions": [
-                      {
-                        "Comment": "dtrace-devel is earlier than 0:2.0.6-1.el9"
+                        "Operator": "AND",
+                        "Criterias": null,
+                        "Criterions": [
+                          {
+                            "Comment": "dtrace-devel is earlier than 0:2.0.6-1.el8"
+                          },
+                          {
+                            "Comment": "dtrace-devel is signed with the Oracle Linux 8 key"
+                          }
+                        ]
                       },
                       {
-                        "Comment": "dtrace-devel is signed with the Oracle Linux 9 key"
+                        "Operator": "AND",
+                        "Criterias": null,
+                        "Criterions": [
+                          {
+                            "Comment": "dtrace-testsuite is earlier than 0:2.0.6-1.el8"
+                          },
+                          {
+                            "Comment": "dtrace-testsuite is signed with the Oracle Linux 8 key"
+                          }
+                        ]
                       }
-                    ]
-                  },
-                  {
-                    "Operator": "AND",
-                    "Criterias": null,
-                    "Criterions": [
-                      {
-                        "Comment": "dtrace-testsuite is earlier than 0:2.0.6-1.el9"
-                      },
-                      {
-                        "Comment": "dtrace-testsuite is signed with the Oracle Linux 9 key"
-                      }
-                    ]
+                    ],
+                    "Criterions": null
                   }
                 ],
-                "Criterions": null
+                "Criterions": [
+                  {
+                    "Comment": "Oracle Linux arch is x86_64"
+                  }
+                ]
               }
             ],
-            "Criterions": [
-              {
-                "Comment": "Oracle Linux arch is x86_64"
-              }
-            ]
+            "Criterions": null
           }
         ],
-        "Criterions": null
+        "Criterions": [
+          {
+            "Comment": "Oracle Linux 8 is installed"
+          }
+        ]
+      },
+      {
+        "Operator": "AND",
+        "Criterias": [
+          {
+            "Operator": "OR",
+            "Criterias": [
+              {
+                "Operator": "AND",
+                "Criterias": [
+                  {
+                    "Operator": "OR",
+                    "Criterias": [
+                      {
+                        "Operator": "AND",
+                        "Criterias": null,
+                        "Criterions": [
+                          {
+                            "Comment": "dtrace is earlier than 0:2.0.6-1.el9"
+                          },
+                          {
+                            "Comment": "dtrace is signed with the Oracle Linux 9 key"
+                          }
+                        ]
+                      },
+                      {
+                        "Operator": "AND",
+                        "Criterias": null,
+                        "Criterions": [
+                          {
+                            "Comment": "dtrace-devel is earlier than 0:2.0.6-1.el9"
+                          },
+                          {
+                            "Comment": "dtrace-devel is signed with the Oracle Linux 9 key"
+                          }
+                        ]
+                      },
+                      {
+                        "Operator": "AND",
+                        "Criterias": null,
+                        "Criterions": [
+                          {
+                            "Comment": "dtrace-testsuite is earlier than 0:2.0.6-1.el9"
+                          },
+                          {
+                            "Comment": "dtrace-testsuite is signed with the Oracle Linux 9 key"
+                          }
+                        ]
+                      }
+                    ],
+                    "Criterions": null
+                  }
+                ],
+                "Criterions": [
+                  {
+                    "Comment": "Oracle Linux arch is aarch64"
+                  }
+                ]
+              },
+              {
+                "Operator": "AND",
+                "Criterias": [
+                  {
+                    "Operator": "OR",
+                    "Criterias": [
+                      {
+                        "Operator": "AND",
+                        "Criterias": null,
+                        "Criterions": [
+                          {
+                            "Comment": "dtrace is earlier than 0:2.0.6-1.el9"
+                          },
+                          {
+                            "Comment": "dtrace is signed with the Oracle Linux 9 key"
+                          }
+                        ]
+                      },
+                      {
+                        "Operator": "AND",
+                        "Criterias": null,
+                        "Criterions": [
+                          {
+                            "Comment": "dtrace-devel is earlier than 0:2.0.6-1.el9"
+                          },
+                          {
+                            "Comment": "dtrace-devel is signed with the Oracle Linux 9 key"
+                          }
+                        ]
+                      },
+                      {
+                        "Operator": "AND",
+                        "Criterias": null,
+                        "Criterions": [
+                          {
+                            "Comment": "dtrace-testsuite is earlier than 0:2.0.6-1.el9"
+                          },
+                          {
+                            "Comment": "dtrace-testsuite is signed with the Oracle Linux 9 key"
+                          }
+                        ]
+                      }
+                    ],
+                    "Criterions": null
+                  }
+                ],
+                "Criterions": [
+                  {
+                    "Comment": "Oracle Linux arch is x86_64"
+                  }
+                ]
+              }
+            ],
+            "Criterions": null
+          }
+        ],
+        "Criterions": [
+          {
+            "Comment": "Oracle Linux 9 is installed"
+          }
+        ]
       }
     ],
-    "Criterions": [
-      {
-        "Comment": "Oracle Linux 9 is installed"
-      }
-    ]
+    "Criterions": null
   },
   "Severity": "MODERATE",
   "Cves": [
