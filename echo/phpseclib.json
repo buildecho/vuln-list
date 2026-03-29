@@ -6,7 +6,7 @@
     "fixed_version": "1.0.20-1+deb12u1"
   },
   "CVE-2023-52892": {
-    "fixed_version": "1.0.22-1"
+    "fixed_version": "1.0.20-1+deb12u3"
   },
   "CVE-2024-27354": {
     "fixed_version": "1.0.20-1+deb12u2"
@@ -14,5 +14,7 @@
   "CVE-2024-27355": {
     "fixed_version": "1.0.20-1+deb12u2"
   },
-  "CVE-2026-32935": {}
+  "CVE-2026-32935": {
+    "fixed_version": "1.0.20-1+deb12u3"
+  }
 }
