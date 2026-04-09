@@ -161,6 +161,10 @@
   "CVE-2026-4105": {
     "fixed_version": "257.9-1~deb13u1+e1"
   },
-  "TEMP-0000000-1B6B4D": {},
-  "TEMP-0000000-7EA18F": {}
+  "TEMP-0000000-1B6B4D": {
+    "fixed_version": "257.9-1~deb13u1+e3"
+  },
+  "TEMP-0000000-7EA18F": {
+    "fixed_version": "257.9-1~deb13u1+e4"
+  }
 }
