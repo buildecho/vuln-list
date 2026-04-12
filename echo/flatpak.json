@@ -39,15 +39,15 @@
     "fixed_version": "1.14.10-1~deb12u1"
   },
   "CVE-2026-34078": {
-    "fixed_version": "1.16.4-1"
+    "fixed_version": "1.16.6-1~deb13u1"
   },
   "CVE-2026-34079": {
-    "fixed_version": "1.16.4-1"
+    "fixed_version": "1.16.6-1~deb13u1"
   },
   "TEMP-1132945-4CEFB2": {
-    "fixed_version": "1.16.4-1"
+    "fixed_version": "1.16.6-1~deb13u1"
   },
   "TEMP-1132946-5EDD2C": {
-    "fixed_version": "1.16.4-1"
+    "fixed_version": "1.16.6-1~deb13u1"
   }
 }
