@@ -1,20 +1,8 @@
 {
-  "name": "py3-lxml",
+  "name": "ngtcp2",
   "secfixes": {
-    "4.6.2-r0": [
-      "CVE-2020-27783"
-    ],
-    "4.6.3-r0": [
-      "CVE-2021-28957"
-    ],
-    "4.6.5-r0": [
-      "CVE-2021-43818"
-    ],
-    "4.9.2-r0": [
-      "CVE-2022-2309"
-    ],
-    "6.1.0-r0": [
-      "CVE-2026-41066"
+    "1.22.1-r0": [
+      "CVE-2026-40170"
     ]
   },
   "apkurl": "{{urlprefix}}/{{distroversion}}/{{reponame}}/{{arch}}/{{pkg.name}}-{{pkg.ver}}.apk",
@@ -31,5 +19,5 @@
   ],
   "urlprefix": "https://dl-cdn.alpinelinux.org/alpine",
   "reponame": "main",
-  "distroversion": "edge"
+  "distroversion": "v3.23"
 }
