@@ -33779,7 +33779,7 @@
     "fixed_version": "6.1.170-1"
   },
   "CVE-2026-43284": {
-    "fixed_version": "6.12.86-1"
+    "fixed_version": "1"
   },
   "CVE-2026-43287": {
     "fixed_version": "6.1.170-1"
@@ -34083,7 +34083,7 @@
     "fixed_version": "6.1.170-1"
   },
   "CVE-2026-43500": {
-    "fixed_version": "6.12.86-1"
+    "fixed_version": "1"
   },
   "TEMP-0000000-19B927": {
     "fixed_version": "4.4.4-1"
