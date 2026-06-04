@@ -34983,7 +34983,7 @@
     "fixed_version": "6.1.170-1"
   },
   "CVE-2026-46273": {
-    "fixed_version": "6.12.88-1"
+    "fixed_version": "1"
   },
   "CVE-2026-46300": {
     "fixed_version": "1"
