@@ -5883,7 +5883,7 @@
     "fixed_version": "148.0.7778.215-1~deb12u1"
   },
   "CVE-2026-10005": {
-    "fixed_version": "148.0.7778.215-1~deb12u1"
+    "fixed_version": "148.0.7778.215"
   },
   "CVE-2026-10006": {
     "fixed_version": "148.0.7778.215-1~deb12u1"
