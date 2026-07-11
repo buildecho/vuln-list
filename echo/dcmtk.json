@@ -36,7 +36,7 @@
     "fixed_version": "3.6.7-8"
   },
   "CVE-2022-4981": {
-    "fixed_version": "3.6.8-5"
+    "fixed_version": "3.6.7-9~deb12u4"
   },
   "CVE-2024-27628": {
     "fixed_version": "3.6.7-9~deb12u2"
@@ -57,13 +57,13 @@
     "fixed_version": "3.6.7-9~deb12u2"
   },
   "CVE-2025-14607": {
-    "fixed_version": "3.6.9-5+deb13u1"
+    "fixed_version": "3.6.7-9~deb12u4"
   },
   "CVE-2025-14841": {
-    "fixed_version": "3.6.9-5+deb13u1"
+    "fixed_version": "3.6.7-9~deb12u4"
   },
   "CVE-2025-2357": {
-    "fixed_version": "3.6.9-5"
+    "fixed_version": "3.6.7-9~deb12u4"
   },
   "CVE-2025-25472": {
     "fixed_version": "3.6.7-9~deb12u3"
@@ -75,13 +75,13 @@
     "fixed_version": "3.6.7-9~deb12u3"
   },
   "CVE-2025-9732": {
-    "fixed_version": "3.6.9-5+deb13u1"
+    "fixed_version": "3.6.7-9~deb12u4"
   },
   "CVE-2026-10194": {
-    "fixed_version": "3.6.9-5+deb13u1"
+    "fixed_version": "3.6.7-9~deb12u4"
   },
   "CVE-2026-12805": {
-    "fixed_version": "3.6.9-5+deb13u2"
+    "fixed_version": "3.6.7-9~deb12u4"
   },
   "CVE-2026-35505": {},
   "CVE-2026-44628": {},
@@ -89,6 +89,6 @@
   "CVE-2026-50254": {},
   "CVE-2026-52868": {},
   "CVE-2026-5663": {
-    "fixed_version": "3.6.9-5+deb13u1"
+    "fixed_version": "3.6.7-9~deb12u4"
   }
 }

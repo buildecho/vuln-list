@@ -24,9 +24,9 @@
     "fixed_version": "3.0.12-1"
   },
   "CVE-2026-30923": {
-    "fixed_version": "3.0.14-1+deb13u1"
+    "fixed_version": "3.0.9-1+deb12u2"
   },
   "CVE-2026-42268": {
-    "fixed_version": "3.0.14-1+deb13u1"
+    "fixed_version": "3.0.9-1+deb12u2"
   }
 }
