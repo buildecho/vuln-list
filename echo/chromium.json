@@ -13839,7 +13839,7 @@
     "fixed_version": "153.0.8010.52-1~deb13u1"
   },
   "CVE-2026-93384": {
-    "fixed_version": "153.0.8010.52-1~deb13u1"
+    "fixed_version": "153.0.8010.52"
   },
   "CVE-2026-93385": {
     "fixed_version": "153.0.8010.52-1~deb13u1"
