@@ -1,19 +1,19 @@
 {
-  "Title": "ELSA-2026-67873:  corosync security update (IMPORTANT)",
-  "Description": "[3.1.10-1.2]\n- Resolves: RHEL-251542\n\n- totempg: Replace assert with check in deliver_fn (fixes CVE-2026-81665)",
+  "Title": "ELSA-2026-69964:  coreutils security update (MODERATE)",
+  "Description": "[8.30-21.0.1]\n- clean up empty file if cp is failed [Orabug 15973168]\n- df --local: recognize afs, auristorfs, and smb3 as remote fs (#1798030)\n- fix formatting of sha512sum(1) man page (#1688744)\n\n[8.30-21]\n- sort: fix buffer under-read CVE-2025-5278 (RHEL-216927)",
   "Platform": [
-    "Oracle Linux 9"
+    "Oracle Linux 8"
   ],
   "References": [
     {
       "Source": "elsa",
-      "URI": "https://linux.oracle.com/errata/ELSA-2026-67873.html",
-      "ID": "ELSA-2026-67873"
+      "URI": "https://linux.oracle.com/errata/ELSA-2026-69964.html",
+      "ID": "ELSA-2026-69964"
     },
     {
       "Source": "CVE",
-      "URI": "https://linux.oracle.com/cve/CVE-2026-81665.html",
-      "ID": "CVE-2026-81665"
+      "URI": "https://linux.oracle.com/cve/CVE-2025-5278.html",
+      "ID": "CVE-2025-5278"
     }
   ],
   "Criteria": {
@@ -33,10 +33,10 @@
                     "Criterias": null,
                     "Criterions": [
                       {
-                        "Comment": "corosync is earlier than 0:3.1.10-1.el9_8.2"
+                        "Comment": "coreutils is earlier than 0:8.30-21.0.1.el8_10"
                       },
                       {
-                        "Comment": "corosync is signed with the Oracle Linux 9 key"
+                        "Comment": "coreutils is signed with the Oracle Linux 8 key"
                       }
                     ]
                   },
@@ -45,10 +45,10 @@
                     "Criterias": null,
                     "Criterions": [
                       {
-                        "Comment": "corosync-vqsim is earlier than 0:3.1.10-1.el9_8.2"
+                        "Comment": "coreutils-common is earlier than 0:8.30-21.0.1.el8_10"
                       },
                       {
-                        "Comment": "corosync-vqsim is signed with the Oracle Linux 9 key"
+                        "Comment": "coreutils-common is signed with the Oracle Linux 8 key"
                       }
                     ]
                   },
@@ -57,10 +57,10 @@
                     "Criterias": null,
                     "Criterions": [
                       {
-                        "Comment": "corosynclib is earlier than 0:3.1.10-1.el9_8.2"
+                        "Comment": "coreutils-single is earlier than 0:8.30-21.0.1.el8_10"
                       },
                       {
-                        "Comment": "corosynclib is signed with the Oracle Linux 9 key"
+                        "Comment": "coreutils-single is signed with the Oracle Linux 8 key"
                       }
                     ]
                   }
@@ -85,10 +85,10 @@
                     "Criterias": null,
                     "Criterions": [
                       {
-                        "Comment": "corosync is earlier than 0:3.1.10-1.el9_8.2"
+                        "Comment": "coreutils is earlier than 0:8.30-21.0.1.el8_10"
                       },
                       {
-                        "Comment": "corosync is signed with the Oracle Linux 9 key"
+                        "Comment": "coreutils is signed with the Oracle Linux 8 key"
                       }
                     ]
                   },
@@ -97,10 +97,10 @@
                     "Criterias": null,
                     "Criterions": [
                       {
-                        "Comment": "corosync-vqsim is earlier than 0:3.1.10-1.el9_8.2"
+                        "Comment": "coreutils-common is earlier than 0:8.30-21.0.1.el8_10"
                       },
                       {
-                        "Comment": "corosync-vqsim is signed with the Oracle Linux 9 key"
+                        "Comment": "coreutils-common is signed with the Oracle Linux 8 key"
                       }
                     ]
                   },
@@ -109,10 +109,10 @@
                     "Criterias": null,
                     "Criterions": [
                       {
-                        "Comment": "corosynclib is earlier than 0:3.1.10-1.el9_8.2"
+                        "Comment": "coreutils-single is earlier than 0:8.30-21.0.1.el8_10"
                       },
                       {
-                        "Comment": "corosynclib is signed with the Oracle Linux 9 key"
+                        "Comment": "coreutils-single is signed with the Oracle Linux 8 key"
                       }
                     ]
                   }
@@ -132,19 +132,19 @@
     ],
     "Criterions": [
       {
-        "Comment": "Oracle Linux 9 is installed"
+        "Comment": "Oracle Linux 8 is installed"
       }
     ]
   },
-  "Severity": "IMPORTANT",
+  "Severity": "MODERATE",
   "Cves": [
     {
       "Impact": "",
-      "Href": "https://linux.oracle.com/cve/CVE-2026-81665.html",
-      "ID": "CVE-2026-81665"
+      "Href": "https://linux.oracle.com/cve/CVE-2025-5278.html",
+      "ID": "CVE-2025-5278"
     }
   ],
   "Issued": {
-    "Date": "2026-09-22"
+    "Date": "2026-09-23"
   }
 }

@@ -1,19 +1,24 @@
 {
-  "Title": "ELSA-2026-67873:  corosync security update (IMPORTANT)",
-  "Description": "[3.1.10-1.2]\n- Resolves: RHEL-251542\n\n- totempg: Replace assert with check in deliver_fn (fixes CVE-2026-81665)",
+  "Title": "ELSA-2026-69553:  libarchive security update (LOW)",
+  "Description": "[3.7.7-11]\n- Related: CVE-2026-16517 and CVE-2026-15028",
   "Platform": [
-    "Oracle Linux 9"
+    "Oracle Linux 10"
   ],
   "References": [
     {
       "Source": "elsa",
-      "URI": "https://linux.oracle.com/errata/ELSA-2026-67873.html",
-      "ID": "ELSA-2026-67873"
+      "URI": "https://linux.oracle.com/errata/ELSA-2026-69553.html",
+      "ID": "ELSA-2026-69553"
     },
     {
       "Source": "CVE",
-      "URI": "https://linux.oracle.com/cve/CVE-2026-81665.html",
-      "ID": "CVE-2026-81665"
+      "URI": "https://linux.oracle.com/cve/CVE-2026-15028.html",
+      "ID": "CVE-2026-15028"
+    },
+    {
+      "Source": "CVE",
+      "URI": "https://linux.oracle.com/cve/CVE-2026-16517.html",
+      "ID": "CVE-2026-16517"
     }
   ],
   "Criteria": {
@@ -33,10 +38,10 @@
                     "Criterias": null,
                     "Criterions": [
                       {
-                        "Comment": "corosync is earlier than 0:3.1.10-1.el9_8.2"
+                        "Comment": "bsdtar is earlier than 0:3.7.7-11.el10_2"
                       },
                       {
-                        "Comment": "corosync is signed with the Oracle Linux 9 key"
+                        "Comment": "bsdtar is signed with the Oracle Linux 10 key"
                       }
                     ]
                   },
@@ -45,10 +50,10 @@
                     "Criterias": null,
                     "Criterions": [
                       {
-                        "Comment": "corosync-vqsim is earlier than 0:3.1.10-1.el9_8.2"
+                        "Comment": "libarchive is earlier than 0:3.7.7-11.el10_2"
                       },
                       {
-                        "Comment": "corosync-vqsim is signed with the Oracle Linux 9 key"
+                        "Comment": "libarchive is signed with the Oracle Linux 10 key"
                       }
                     ]
                   },
@@ -57,10 +62,10 @@
                     "Criterias": null,
                     "Criterions": [
                       {
-                        "Comment": "corosynclib is earlier than 0:3.1.10-1.el9_8.2"
+                        "Comment": "libarchive-devel is earlier than 0:3.7.7-11.el10_2"
                       },
                       {
-                        "Comment": "corosynclib is signed with the Oracle Linux 9 key"
+                        "Comment": "libarchive-devel is signed with the Oracle Linux 10 key"
                       }
                     ]
                   }
@@ -85,10 +90,10 @@
                     "Criterias": null,
                     "Criterions": [
                       {
-                        "Comment": "corosync is earlier than 0:3.1.10-1.el9_8.2"
+                        "Comment": "bsdtar is earlier than 0:3.7.7-11.el10_2"
                       },
                       {
-                        "Comment": "corosync is signed with the Oracle Linux 9 key"
+                        "Comment": "bsdtar is signed with the Oracle Linux 10 key"
                       }
                     ]
                   },
@@ -97,10 +102,10 @@
                     "Criterias": null,
                     "Criterions": [
                       {
-                        "Comment": "corosync-vqsim is earlier than 0:3.1.10-1.el9_8.2"
+                        "Comment": "libarchive is earlier than 0:3.7.7-11.el10_2"
                       },
                       {
-                        "Comment": "corosync-vqsim is signed with the Oracle Linux 9 key"
+                        "Comment": "libarchive is signed with the Oracle Linux 10 key"
                       }
                     ]
                   },
@@ -109,10 +114,10 @@
                     "Criterias": null,
                     "Criterions": [
                       {
-                        "Comment": "corosynclib is earlier than 0:3.1.10-1.el9_8.2"
+                        "Comment": "libarchive-devel is earlier than 0:3.7.7-11.el10_2"
                       },
                       {
-                        "Comment": "corosynclib is signed with the Oracle Linux 9 key"
+                        "Comment": "libarchive-devel is signed with the Oracle Linux 10 key"
                       }
                     ]
                   }
@@ -132,19 +137,24 @@
     ],
     "Criterions": [
       {
-        "Comment": "Oracle Linux 9 is installed"
+        "Comment": "Oracle Linux 10 is installed"
       }
     ]
   },
-  "Severity": "IMPORTANT",
+  "Severity": "LOW",
   "Cves": [
     {
       "Impact": "",
-      "Href": "https://linux.oracle.com/cve/CVE-2026-81665.html",
-      "ID": "CVE-2026-81665"
+      "Href": "https://linux.oracle.com/cve/CVE-2026-15028.html",
+      "ID": "CVE-2026-15028"
+    },
+    {
+      "Impact": "",
+      "Href": "https://linux.oracle.com/cve/CVE-2026-16517.html",
+      "ID": "CVE-2026-16517"
     }
   ],
   "Issued": {
-    "Date": "2026-09-22"
+    "Date": "2026-09-23"
   }
 }

@@ -1,19 +1,19 @@
 {
-  "Title": "ELSA-2026-67873:  corosync security update (IMPORTANT)",
-  "Description": "[3.1.10-1.2]\n- Resolves: RHEL-251542\n\n- totempg: Replace assert with check in deliver_fn (fixes CVE-2026-81665)",
+  "Title": "ELSA-2026-69120:  unbound security update (MODERATE)",
+  "Description": "[1.16.2-5.14.2]\n- Backport additional fix from 1.26.0 (CVE-2026-50252)\n- Correct new warning in previous change (CVE-2026-44690)\n\n[1.16.2-5.14.1]\n- Fix CVE-2026-50252 (cache poisoning via source port prediction)",
   "Platform": [
-    "Oracle Linux 9"
+    "Oracle Linux 8"
   ],
   "References": [
     {
       "Source": "elsa",
-      "URI": "https://linux.oracle.com/errata/ELSA-2026-67873.html",
-      "ID": "ELSA-2026-67873"
+      "URI": "https://linux.oracle.com/errata/ELSA-2026-69120.html",
+      "ID": "ELSA-2026-69120"
     },
     {
       "Source": "CVE",
-      "URI": "https://linux.oracle.com/cve/CVE-2026-81665.html",
-      "ID": "CVE-2026-81665"
+      "URI": "https://linux.oracle.com/cve/CVE-2026-50252.html",
+      "ID": "CVE-2026-50252"
     }
   ],
   "Criteria": {
@@ -33,10 +33,10 @@
                     "Criterias": null,
                     "Criterions": [
                       {
-                        "Comment": "corosync is earlier than 0:3.1.10-1.el9_8.2"
+                        "Comment": "python3-unbound is earlier than 0:1.16.2-5.14.el8_10.2"
                       },
                       {
-                        "Comment": "corosync is signed with the Oracle Linux 9 key"
+                        "Comment": "python3-unbound is signed with the Oracle Linux 8 key"
                       }
                     ]
                   },
@@ -45,10 +45,10 @@
                     "Criterias": null,
                     "Criterions": [
                       {
-                        "Comment": "corosync-vqsim is earlier than 0:3.1.10-1.el9_8.2"
+                        "Comment": "unbound is earlier than 0:1.16.2-5.14.el8_10.2"
                       },
                       {
-                        "Comment": "corosync-vqsim is signed with the Oracle Linux 9 key"
+                        "Comment": "unbound is signed with the Oracle Linux 8 key"
                       }
                     ]
                   },
@@ -57,10 +57,22 @@
                     "Criterias": null,
                     "Criterions": [
                       {
-                        "Comment": "corosynclib is earlier than 0:3.1.10-1.el9_8.2"
+                        "Comment": "unbound-devel is earlier than 0:1.16.2-5.14.el8_10.2"
                       },
                       {
-                        "Comment": "corosynclib is signed with the Oracle Linux 9 key"
+                        "Comment": "unbound-devel is signed with the Oracle Linux 8 key"
+                      }
+                    ]
+                  },
+                  {
+                    "Operator": "AND",
+                    "Criterias": null,
+                    "Criterions": [
+                      {
+                        "Comment": "unbound-libs is earlier than 0:1.16.2-5.14.el8_10.2"
+                      },
+                      {
+                        "Comment": "unbound-libs is signed with the Oracle Linux 8 key"
                       }
                     ]
                   }
@@ -85,10 +97,10 @@
                     "Criterias": null,
                     "Criterions": [
                       {
-                        "Comment": "corosync is earlier than 0:3.1.10-1.el9_8.2"
+                        "Comment": "python3-unbound is earlier than 0:1.16.2-5.14.el8_10.2"
                       },
                       {
-                        "Comment": "corosync is signed with the Oracle Linux 9 key"
+                        "Comment": "python3-unbound is signed with the Oracle Linux 8 key"
                       }
                     ]
                   },
@@ -97,10 +109,10 @@
                     "Criterias": null,
                     "Criterions": [
                       {
-                        "Comment": "corosync-vqsim is earlier than 0:3.1.10-1.el9_8.2"
+                        "Comment": "unbound is earlier than 0:1.16.2-5.14.el8_10.2"
                       },
                       {
-                        "Comment": "corosync-vqsim is signed with the Oracle Linux 9 key"
+                        "Comment": "unbound is signed with the Oracle Linux 8 key"
                       }
                     ]
                   },
@@ -109,10 +121,22 @@
                     "Criterias": null,
                     "Criterions": [
                       {
-                        "Comment": "corosynclib is earlier than 0:3.1.10-1.el9_8.2"
+                        "Comment": "unbound-devel is earlier than 0:1.16.2-5.14.el8_10.2"
                       },
                       {
-                        "Comment": "corosynclib is signed with the Oracle Linux 9 key"
+                        "Comment": "unbound-devel is signed with the Oracle Linux 8 key"
+                      }
+                    ]
+                  },
+                  {
+                    "Operator": "AND",
+                    "Criterias": null,
+                    "Criterions": [
+                      {
+                        "Comment": "unbound-libs is earlier than 0:1.16.2-5.14.el8_10.2"
+                      },
+                      {
+                        "Comment": "unbound-libs is signed with the Oracle Linux 8 key"
                       }
                     ]
                   }
@@ -132,19 +156,19 @@
     ],
     "Criterions": [
       {
-        "Comment": "Oracle Linux 9 is installed"
+        "Comment": "Oracle Linux 8 is installed"
       }
     ]
   },
-  "Severity": "IMPORTANT",
+  "Severity": "MODERATE",
   "Cves": [
     {
       "Impact": "",
-      "Href": "https://linux.oracle.com/cve/CVE-2026-81665.html",
-      "ID": "CVE-2026-81665"
+      "Href": "https://linux.oracle.com/cve/CVE-2026-50252.html",
+      "ID": "CVE-2026-50252"
     }
   ],
   "Issued": {
-    "Date": "2026-09-22"
+    "Date": "2026-09-23"
   }
 }

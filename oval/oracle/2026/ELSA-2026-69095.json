@@ -1,19 +1,19 @@
 {
-  "Title": "ELSA-2026-67873:  corosync security update (IMPORTANT)",
-  "Description": "[3.1.10-1.2]\n- Resolves: RHEL-251542\n\n- totempg: Replace assert with check in deliver_fn (fixes CVE-2026-81665)",
+  "Title": "ELSA-2026-69095:  libtiff security update (IMPORTANT)",
+  "Description": "[4.0.9-39]\n- fix CVE-2026-52490: integer overflow in tiffcrop subdivision\n  calculation (RHEL-248298)",
   "Platform": [
-    "Oracle Linux 9"
+    "Oracle Linux 8"
   ],
   "References": [
     {
       "Source": "elsa",
-      "URI": "https://linux.oracle.com/errata/ELSA-2026-67873.html",
-      "ID": "ELSA-2026-67873"
+      "URI": "https://linux.oracle.com/errata/ELSA-2026-69095.html",
+      "ID": "ELSA-2026-69095"
     },
     {
       "Source": "CVE",
-      "URI": "https://linux.oracle.com/cve/CVE-2026-81665.html",
-      "ID": "CVE-2026-81665"
+      "URI": "https://linux.oracle.com/cve/CVE-2026-52490.html",
+      "ID": "CVE-2026-52490"
     }
   ],
   "Criteria": {
@@ -33,10 +33,10 @@
                     "Criterias": null,
                     "Criterions": [
                       {
-                        "Comment": "corosync is earlier than 0:3.1.10-1.el9_8.2"
+                        "Comment": "libtiff is earlier than 0:4.0.9-39.el8_10"
                       },
                       {
-                        "Comment": "corosync is signed with the Oracle Linux 9 key"
+                        "Comment": "libtiff is signed with the Oracle Linux 8 key"
                       }
                     ]
                   },
@@ -45,10 +45,10 @@
                     "Criterias": null,
                     "Criterions": [
                       {
-                        "Comment": "corosync-vqsim is earlier than 0:3.1.10-1.el9_8.2"
+                        "Comment": "libtiff-devel is earlier than 0:4.0.9-39.el8_10"
                       },
                       {
-                        "Comment": "corosync-vqsim is signed with the Oracle Linux 9 key"
+                        "Comment": "libtiff-devel is signed with the Oracle Linux 8 key"
                       }
                     ]
                   },
@@ -57,10 +57,10 @@
                     "Criterias": null,
                     "Criterions": [
                       {
-                        "Comment": "corosynclib is earlier than 0:3.1.10-1.el9_8.2"
+                        "Comment": "libtiff-tools is earlier than 0:4.0.9-39.el8_10"
                       },
                       {
-                        "Comment": "corosynclib is signed with the Oracle Linux 9 key"
+                        "Comment": "libtiff-tools is signed with the Oracle Linux 8 key"
                       }
                     ]
                   }
@@ -85,10 +85,10 @@
                     "Criterias": null,
                     "Criterions": [
                       {
-                        "Comment": "corosync is earlier than 0:3.1.10-1.el9_8.2"
+                        "Comment": "libtiff is earlier than 0:4.0.9-39.el8_10"
                       },
                       {
-                        "Comment": "corosync is signed with the Oracle Linux 9 key"
+                        "Comment": "libtiff is signed with the Oracle Linux 8 key"
                       }
                     ]
                   },
@@ -97,10 +97,10 @@
                     "Criterias": null,
                     "Criterions": [
                       {
-                        "Comment": "corosync-vqsim is earlier than 0:3.1.10-1.el9_8.2"
+                        "Comment": "libtiff-devel is earlier than 0:4.0.9-39.el8_10"
                       },
                       {
-                        "Comment": "corosync-vqsim is signed with the Oracle Linux 9 key"
+                        "Comment": "libtiff-devel is signed with the Oracle Linux 8 key"
                       }
                     ]
                   },
@@ -109,10 +109,10 @@
                     "Criterias": null,
                     "Criterions": [
                       {
-                        "Comment": "corosynclib is earlier than 0:3.1.10-1.el9_8.2"
+                        "Comment": "libtiff-tools is earlier than 0:4.0.9-39.el8_10"
                       },
                       {
-                        "Comment": "corosynclib is signed with the Oracle Linux 9 key"
+                        "Comment": "libtiff-tools is signed with the Oracle Linux 8 key"
                       }
                     ]
                   }
@@ -132,7 +132,7 @@
     ],
     "Criterions": [
       {
-        "Comment": "Oracle Linux 9 is installed"
+        "Comment": "Oracle Linux 8 is installed"
       }
     ]
   },
@@ -140,11 +140,11 @@
   "Cves": [
     {
       "Impact": "",
-      "Href": "https://linux.oracle.com/cve/CVE-2026-81665.html",
-      "ID": "CVE-2026-81665"
+      "Href": "https://linux.oracle.com/cve/CVE-2026-52490.html",
+      "ID": "CVE-2026-52490"
     }
   ],
   "Issued": {
-    "Date": "2026-09-22"
+    "Date": "2026-09-23"
   }
 }
