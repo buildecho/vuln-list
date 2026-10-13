@@ -1,0 +1,38 @@
+{
+  "name": "commercial-nginx-ingress",
+  "secfixes": {
+    "5.5.4-r0": [
+      "CVE-2026-46600",
+      "CVE-2026-56852",
+      "CVE-2026-62290",
+      "GHSA-gcjh-h69q-9w9g",
+      "GHSA-gg3m-vvp2-p2c5",
+      "GHSA-hrxh-6v49-42gf",
+      "GHSA-jpjm-c3r5-q96r",
+      "GO-2026-5942",
+      "GO-2026-5970",
+      "GO-2026-6061",
+      "GO-2026-6094"
+    ],
+    "5.6.1-r0": [
+      "CVE-2026-84303",
+      "CVE-2026-84304",
+      "GHSA-qc2q-p7wx-3px3",
+      "GHSA-vp52-pcj8-j9qc",
+      "GO-2026-6348",
+      "GO-2026-6441"
+    ],
+    "5.6.2-r0": [
+      "CVE-2026-84445",
+      "GHSA-2v4p-qf9q-27wj",
+      "GO-2026-6443"
+    ]
+  },
+  "apkurl": "{{urlprefix}}/{{reponame}}/{{arch}}/{{pkg.name}}-{{pkg.ver}}.apk",
+  "archs": [
+    "x86_64",
+    "aarch64"
+  ],
+  "urlprefix": "https://packages.cgr.dev",
+  "reponame": "chainguard"
+}

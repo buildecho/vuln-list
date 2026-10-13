@@ -1,6 +1,28 @@
 {
   "name": "spamcheck",
   "secfixes": {
+    "3.5.3-r10": [
+      "CVE-2026-44431",
+      "CVE-2026-44432",
+      "GHSA-mf9v-mfxr-j63j",
+      "GHSA-qccp-gfcp-xxvc"
+    ],
+    "3.5.3-r11": [
+      "CVE-2026-59885",
+      "CVE-2026-59886",
+      "CVE-2026-59890",
+      "GHSA-8ppf-4f7h-5ppj",
+      "GHSA-h35f-9h28-mq5c",
+      "GHSA-hm4w-wwcw-mr6r"
+    ],
+    "3.5.3-r15": [
+      "CVE-2026-97687",
+      "CVE-2026-97688",
+      "CVE-2026-97689",
+      "GHSA-8988-9cw3-xx77",
+      "GHSA-gh4c-6fx4-qh6g",
+      "GHSA-vxq7-64xx-v4gw"
+    ],
     "3.5.3-r3": [
       "CVE-2024-47081",
       "CVE-2025-4565",
@@ -26,6 +48,14 @@
       "GHSA-58pv-8j8x-9vj2",
       "GHSA-63vm-454h-vhhq",
       "GHSA-8rrh-rw8j-w5fx"
+    ],
+    "3.5.3-r8": [
+      "CVE-2026-0994",
+      "CVE-2026-25645",
+      "CVE-2026-30922",
+      "GHSA-7gcm-g887-7qv7",
+      "GHSA-gc5v-m9x4-r6x2",
+      "GHSA-jr27-m4p2-rc6r"
     ]
   },
   "apkurl": "{{urlprefix}}/{{reponame}}/{{arch}}/{{pkg.name}}-{{pkg.ver}}.apk",
