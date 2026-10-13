@@ -1,8 +1,9 @@
 {
   "id": "GO-2025-4052",
-  "modified": "2025-11-05T19:57:20.534504Z",
+  "modified": "2026-07-27T09:11:21.529656534Z",
   "published": "2025-10-30T15:02:33Z",
   "aliases": [
+    "BIT-openbao-2025-62705",
     "CVE-2025-62705",
     "GHSA-rc54-2g2c-g36g"
   ],
@@ -28,6 +29,7 @@
           ]
         }
       ],
+      "ecosystem_specific": {},
       "database_specific": {
         "source": "https://vuln.go.dev/ID/GO-2025-4052.json"
       }

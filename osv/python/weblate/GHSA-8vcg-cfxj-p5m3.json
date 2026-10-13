@@ -1,9 +1,10 @@
 {
   "id": "GHSA-8vcg-cfxj-p5m3",
-  "modified": "2025-12-20T05:59:49.535264Z",
+  "modified": "2026-06-29T12:26:24.280143074Z",
   "published": "2025-12-18T23:20:35Z",
   "aliases": [
-    "CVE-2025-68398"
+    "CVE-2025-68398",
+    "PYSEC-2026-571"
   ],
   "summary": "Weblate is vulnerable to RCE through Git config file overwrite",
   "details": "### Impact\n\nIt was possible to overwrite Git configuration remotely and override some of its behavior.\n\n\n### Resources\n\nThanks to Jason Marcello for responsible disclosure.",
@@ -208,6 +209,14 @@
     {
       "type": "WEB",
       "url": "https://github.com/WeblateOrg/weblate/pull/17345"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/WeblateOrg/weblate/commit/4837a4154390f7c1d03c0e398aa6439dcfa361b4"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/WeblateOrg/weblate/commit/dd8c9d7b00eebe28770fa0e2cd96126791765ea7"
     },
     {
       "type": "PACKAGE",

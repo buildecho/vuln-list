@@ -1,6 +1,6 @@
 {
   "id": "GHSA-7hfp-qfw3-5jxh",
-  "modified": "2025-01-14T11:12:27.948557Z",
+  "modified": "2026-09-10T03:49:42.554581963Z",
   "published": "2022-08-30T20:52:31Z",
   "aliases": [
     "BIT-helm-2022-36055",
@@ -8,7 +8,6 @@
     "GO-2022-0962"
   ],
   "related": [
-    "CGA-cg9j-m2hx-24jm",
     "CVE-2022-36049"
   ],
   "summary": "Helm Vulnerable to denial of service through string value parsing",

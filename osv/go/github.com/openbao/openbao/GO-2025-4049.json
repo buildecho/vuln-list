@@ -1,8 +1,9 @@
 {
   "id": "GO-2025-4049",
-  "modified": "2025-11-05T19:57:43.908128Z",
+  "modified": "2026-07-27T09:11:42.734128339Z",
   "published": "2025-10-30T15:02:33Z",
   "aliases": [
+    "BIT-openbao-2025-62513",
     "CVE-2025-62513",
     "GHSA-ghfh-fmx4-26h8"
   ],
@@ -28,6 +29,7 @@
           ]
         }
       ],
+      "ecosystem_specific": {},
       "database_specific": {
         "source": "https://vuln.go.dev/ID/GO-2025-4049.json"
       }

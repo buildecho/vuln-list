@@ -1,9 +1,10 @@
 {
   "id": "GHSA-9m39-3mf3-xwch",
-  "modified": "2025-10-06T15:27:49.632269Z",
+  "modified": "2026-06-29T12:26:17.882155045Z",
   "published": "2025-08-08T00:30:26Z",
   "aliases": [
-    "CVE-2025-54949"
+    "CVE-2025-54949",
+    "PYSEC-2026-333"
   ],
   "summary": "ExecuTorch heap buffer overflow vulnerability",
   "details": "A heap buffer overflow vulnerability in the loading of ExecuTorch models can potentially result in code execution or other undesirable effects. This issue affects ExecuTorch prior to commit ede82493dae6d2d43f8c424e7be4721abe5242be",
@@ -79,8 +80,8 @@
     {
       "package": {
         "ecosystem": "SwiftURL",
-        "name": "executorch",
-        "purl": "pkg:swift/executorch"
+        "name": "github.com/pytorch/executorch",
+        "purl": "pkg:swift/github.com/pytorch/executorch"
       },
       "ranges": [
         {

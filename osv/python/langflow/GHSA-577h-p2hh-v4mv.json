@@ -1,9 +1,10 @@
 {
   "id": "GHSA-577h-p2hh-v4mv",
-  "modified": "2026-02-03T03:11:14.422239Z",
+  "modified": "2026-05-29T21:00:16.278370494Z",
   "published": "2025-12-06T00:31:36Z",
   "aliases": [
-    "CVE-2025-34291"
+    "CVE-2025-34291",
+    "PYSEC-2025-78"
   ],
   "summary": "Langflow CORS misconfiguration enables Account Takeover and RCE",
   "details": "Langflow versions up to and including 1.6.9 contain a chained vulnerability that enables account takeover and remote code execution. An overly permissive CORS configuration (allow_origins='*' with allow_credentials=True) combined with a refresh token cookie configured as SameSite=None allows a malicious webpage to perform cross-origin requests that include credentials and successfully call the refresh endpoint. An attacker-controlled origin can therefore obtain fresh access_token / refresh_token pairs for a victim session. Obtained tokens permit access to authenticated endpoints — including built-in code-execution functionality — allowing the attacker to execute arbitrary code and achieve full system compromise.",
@@ -22,7 +23,7 @@
               "introduced": "0"
             },
             {
-              "last_affected": "1.6.9"
+              "fixed": "1.7.0"
             }
           ]
         }
@@ -306,6 +307,7 @@
         "1.6.9"
       ],
       "database_specific": {
+        "last_known_affected_version_range": "\u003c= 1.6.9",
         "source": "https://github.com/github/advisory-database/blob/main/advisories/github-reviewed/2025/12/GHSA-577h-p2hh-v4mv/GHSA-577h-p2hh-v4mv.json"
       }
     }
@@ -334,6 +336,18 @@
     {
       "type": "PACKAGE",
       "url": "https://github.com/langflow-ai/langflow"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/pypa/advisory-database/tree/main/vulns/langflow/PYSEC-2025-78.yaml"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?field_cve=CVE-2025-34291"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.crowdsec.net/vulntracking-report/cve-2025-34291"
     },
     {
       "type": "WEB",
