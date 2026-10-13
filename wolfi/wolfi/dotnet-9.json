@@ -9,11 +9,16 @@
       "CVE-2025-55315",
       "GHSA-5rrx-jjjq-q2r5"
     ],
-    "9.0.2-r0": [
-      "CVE-2024-43498",
-      "CVE-2024-43499",
-      "GHSA-6x36-qxmj-rv4p",
-      "GHSA-v7vf-f5q6-m899"
+    "9.0.114-r0": [
+      "CVE-2026-21218",
+      "GHSA-qvhc-9v3j-5rfw"
+    ],
+    "9.0.116-r0": [
+      "CVE-2026-26171",
+      "CVE-2026-33116",
+      "GHSA-37gx-xxp4-5rgx",
+      "GHSA-g4vj-cjjj-v7hg",
+      "GHSA-w3x6-4m5h-cxqf"
     ]
   },
   "apkurl": "{{urlprefix}}/{{reponame}}/{{arch}}/{{pkg.name}}-{{pkg.ver}}.apk",

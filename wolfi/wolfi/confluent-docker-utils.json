@@ -21,6 +21,26 @@
       "CVE-2026-21441",
       "GHSA-38jv-5279-wg99"
     ],
+    "0.0.169-r1": [
+      "CVE-2026-25645",
+      "GHSA-gc5v-m9x4-r6x2"
+    ],
+    "0.0.172-r0": [
+      "CVE-2026-44431",
+      "CVE-2026-44432",
+      "CVE-2026-45409",
+      "GHSA-65pc-fj4g-8rjx",
+      "GHSA-mf9v-mfxr-j63j",
+      "GHSA-qccp-gfcp-xxvc"
+    ],
+    "0.0.172-r4": [
+      "CVE-2026-97687",
+      "CVE-2026-97688",
+      "CVE-2026-97689",
+      "GHSA-8988-9cw3-xx77",
+      "GHSA-gh4c-6fx4-qh6g",
+      "GHSA-vxq7-64xx-v4gw"
+    ],
     "0.0.76-r0": [
       "CVE-2024-3651",
       "GHSA-jjg7-2v4v-x38h"

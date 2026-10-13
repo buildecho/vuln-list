@@ -9,6 +9,29 @@
       "CVE-2025-55315",
       "GHSA-5rrx-jjjq-q2r5"
     ],
+    "8.0.124-r0": [
+      "CVE-2026-21218",
+      "GHSA-qvhc-9v3j-5rfw"
+    ],
+    "8.0.126-r0": [
+      "CVE-2026-26171",
+      "CVE-2026-33116",
+      "GHSA-37gx-xxp4-5rgx",
+      "GHSA-g4vj-cjjj-v7hg",
+      "GHSA-w3x6-4m5h-cxqf"
+    ],
+    "8.0.131-r0": [
+      "CVE-2026-47302",
+      "CVE-2026-47304",
+      "CVE-2026-50525",
+      "CVE-2026-50648",
+      "CVE-2026-69304",
+      "GHSA-23rf-6693-g89p",
+      "GHSA-8cp2-47hg-mfgh",
+      "GHSA-8q5v-6pqq-x66h",
+      "GHSA-cvvh-rhrc-wg4q",
+      "GHSA-g8r8-53c2-pm3f"
+    ],
     "8.0.7-r0": [
       "CVE-2024-30105",
       "CVE-2024-38095",
