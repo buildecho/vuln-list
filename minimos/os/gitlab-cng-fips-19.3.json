@@ -1,0 +1,45 @@
+{
+  "name": "gitlab-cng-fips-19.3",
+  "secfixes": {
+    "19.3.0-r1": [
+      "GHSA-259r-337f-4rfw",
+      "GHSA-hrxh-6v49-42gf",
+      "GO-2026-5841"
+    ],
+    "19.3.1-r0": [
+      "CVE-2026-77801",
+      "GHSA-6mxv-c89j-2494"
+    ],
+    "19.3.1-r3": [
+      "CVE-2026-41178",
+      "CVE-2026-84303",
+      "CVE-2026-84304",
+      "GHSA-5wrp-cwcj-q835",
+      "GHSA-qc2q-p7wx-3px3",
+      "GHSA-vp52-pcj8-j9qc"
+    ],
+    "19.3.2-r0": [
+      "CVE-2026-85706",
+      "GHSA-f47w-mrg9-g9p2"
+    ],
+    "19.3.3-r0": [
+      "CVE-2026-89078",
+      "CVE-2026-92530",
+      "CVE-2026-92628",
+      "CVE-2026-92874",
+      "CVE-2026-93577",
+      "GHSA-9chr-4x58-948m",
+      "GHSA-c3rm-3hqr-4qwm",
+      "GHSA-vp7f-562j-4qgr",
+      "GHSA-wqwg-376r-c226",
+      "GHSA-wr3r-jhmc-f6jw"
+    ]
+  },
+  "apkurl": "{{urlprefix}}/{{reponame}}/{{arch}}/{{pkg.name}}-{{pkg.ver}}.apk",
+  "archs": [
+    "x86_64",
+    "aarch64"
+  ],
+  "urlprefix": "https://packages.mini.dev",
+  "reponame": "os"
+}
