@@ -63,15 +63,6 @@
       "arch": "noarch",
       "src": "389-ds-base-1.4.3.39-8.module+el8.10.0+1866+6d9051ff.src.rpm",
       "filename": "python3-lib389-1.4.3.39-8.module+el8.10.0+1866+6d9051ff.noarch.rpm"
-    },
-    {
-      "name": "python3-lib389",
-      "epoch": "0",
-      "version": "1.4.3.39",
-      "release": "8.module+el8.10.0+1866+6d9051ff",
-      "arch": "noarch",
-      "src": "389-ds-base-1.4.3.39-8.module+el8.10.0+1866+6d9051ff.src.rpm",
-      "filename": "python3-lib389-1.4.3.39-8.module+el8.10.0+1866+6d9051ff.noarch.rpm"
     }
   ],
   "references": [
@@ -91,6 +82,18 @@
       "id": "RLSA-2024:6569",
       "title": "RLSA-2024:6569",
       "type": "self"
+    },
+    {
+      "href": "https://access.redhat.com/errata/RHSA-2024:6569",
+      "id": "RHSA-2024:6569",
+      "title": "Red Hat RHSA-2024:6569",
+      "type": "vendor"
+    },
+    {
+      "href": "https://creativecommons.org/licenses/by/4.0/",
+      "id": "CC-BY-4.0",
+      "title": "License: CC-BY-4.0",
+      "type": "other"
     }
   ],
   "cveids": [

@@ -173,15 +173,6 @@
       "filename": "postgresql-test-rpm-macros-12.18-1.module+el8.9.0+1735+a332307b.noarch.rpm"
     },
     {
-      "name": "postgresql-test-rpm-macros",
-      "epoch": "0",
-      "version": "12.18",
-      "release": "1.module+el8.9.0+1735+a332307b",
-      "arch": "noarch",
-      "src": "postgresql-12.18-1.module+el8.9.0+1735+a332307b.src.rpm",
-      "filename": "postgresql-test-rpm-macros-12.18-1.module+el8.9.0+1735+a332307b.noarch.rpm"
-    },
-    {
       "name": "postgresql-upgrade",
       "epoch": "0",
       "version": "12.18",
@@ -217,6 +208,18 @@
       "id": "RLSA-2024:0974",
       "title": "RLSA-2024:0974",
       "type": "self"
+    },
+    {
+      "href": "https://access.redhat.com/errata/RHSA-2024:0974",
+      "id": "RHSA-2024:0974",
+      "title": "Red Hat RHSA-2024:0974",
+      "type": "vendor"
+    },
+    {
+      "href": "https://creativecommons.org/licenses/by/4.0/",
+      "id": "CC-BY-4.0",
+      "title": "License: CC-BY-4.0",
+      "type": "other"
     }
   ],
   "cveids": [

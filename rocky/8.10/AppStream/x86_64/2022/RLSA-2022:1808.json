@@ -24,24 +24,6 @@
       "epoch": "2",
       "version": "0.60.6.1",
       "release": "22.el8",
-      "arch": "i686",
-      "src": "aspell-0.60.6.1-22.el8.src.rpm",
-      "filename": "aspell-0.60.6.1-22.el8.i686.rpm"
-    },
-    {
-      "name": "aspell",
-      "epoch": "2",
-      "version": "0.60.6.1",
-      "release": "22.el8",
-      "arch": "x86_64",
-      "src": "aspell-0.60.6.1-22.el8.src.rpm",
-      "filename": "aspell-0.60.6.1-22.el8.x86_64.rpm"
-    },
-    {
-      "name": "aspell",
-      "epoch": "2",
-      "version": "0.60.6.1",
-      "release": "22.el8",
       "arch": "x86_64",
       "src": "aspell-0.60.6.1-22.el8.src.rpm",
       "filename": "aspell-0.60.6.1-22.el8.x86_64.rpm"
@@ -64,6 +46,18 @@
       "id": "RLSA-2022:1808",
       "title": "RLSA-2022:1808",
       "type": "self"
+    },
+    {
+      "href": "https://access.redhat.com/errata/RHSA-2022:1808",
+      "id": "RHSA-2022:1808",
+      "title": "Red Hat RHSA-2022:1808",
+      "type": "vendor"
+    },
+    {
+      "href": "https://creativecommons.org/licenses/by/4.0/",
+      "id": "CC-BY-4.0",
+      "title": "License: CC-BY-4.0",
+      "type": "other"
     }
   ],
   "cveids": [

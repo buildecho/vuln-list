@@ -47,15 +47,6 @@
       "filename": "bind9.16-license-9.16.23-0.7.el8_6.1.noarch.rpm"
     },
     {
-      "name": "bind9.16-license",
-      "epoch": "2",
-      "version": "9.16.23",
-      "release": "0.7.el8_6.1",
-      "arch": "noarch",
-      "src": "bind9.16-9.16.23-0.7.el8_6.1.src.rpm",
-      "filename": "bind9.16-license-9.16.23-0.7.el8_6.1.noarch.rpm"
-    },
-    {
       "name": "bind9.16-utils",
       "epoch": "2",
       "version": "9.16.23",
@@ -104,6 +95,18 @@
       "id": "RLSA-2022:6781",
       "title": "RLSA-2022:6781",
       "type": "self"
+    },
+    {
+      "href": "https://access.redhat.com/errata/RHSA-2022:6781",
+      "id": "RHSA-2022:6781",
+      "title": "Red Hat RHSA-2022:6781",
+      "type": "vendor"
+    },
+    {
+      "href": "https://creativecommons.org/licenses/by/4.0/",
+      "id": "CC-BY-4.0",
+      "title": "License: CC-BY-4.0",
+      "type": "other"
     }
   ],
   "cveids": [

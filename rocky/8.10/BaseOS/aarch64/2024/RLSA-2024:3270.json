@@ -110,15 +110,6 @@
       "filename": "python3-sssdconfig-2.9.4-3.el8_10.noarch.rpm"
     },
     {
-      "name": "python3-sssdconfig",
-      "epoch": "0",
-      "version": "2.9.4",
-      "release": "3.el8_10",
-      "arch": "noarch",
-      "src": "sssd-2.9.4-3.el8_10.src.rpm",
-      "filename": "python3-sssdconfig-2.9.4-3.el8_10.noarch.rpm"
-    },
-    {
       "name": "python3-sss-murmur",
       "epoch": "0",
       "version": "2.9.4",
@@ -289,6 +280,18 @@
       "id": "RLSA-2024:3270",
       "title": "RLSA-2024:3270",
       "type": "self"
+    },
+    {
+      "href": "https://access.redhat.com/errata/RHSA-2024:3270",
+      "id": "RHSA-2024:3270",
+      "title": "Red Hat RHSA-2024:3270",
+      "type": "vendor"
+    },
+    {
+      "href": "https://creativecommons.org/licenses/by/4.0/",
+      "id": "CC-BY-4.0",
+      "title": "License: CC-BY-4.0",
+      "type": "other"
     }
   ],
   "cveids": [

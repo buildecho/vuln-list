@@ -36,15 +36,6 @@
       "arch": "noarch",
       "src": "libssh-0.9.4-3.el8.src.rpm",
       "filename": "libssh-config-0.9.4-3.el8.noarch.rpm"
-    },
-    {
-      "name": "libssh-config",
-      "epoch": "0",
-      "version": "0.9.4",
-      "release": "3.el8",
-      "arch": "noarch",
-      "src": "libssh-0.9.4-3.el8.src.rpm",
-      "filename": "libssh-config-0.9.4-3.el8.noarch.rpm"
     }
   ],
   "references": [
@@ -64,6 +55,18 @@
       "id": "RLSA-2021:4387",
       "title": "RLSA-2021:4387",
       "type": "self"
+    },
+    {
+      "href": "https://access.redhat.com/errata/RHSA-2021:4387",
+      "id": "RHSA-2021:4387",
+      "title": "Red Hat RHSA-2021:4387",
+      "type": "vendor"
+    },
+    {
+      "href": "https://creativecommons.org/licenses/by/4.0/",
+      "id": "CC-BY-4.0",
+      "title": "License: CC-BY-4.0",
+      "type": "other"
     }
   ],
   "cveids": [

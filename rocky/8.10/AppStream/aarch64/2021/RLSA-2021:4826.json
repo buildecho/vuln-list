@@ -27,15 +27,6 @@
       "arch": "aarch64",
       "src": "mailman-2.1.29-12.module+el8.5.0+717+27fd1ba7.2.src.rpm",
       "filename": "mailman-2.1.29-12.module+el8.5.0+703+19300c10.aarch64.rpm"
-    },
-    {
-      "name": "mailman",
-      "epoch": "3",
-      "version": "2.1.29",
-      "release": "12.module+el8.5.0+717+27fd1ba7.2",
-      "arch": "aarch64",
-      "src": "mailman-2.1.29-12.module+el8.5.0+717+27fd1ba7.2.src.rpm",
-      "filename": "mailman-2.1.29-12.module+el8.5.0+717+27fd1ba7.2.aarch64.rpm"
     }
   ],
   "references": [
@@ -66,6 +57,18 @@
       "id": "RLSA-2021:4826",
       "title": "RLSA-2021:4826",
       "type": "self"
+    },
+    {
+      "href": "https://access.redhat.com/errata/RHSA-2021:4826",
+      "id": "RHSA-2021:4826",
+      "title": "Red Hat RHSA-2021:4826",
+      "type": "vendor"
+    },
+    {
+      "href": "https://creativecommons.org/licenses/by/4.0/",
+      "id": "CC-BY-4.0",
+      "title": "License: CC-BY-4.0",
+      "type": "other"
     }
   ],
   "cveids": [

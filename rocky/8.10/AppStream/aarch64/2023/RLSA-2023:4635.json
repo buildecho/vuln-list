@@ -144,42 +144,6 @@
       "arch": "aarch64",
       "src": "rust-1.66.1-2.module+el8.8.0+1428+0690fcea.src.rpm",
       "filename": "rust-toolset-1.66.1-2.module+el8.8.0+1428+0690fcea.aarch64.rpm"
-    },
-    {
-      "name": "rust-debugger-common",
-      "epoch": "0",
-      "version": "1.66.1",
-      "release": "2.module+el8.8.0+1428+0690fcea",
-      "arch": "noarch",
-      "src": "rust-1.66.1-2.module+el8.8.0+1428+0690fcea.src.rpm",
-      "filename": "rust-debugger-common-1.66.1-2.module+el8.8.0+1428+0690fcea.noarch.rpm"
-    },
-    {
-      "name": "rust-gdb",
-      "epoch": "0",
-      "version": "1.66.1",
-      "release": "2.module+el8.8.0+1428+0690fcea",
-      "arch": "noarch",
-      "src": "rust-1.66.1-2.module+el8.8.0+1428+0690fcea.src.rpm",
-      "filename": "rust-gdb-1.66.1-2.module+el8.8.0+1428+0690fcea.noarch.rpm"
-    },
-    {
-      "name": "rust-lldb",
-      "epoch": "0",
-      "version": "1.66.1",
-      "release": "2.module+el8.8.0+1428+0690fcea",
-      "arch": "noarch",
-      "src": "rust-1.66.1-2.module+el8.8.0+1428+0690fcea.src.rpm",
-      "filename": "rust-lldb-1.66.1-2.module+el8.8.0+1428+0690fcea.noarch.rpm"
-    },
-    {
-      "name": "rust-src",
-      "epoch": "0",
-      "version": "1.66.1",
-      "release": "2.module+el8.8.0+1428+0690fcea",
-      "arch": "noarch",
-      "src": "rust-1.66.1-2.module+el8.8.0+1428+0690fcea.src.rpm",
-      "filename": "rust-src-1.66.1-2.module+el8.8.0+1428+0690fcea.noarch.rpm"
     }
   ],
   "references": [
@@ -199,6 +163,18 @@
       "id": "RLSA-2023:4635",
       "title": "RLSA-2023:4635",
       "type": "self"
+    },
+    {
+      "href": "https://access.redhat.com/errata/RHSA-2023:4635",
+      "id": "RHSA-2023:4635",
+      "title": "Red Hat RHSA-2023:4635",
+      "type": "vendor"
+    },
+    {
+      "href": "https://creativecommons.org/licenses/by/4.0/",
+      "id": "CC-BY-4.0",
+      "title": "License: CC-BY-4.0",
+      "type": "other"
     }
   ],
   "cveids": [

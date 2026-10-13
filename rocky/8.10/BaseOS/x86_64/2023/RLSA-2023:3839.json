@@ -36,15 +36,6 @@
       "arch": "x86_64",
       "src": "libssh-0.9.6-10.el8_8.src.rpm",
       "filename": "libssh-0.9.6-10.el8_8.x86_64.rpm"
-    },
-    {
-      "name": "libssh-config",
-      "epoch": "0",
-      "version": "0.9.6",
-      "release": "10.el8_8",
-      "arch": "noarch",
-      "src": "libssh-0.9.6-10.el8_8.src.rpm",
-      "filename": "libssh-config-0.9.6-10.el8_8.noarch.rpm"
     }
   ],
   "references": [
@@ -75,6 +66,18 @@
       "id": "RLSA-2023:3839",
       "title": "RLSA-2023:3839",
       "type": "self"
+    },
+    {
+      "href": "https://access.redhat.com/errata/RHSA-2023:3839",
+      "id": "RHSA-2023:3839",
+      "title": "Red Hat RHSA-2023:3839",
+      "type": "vendor"
+    },
+    {
+      "href": "https://creativecommons.org/licenses/by/4.0/",
+      "id": "CC-BY-4.0",
+      "title": "License: CC-BY-4.0",
+      "type": "other"
     }
   ],
   "cveids": [

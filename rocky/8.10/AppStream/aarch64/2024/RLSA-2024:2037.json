@@ -29,15 +29,6 @@
       "filename": "tigervnc-icons-1.13.1-2.el8_9.10.noarch.rpm"
     },
     {
-      "name": "tigervnc-icons",
-      "epoch": "0",
-      "version": "1.13.1",
-      "release": "2.el8_9.10",
-      "arch": "noarch",
-      "src": "tigervnc-1.13.1-2.el8_9.10.src.rpm",
-      "filename": "tigervnc-icons-1.13.1-2.el8_9.10.noarch.rpm"
-    },
-    {
       "name": "tigervnc-license",
       "epoch": "0",
       "version": "1.13.1",
@@ -45,24 +36,6 @@
       "arch": "noarch",
       "src": "tigervnc-1.13.1-2.el8_9.10.src.rpm",
       "filename": "tigervnc-license-1.13.1-2.el8_9.10.noarch.rpm"
-    },
-    {
-      "name": "tigervnc-license",
-      "epoch": "0",
-      "version": "1.13.1",
-      "release": "2.el8_9.10",
-      "arch": "noarch",
-      "src": "tigervnc-1.13.1-2.el8_9.10.src.rpm",
-      "filename": "tigervnc-license-1.13.1-2.el8_9.10.noarch.rpm"
-    },
-    {
-      "name": "tigervnc-selinux",
-      "epoch": "0",
-      "version": "1.13.1",
-      "release": "2.el8_9.10",
-      "arch": "noarch",
-      "src": "tigervnc-1.13.1-2.el8_9.10.src.rpm",
-      "filename": "tigervnc-selinux-1.13.1-2.el8_9.10.noarch.rpm"
     },
     {
       "name": "tigervnc-selinux",
@@ -140,6 +113,18 @@
       "id": "RLSA-2024:2037",
       "title": "RLSA-2024:2037",
       "type": "self"
+    },
+    {
+      "href": "https://access.redhat.com/errata/RHSA-2024:2037",
+      "id": "RHSA-2024:2037",
+      "title": "Red Hat RHSA-2024:2037",
+      "type": "vendor"
+    },
+    {
+      "href": "https://creativecommons.org/licenses/by/4.0/",
+      "id": "CC-BY-4.0",
+      "title": "License: CC-BY-4.0",
+      "type": "other"
     }
   ],
   "cveids": [

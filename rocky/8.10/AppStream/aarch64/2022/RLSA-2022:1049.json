@@ -38,24 +38,6 @@
       "filename": "httpd-filesystem-2.4.37-43.module+el8.5.0+714+5ec56ee8.noarch.rpm"
     },
     {
-      "name": "httpd-filesystem",
-      "epoch": "0",
-      "version": "2.4.37",
-      "release": "43.module+el8.5.0+714+5ec56ee8",
-      "arch": "noarch",
-      "src": "httpd-2.4.37-43.module+el8.5.0+714+5ec56ee8.src.rpm",
-      "filename": "httpd-filesystem-2.4.37-43.module+el8.5.0+714+5ec56ee8.noarch.rpm"
-    },
-    {
-      "name": "httpd-manual",
-      "epoch": "0",
-      "version": "2.4.37",
-      "release": "43.module+el8.5.0+714+5ec56ee8",
-      "arch": "noarch",
-      "src": "httpd-2.4.37-43.module+el8.5.0+714+5ec56ee8.src.rpm",
-      "filename": "httpd-manual-2.4.37-43.module+el8.5.0+714+5ec56ee8.noarch.rpm"
-    },
-    {
       "name": "httpd-manual",
       "epoch": "0",
       "version": "2.4.37",
@@ -119,24 +101,6 @@
       "filename": "mod_md-2.0.8-8.module+el8.4.0+553+7a69454b.aarch64.rpm"
     },
     {
-      "name": "mod_md",
-      "epoch": "1",
-      "version": "2.0.8",
-      "release": "8.module+el8.5.0+695+1fa8055e",
-      "arch": "aarch64",
-      "src": "mod_md-2.0.8-8.module+el8.5.0+695+1fa8055e.src.rpm",
-      "filename": "mod_md-2.0.8-8.module+el8.5.0+695+1fa8055e.aarch64.rpm"
-    },
-    {
-      "name": "mod_md",
-      "epoch": "1",
-      "version": "2.0.8",
-      "release": "8.module+el8.5.0+695+1fa8055e",
-      "arch": "aarch64",
-      "src": "mod_md-2.0.8-8.module+el8.5.0+695+1fa8055e.src.rpm",
-      "filename": "mod_md-2.0.8-8.module+el8.5.0+695+1fa8055e.aarch64.rpm"
-    },
-    {
       "name": "mod_proxy_html",
       "epoch": "1",
       "version": "2.4.37",
@@ -181,6 +145,18 @@
       "id": "RLSA-2022:1049",
       "title": "RLSA-2022:1049",
       "type": "self"
+    },
+    {
+      "href": "https://access.redhat.com/errata/RHSA-2022:1049",
+      "id": "RHSA-2022:1049",
+      "title": "Red Hat RHSA-2022:1049",
+      "type": "vendor"
+    },
+    {
+      "href": "https://creativecommons.org/licenses/by/4.0/",
+      "id": "CC-BY-4.0",
+      "title": "License: CC-BY-4.0",
+      "type": "other"
     }
   ],
   "cveids": [

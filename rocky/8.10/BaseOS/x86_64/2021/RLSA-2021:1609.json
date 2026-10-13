@@ -24,90 +24,9 @@
       "epoch": "0",
       "version": "0.23.22",
       "release": "1.el8",
-      "arch": "i686",
-      "src": "p11-kit-0.23.22-1.el8.src.rpm",
-      "filename": "p11-kit-0.23.22-1.el8.i686.rpm"
-    },
-    {
-      "name": "p11-kit",
-      "epoch": "0",
-      "version": "0.23.22",
-      "release": "1.el8",
-      "arch": "i686",
-      "src": "p11-kit-0.23.22-1.el8.src.rpm",
-      "filename": "p11-kit-0.23.22-1.el8.i686.rpm"
-    },
-    {
-      "name": "p11-kit",
-      "epoch": "0",
-      "version": "0.23.22",
-      "release": "1.el8",
-      "arch": "i686",
-      "src": "p11-kit-0.23.22-1.el8.src.rpm",
-      "filename": "p11-kit-0.23.22-1.el8.i686.rpm"
-    },
-    {
-      "name": "p11-kit",
-      "epoch": "0",
-      "version": "0.23.22",
-      "release": "1.el8",
       "arch": "x86_64",
       "src": "p11-kit-0.23.22-1.el8.src.rpm",
       "filename": "p11-kit-0.23.22-1.el8.x86_64.rpm"
-    },
-    {
-      "name": "p11-kit",
-      "epoch": "0",
-      "version": "0.23.22",
-      "release": "1.el8",
-      "arch": "x86_64",
-      "src": "p11-kit-0.23.22-1.el8.src.rpm",
-      "filename": "p11-kit-0.23.22-1.el8.x86_64.rpm"
-    },
-    {
-      "name": "p11-kit",
-      "epoch": "0",
-      "version": "0.23.22",
-      "release": "1.el8",
-      "arch": "x86_64",
-      "src": "p11-kit-0.23.22-1.el8.src.rpm",
-      "filename": "p11-kit-0.23.22-1.el8.x86_64.rpm"
-    },
-    {
-      "name": "p11-kit",
-      "epoch": "0",
-      "version": "0.23.22",
-      "release": "1.el8",
-      "arch": "x86_64",
-      "src": "p11-kit-0.23.22-1.el8.src.rpm",
-      "filename": "p11-kit-0.23.22-1.el8.x86_64.rpm"
-    },
-    {
-      "name": "p11-kit-devel",
-      "epoch": "0",
-      "version": "0.23.22",
-      "release": "1.el8",
-      "arch": "i686",
-      "src": "p11-kit-0.23.22-1.el8.src.rpm",
-      "filename": "p11-kit-devel-0.23.22-1.el8.i686.rpm"
-    },
-    {
-      "name": "p11-kit-devel",
-      "epoch": "0",
-      "version": "0.23.22",
-      "release": "1.el8",
-      "arch": "i686",
-      "src": "p11-kit-0.23.22-1.el8.src.rpm",
-      "filename": "p11-kit-devel-0.23.22-1.el8.i686.rpm"
-    },
-    {
-      "name": "p11-kit-devel",
-      "epoch": "0",
-      "version": "0.23.22",
-      "release": "1.el8",
-      "arch": "i686",
-      "src": "p11-kit-0.23.22-1.el8.src.rpm",
-      "filename": "p11-kit-devel-0.23.22-1.el8.i686.rpm"
     },
     {
       "name": "p11-kit-devel",
@@ -128,60 +47,6 @@
       "filename": "p11-kit-devel-0.23.22-1.el8.x86_64.rpm"
     },
     {
-      "name": "p11-kit-devel",
-      "epoch": "0",
-      "version": "0.23.22",
-      "release": "1.el8",
-      "arch": "x86_64",
-      "src": "p11-kit-0.23.22-1.el8.src.rpm",
-      "filename": "p11-kit-devel-0.23.22-1.el8.x86_64.rpm"
-    },
-    {
-      "name": "p11-kit-devel",
-      "epoch": "0",
-      "version": "0.23.22",
-      "release": "1.el8",
-      "arch": "x86_64",
-      "src": "p11-kit-0.23.22-1.el8.src.rpm",
-      "filename": "p11-kit-devel-0.23.22-1.el8.x86_64.rpm"
-    },
-    {
-      "name": "p11-kit-devel",
-      "epoch": "0",
-      "version": "0.23.22",
-      "release": "1.el8",
-      "arch": "x86_64",
-      "src": "p11-kit-0.23.22-1.el8.src.rpm",
-      "filename": "p11-kit-devel-0.23.22-1.el8.x86_64.rpm"
-    },
-    {
-      "name": "p11-kit-server",
-      "epoch": "0",
-      "version": "0.23.22",
-      "release": "1.el8",
-      "arch": "x86_64",
-      "src": "p11-kit-0.23.22-1.el8.src.rpm",
-      "filename": "p11-kit-server-0.23.22-1.el8.x86_64.rpm"
-    },
-    {
-      "name": "p11-kit-server",
-      "epoch": "0",
-      "version": "0.23.22",
-      "release": "1.el8",
-      "arch": "x86_64",
-      "src": "p11-kit-0.23.22-1.el8.src.rpm",
-      "filename": "p11-kit-server-0.23.22-1.el8.x86_64.rpm"
-    },
-    {
-      "name": "p11-kit-server",
-      "epoch": "0",
-      "version": "0.23.22",
-      "release": "1.el8",
-      "arch": "x86_64",
-      "src": "p11-kit-0.23.22-1.el8.src.rpm",
-      "filename": "p11-kit-server-0.23.22-1.el8.x86_64.rpm"
-    },
-    {
       "name": "p11-kit-server",
       "epoch": "0",
       "version": "0.23.22",
@@ -198,60 +63,6 @@
       "arch": "i686",
       "src": "p11-kit-0.23.22-1.el8.src.rpm",
       "filename": "p11-kit-trust-0.23.22-1.el8.i686.rpm"
-    },
-    {
-      "name": "p11-kit-trust",
-      "epoch": "0",
-      "version": "0.23.22",
-      "release": "1.el8",
-      "arch": "i686",
-      "src": "p11-kit-0.23.22-1.el8.src.rpm",
-      "filename": "p11-kit-trust-0.23.22-1.el8.i686.rpm"
-    },
-    {
-      "name": "p11-kit-trust",
-      "epoch": "0",
-      "version": "0.23.22",
-      "release": "1.el8",
-      "arch": "i686",
-      "src": "p11-kit-0.23.22-1.el8.src.rpm",
-      "filename": "p11-kit-trust-0.23.22-1.el8.i686.rpm"
-    },
-    {
-      "name": "p11-kit-trust",
-      "epoch": "0",
-      "version": "0.23.22",
-      "release": "1.el8",
-      "arch": "i686",
-      "src": "p11-kit-0.23.22-1.el8.src.rpm",
-      "filename": "p11-kit-trust-0.23.22-1.el8.i686.rpm"
-    },
-    {
-      "name": "p11-kit-trust",
-      "epoch": "0",
-      "version": "0.23.22",
-      "release": "1.el8",
-      "arch": "x86_64",
-      "src": "p11-kit-0.23.22-1.el8.src.rpm",
-      "filename": "p11-kit-trust-0.23.22-1.el8.x86_64.rpm"
-    },
-    {
-      "name": "p11-kit-trust",
-      "epoch": "0",
-      "version": "0.23.22",
-      "release": "1.el8",
-      "arch": "x86_64",
-      "src": "p11-kit-0.23.22-1.el8.src.rpm",
-      "filename": "p11-kit-trust-0.23.22-1.el8.x86_64.rpm"
-    },
-    {
-      "name": "p11-kit-trust",
-      "epoch": "0",
-      "version": "0.23.22",
-      "release": "1.el8",
-      "arch": "x86_64",
-      "src": "p11-kit-0.23.22-1.el8.src.rpm",
-      "filename": "p11-kit-trust-0.23.22-1.el8.x86_64.rpm"
     },
     {
       "name": "p11-kit-trust",
@@ -312,6 +123,18 @@
       "id": "RLSA-2021:1609",
       "title": "RLSA-2021:1609",
       "type": "self"
+    },
+    {
+      "href": "https://access.redhat.com/errata/RHSA-2021:1609",
+      "id": "RHSA-2021:1609",
+      "title": "Red Hat RHSA-2021:1609",
+      "type": "vendor"
+    },
+    {
+      "href": "https://creativecommons.org/licenses/by/4.0/",
+      "id": "CC-BY-4.0",
+      "title": "License: CC-BY-4.0",
+      "type": "other"
     }
   ],
   "cveids": [

@@ -27,24 +27,6 @@
       "arch": "x86_64",
       "src": "mod_md-2.0.8-8.module+el8.5.0+695+1fa8055e.src.rpm",
       "filename": "mod_md-2.0.8-8.module+el8.4.0+553+7a69454b.x86_64.rpm"
-    },
-    {
-      "name": "mod_md",
-      "epoch": "1",
-      "version": "2.0.8",
-      "release": "8.module+el8.5.0+695+1fa8055e",
-      "arch": "x86_64",
-      "src": "mod_md-2.0.8-8.module+el8.5.0+695+1fa8055e.src.rpm",
-      "filename": "mod_md-2.0.8-8.module+el8.5.0+695+1fa8055e.x86_64.rpm"
-    },
-    {
-      "name": "mod_md",
-      "epoch": "1",
-      "version": "2.0.8",
-      "release": "8.module+el8.5.0+695+1fa8055e",
-      "arch": "x86_64",
-      "src": "mod_md-2.0.8-8.module+el8.5.0+695+1fa8055e.src.rpm",
-      "filename": "mod_md-2.0.8-8.module+el8.5.0+695+1fa8055e.x86_64.rpm"
     }
   ],
   "references": [
@@ -184,6 +166,18 @@
       "id": "RLSA-2020:4751",
       "title": "RLSA-2020:4751",
       "type": "self"
+    },
+    {
+      "href": "https://access.redhat.com/errata/RHSA-2020:4751",
+      "id": "RHSA-2020:4751",
+      "title": "Red Hat RHSA-2020:4751",
+      "type": "vendor"
+    },
+    {
+      "href": "https://creativecommons.org/licenses/by/4.0/",
+      "id": "CC-BY-4.0",
+      "title": "License: CC-BY-4.0",
+      "type": "other"
     }
   ],
   "cveids": [

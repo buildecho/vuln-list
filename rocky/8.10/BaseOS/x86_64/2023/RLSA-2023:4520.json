@@ -18,15 +18,6 @@
       "arch": "noarch",
       "src": "python-requests-2.20.0-3.el8_8.src.rpm",
       "filename": "python3-requests-2.20.0-3.el8_8.noarch.rpm"
-    },
-    {
-      "name": "python3-requests",
-      "epoch": "0",
-      "version": "2.20.0",
-      "release": "3.el8_8",
-      "arch": "noarch",
-      "src": "python-requests-2.20.0-3.el8_8.src.rpm",
-      "filename": "python3-requests-2.20.0-3.el8_8.noarch.rpm"
     }
   ],
   "references": [
@@ -46,6 +37,18 @@
       "id": "RLSA-2023:4520",
       "title": "RLSA-2023:4520",
       "type": "self"
+    },
+    {
+      "href": "https://access.redhat.com/errata/RHSA-2023:4520",
+      "id": "RHSA-2023:4520",
+      "title": "Red Hat RHSA-2023:4520",
+      "type": "vendor"
+    },
+    {
+      "href": "https://creativecommons.org/licenses/by/4.0/",
+      "id": "CC-BY-4.0",
+      "title": "License: CC-BY-4.0",
+      "type": "other"
     }
   ],
   "cveids": [

@@ -20,24 +20,6 @@
       "filename": "c-ares-1.13.0-6.el8.aarch64.rpm"
     },
     {
-      "name": "c-ares",
-      "epoch": "0",
-      "version": "1.13.0",
-      "release": "6.el8",
-      "arch": "aarch64",
-      "src": "c-ares-1.13.0-6.el8.src.rpm",
-      "filename": "c-ares-1.13.0-6.el8.aarch64.rpm"
-    },
-    {
-      "name": "c-ares-devel",
-      "epoch": "0",
-      "version": "1.13.0",
-      "release": "6.el8",
-      "arch": "aarch64",
-      "src": "c-ares-1.13.0-6.el8.src.rpm",
-      "filename": "c-ares-devel-1.13.0-6.el8.aarch64.rpm"
-    },
-    {
       "name": "c-ares-devel",
       "epoch": "0",
       "version": "1.13.0",
@@ -64,6 +46,18 @@
       "id": "RLSA-2022:2043",
       "title": "RLSA-2022:2043",
       "type": "self"
+    },
+    {
+      "href": "https://access.redhat.com/errata/RHSA-2022:2043",
+      "id": "RHSA-2022:2043",
+      "title": "Red Hat RHSA-2022:2043",
+      "type": "vendor"
+    },
+    {
+      "href": "https://creativecommons.org/licenses/by/4.0/",
+      "id": "CC-BY-4.0",
+      "title": "License: CC-BY-4.0",
+      "type": "other"
     }
   ],
   "cveids": [

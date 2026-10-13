@@ -20,24 +20,6 @@
       "filename": "qt5-rpm-macros-5.15.3-1.el8.noarch.rpm"
     },
     {
-      "name": "qt5-rpm-macros",
-      "epoch": "0",
-      "version": "5.15.3",
-      "release": "1.el8",
-      "arch": "noarch",
-      "src": "qt5-5.15.3-1.el8.src.rpm",
-      "filename": "qt5-rpm-macros-5.15.3-1.el8.noarch.rpm"
-    },
-    {
-      "name": "qt5-srpm-macros",
-      "epoch": "0",
-      "version": "5.15.3",
-      "release": "1.el8",
-      "arch": "noarch",
-      "src": "qt5-5.15.3-1.el8.src.rpm",
-      "filename": "qt5-srpm-macros-5.15.3-1.el8.noarch.rpm"
-    },
-    {
       "name": "qt5-srpm-macros",
       "epoch": "0",
       "version": "5.15.3",
@@ -70,6 +52,18 @@
       "id": "RLSA-2022:7482",
       "title": "RLSA-2022:7482",
       "type": "self"
+    },
+    {
+      "href": "https://access.redhat.com/errata/RHSA-2022:7482",
+      "id": "RHSA-2022:7482",
+      "title": "Red Hat RHSA-2022:7482",
+      "type": "vendor"
+    },
+    {
+      "href": "https://creativecommons.org/licenses/by/4.0/",
+      "id": "CC-BY-4.0",
+      "title": "License: CC-BY-4.0",
+      "type": "other"
     }
   ],
   "cveids": [

@@ -20,24 +20,6 @@
       "filename": "mecab-0.996-1.module+el8.3.0+242+87d3366a.9.aarch64.rpm"
     },
     {
-      "name": "mecab",
-      "epoch": "0",
-      "version": "0.996",
-      "release": "1.module+el8.3.0+242+87d3366a.9",
-      "arch": "aarch64",
-      "src": "mecab-0.996-1.module+el8.3.0+242+87d3366a.9.src.rpm",
-      "filename": "mecab-0.996-1.module+el8.3.0+242+87d3366a.9.aarch64.rpm"
-    },
-    {
-      "name": "mecab",
-      "epoch": "0",
-      "version": "0.996",
-      "release": "1.module+el8.3.0+242+87d3366a.9",
-      "arch": "aarch64",
-      "src": "mecab-0.996-1.module+el8.3.0+242+87d3366a.9.src.rpm",
-      "filename": "mecab-0.996-1.module+el8.3.0+242+87d3366a.9.aarch64.rpm"
-    },
-    {
       "name": "mecab-ipadic",
       "epoch": "0",
       "version": "2.7.0.20070801",
@@ -45,60 +27,6 @@
       "arch": "aarch64",
       "src": "mecab-ipadic-2.7.0.20070801-16.module+el8.3.0+242+87d3366a.src.rpm",
       "filename": "mecab-ipadic-2.7.0.20070801-16.module+el8.3.0+242+87d3366a.aarch64.rpm"
-    },
-    {
-      "name": "mecab-ipadic",
-      "epoch": "0",
-      "version": "2.7.0.20070801",
-      "release": "16.module+el8.3.0+242+87d3366a",
-      "arch": "aarch64",
-      "src": "mecab-ipadic-2.7.0.20070801-16.module+el8.3.0+242+87d3366a.src.rpm",
-      "filename": "mecab-ipadic-2.7.0.20070801-16.module+el8.3.0+242+87d3366a.aarch64.rpm"
-    },
-    {
-      "name": "mecab-ipadic",
-      "epoch": "0",
-      "version": "2.7.0.20070801",
-      "release": "16.module+el8.3.0+242+87d3366a",
-      "arch": "aarch64",
-      "src": "mecab-ipadic-2.7.0.20070801-16.module+el8.3.0+242+87d3366a.src.rpm",
-      "filename": "mecab-ipadic-2.7.0.20070801-16.module+el8.3.0+242+87d3366a.aarch64.rpm"
-    },
-    {
-      "name": "mecab-ipadic",
-      "epoch": "0",
-      "version": "2.7.0.20070801",
-      "release": "16.module+el8.3.0+242+87d3366a",
-      "arch": "aarch64",
-      "src": "mecab-ipadic-2.7.0.20070801-16.module+el8.3.0+242+87d3366a.src.rpm",
-      "filename": "mecab-ipadic-2.7.0.20070801-16.module+el8.3.0+242+87d3366a.aarch64.rpm"
-    },
-    {
-      "name": "mecab-ipadic-EUCJP",
-      "epoch": "0",
-      "version": "2.7.0.20070801",
-      "release": "16.module+el8.3.0+242+87d3366a",
-      "arch": "aarch64",
-      "src": "mecab-ipadic-2.7.0.20070801-16.module+el8.3.0+242+87d3366a.src.rpm",
-      "filename": "mecab-ipadic-EUCJP-2.7.0.20070801-16.module+el8.3.0+242+87d3366a.aarch64.rpm"
-    },
-    {
-      "name": "mecab-ipadic-EUCJP",
-      "epoch": "0",
-      "version": "2.7.0.20070801",
-      "release": "16.module+el8.3.0+242+87d3366a",
-      "arch": "aarch64",
-      "src": "mecab-ipadic-2.7.0.20070801-16.module+el8.3.0+242+87d3366a.src.rpm",
-      "filename": "mecab-ipadic-EUCJP-2.7.0.20070801-16.module+el8.3.0+242+87d3366a.aarch64.rpm"
-    },
-    {
-      "name": "mecab-ipadic-EUCJP",
-      "epoch": "0",
-      "version": "2.7.0.20070801",
-      "release": "16.module+el8.3.0+242+87d3366a",
-      "arch": "aarch64",
-      "src": "mecab-ipadic-2.7.0.20070801-16.module+el8.3.0+242+87d3366a.src.rpm",
-      "filename": "mecab-ipadic-EUCJP-2.7.0.20070801-16.module+el8.3.0+242+87d3366a.aarch64.rpm"
     },
     {
       "name": "mecab-ipadic-EUCJP",
@@ -1328,6 +1256,18 @@
       "id": "RLSA-2020:3732",
       "title": "RLSA-2020:3732",
       "type": "self"
+    },
+    {
+      "href": "https://access.redhat.com/errata/RHSA-2020:3732",
+      "id": "RHSA-2020:3732",
+      "title": "Red Hat RHSA-2020:3732",
+      "type": "vendor"
+    },
+    {
+      "href": "https://creativecommons.org/licenses/by/4.0/",
+      "id": "CC-BY-4.0",
+      "title": "License: CC-BY-4.0",
+      "type": "other"
     }
   ],
   "cveids": [

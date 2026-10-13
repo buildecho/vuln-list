@@ -29,15 +29,6 @@
       "filename": "cargo-doc-1.49.0-1.module+el8.4.0+416+259a129a.noarch.rpm"
     },
     {
-      "name": "cargo-doc",
-      "epoch": "0",
-      "version": "1.49.0",
-      "release": "1.module+el8.4.0+416+259a129a",
-      "arch": "noarch",
-      "src": "rust-1.49.0-1.module+el8.4.0+416+259a129a.src.rpm",
-      "filename": "cargo-doc-1.49.0-1.module+el8.4.0+416+259a129a.noarch.rpm"
-    },
-    {
       "name": "clippy",
       "epoch": "0",
       "version": "1.49.0",
@@ -83,15 +74,6 @@
       "filename": "rust-debugger-common-1.49.0-1.module+el8.4.0+416+259a129a.noarch.rpm"
     },
     {
-      "name": "rust-debugger-common",
-      "epoch": "0",
-      "version": "1.49.0",
-      "release": "1.module+el8.4.0+416+259a129a",
-      "arch": "noarch",
-      "src": "rust-1.49.0-1.module+el8.4.0+416+259a129a.src.rpm",
-      "filename": "rust-debugger-common-1.49.0-1.module+el8.4.0+416+259a129a.noarch.rpm"
-    },
-    {
       "name": "rust-doc",
       "epoch": "0",
       "version": "1.49.0",
@@ -119,15 +101,6 @@
       "filename": "rust-gdb-1.49.0-1.module+el8.4.0+416+259a129a.noarch.rpm"
     },
     {
-      "name": "rust-gdb",
-      "epoch": "0",
-      "version": "1.49.0",
-      "release": "1.module+el8.4.0+416+259a129a",
-      "arch": "noarch",
-      "src": "rust-1.49.0-1.module+el8.4.0+416+259a129a.src.rpm",
-      "filename": "rust-gdb-1.49.0-1.module+el8.4.0+416+259a129a.noarch.rpm"
-    },
-    {
       "name": "rust-lldb",
       "epoch": "0",
       "version": "1.49.0",
@@ -135,24 +108,6 @@
       "arch": "noarch",
       "src": "rust-1.49.0-1.module+el8.4.0+416+259a129a.src.rpm",
       "filename": "rust-lldb-1.49.0-1.module+el8.4.0+416+259a129a.noarch.rpm"
-    },
-    {
-      "name": "rust-lldb",
-      "epoch": "0",
-      "version": "1.49.0",
-      "release": "1.module+el8.4.0+416+259a129a",
-      "arch": "noarch",
-      "src": "rust-1.49.0-1.module+el8.4.0+416+259a129a.src.rpm",
-      "filename": "rust-lldb-1.49.0-1.module+el8.4.0+416+259a129a.noarch.rpm"
-    },
-    {
-      "name": "rust-src",
-      "epoch": "0",
-      "version": "1.49.0",
-      "release": "1.module+el8.4.0+416+259a129a",
-      "arch": "noarch",
-      "src": "rust-1.49.0-1.module+el8.4.0+416+259a129a.src.rpm",
-      "filename": "rust-src-1.49.0-1.module+el8.4.0+416+259a129a.noarch.rpm"
     },
     {
       "name": "rust-src",
@@ -210,6 +165,18 @@
       "id": "RLSA-2021:1935",
       "title": "RLSA-2021:1935",
       "type": "self"
+    },
+    {
+      "href": "https://access.redhat.com/errata/RHSA-2021:1935",
+      "id": "RHSA-2021:1935",
+      "title": "Red Hat RHSA-2021:1935",
+      "type": "vendor"
+    },
+    {
+      "href": "https://creativecommons.org/licenses/by/4.0/",
+      "id": "CC-BY-4.0",
+      "title": "License: CC-BY-4.0",
+      "type": "other"
     }
   ],
   "cveids": [

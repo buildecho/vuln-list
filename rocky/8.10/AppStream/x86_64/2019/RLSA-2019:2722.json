@@ -20,60 +20,6 @@
       "filename": "libwmf-0.2.9-8.el8_0.x86_64.rpm"
     },
     {
-      "name": "libwmf",
-      "epoch": "0",
-      "version": "0.2.9",
-      "release": "8.el8_0",
-      "arch": "x86_64",
-      "src": "libwmf-0.2.9-8.el8_0.src.rpm",
-      "filename": "libwmf-0.2.9-8.el8_0.x86_64.rpm"
-    },
-    {
-      "name": "libwmf",
-      "epoch": "0",
-      "version": "0.2.9",
-      "release": "8.el8_0",
-      "arch": "x86_64",
-      "src": "libwmf-0.2.9-8.el8_0.src.rpm",
-      "filename": "libwmf-0.2.9-8.el8_0.x86_64.rpm"
-    },
-    {
-      "name": "libwmf",
-      "epoch": "0",
-      "version": "0.2.9",
-      "release": "8.el8_0",
-      "arch": "x86_64",
-      "src": "libwmf-0.2.9-8.el8_0.src.rpm",
-      "filename": "libwmf-0.2.9-8.el8_0.x86_64.rpm"
-    },
-    {
-      "name": "libwmf-lite",
-      "epoch": "0",
-      "version": "0.2.9",
-      "release": "8.el8_0",
-      "arch": "x86_64",
-      "src": "libwmf-0.2.9-8.el8_0.src.rpm",
-      "filename": "libwmf-lite-0.2.9-8.el8_0.x86_64.rpm"
-    },
-    {
-      "name": "libwmf-lite",
-      "epoch": "0",
-      "version": "0.2.9",
-      "release": "8.el8_0",
-      "arch": "x86_64",
-      "src": "libwmf-0.2.9-8.el8_0.src.rpm",
-      "filename": "libwmf-lite-0.2.9-8.el8_0.x86_64.rpm"
-    },
-    {
-      "name": "libwmf-lite",
-      "epoch": "0",
-      "version": "0.2.9",
-      "release": "8.el8_0",
-      "arch": "x86_64",
-      "src": "libwmf-0.2.9-8.el8_0.src.rpm",
-      "filename": "libwmf-lite-0.2.9-8.el8_0.x86_64.rpm"
-    },
-    {
       "name": "libwmf-lite",
       "epoch": "0",
       "version": "0.2.9",
@@ -99,60 +45,6 @@
       "arch": "i686",
       "src": "libwmf-0.2.9-8.el8_0.src.rpm",
       "filename": "libwmf-0.2.9-8.el8_0.i686.rpm"
-    },
-    {
-      "name": "libwmf",
-      "epoch": "0",
-      "version": "0.2.9",
-      "release": "8.el8_0",
-      "arch": "i686",
-      "src": "libwmf-0.2.9-8.el8_0.src.rpm",
-      "filename": "libwmf-0.2.9-8.el8_0.i686.rpm"
-    },
-    {
-      "name": "libwmf",
-      "epoch": "0",
-      "version": "0.2.9",
-      "release": "8.el8_0",
-      "arch": "i686",
-      "src": "libwmf-0.2.9-8.el8_0.src.rpm",
-      "filename": "libwmf-0.2.9-8.el8_0.i686.rpm"
-    },
-    {
-      "name": "libwmf",
-      "epoch": "0",
-      "version": "0.2.9",
-      "release": "8.el8_0",
-      "arch": "i686",
-      "src": "libwmf-0.2.9-8.el8_0.src.rpm",
-      "filename": "libwmf-0.2.9-8.el8_0.i686.rpm"
-    },
-    {
-      "name": "libwmf-lite",
-      "epoch": "0",
-      "version": "0.2.9",
-      "release": "8.el8_0",
-      "arch": "i686",
-      "src": "libwmf-0.2.9-8.el8_0.src.rpm",
-      "filename": "libwmf-lite-0.2.9-8.el8_0.i686.rpm"
-    },
-    {
-      "name": "libwmf-lite",
-      "epoch": "0",
-      "version": "0.2.9",
-      "release": "8.el8_0",
-      "arch": "i686",
-      "src": "libwmf-0.2.9-8.el8_0.src.rpm",
-      "filename": "libwmf-lite-0.2.9-8.el8_0.i686.rpm"
-    },
-    {
-      "name": "libwmf-lite",
-      "epoch": "0",
-      "version": "0.2.9",
-      "release": "8.el8_0",
-      "arch": "i686",
-      "src": "libwmf-0.2.9-8.el8_0.src.rpm",
-      "filename": "libwmf-lite-0.2.9-8.el8_0.i686.rpm"
     }
   ],
   "references": [
@@ -172,6 +64,18 @@
       "id": "RLSA-2019:2722",
       "title": "RLSA-2019:2722",
       "type": "self"
+    },
+    {
+      "href": "https://access.redhat.com/errata/RHSA-2019:2722",
+      "id": "RHSA-2019:2722",
+      "title": "Red Hat RHSA-2019:2722",
+      "type": "vendor"
+    },
+    {
+      "href": "https://creativecommons.org/licenses/by/4.0/",
+      "id": "CC-BY-4.0",
+      "title": "License: CC-BY-4.0",
+      "type": "other"
     }
   ],
   "cveids": [

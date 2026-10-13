@@ -47,15 +47,6 @@
       "filename": "NetworkManager-config-connectivity-redhat-1.30.0-7.el8.noarch.rpm"
     },
     {
-      "name": "NetworkManager-config-connectivity-redhat",
-      "epoch": "1",
-      "version": "1.30.0",
-      "release": "7.el8",
-      "arch": "noarch",
-      "src": "NetworkManager-1.30.0-7.el8.src.rpm",
-      "filename": "NetworkManager-config-connectivity-redhat-1.30.0-7.el8.noarch.rpm"
-    },
-    {
       "name": "NetworkManager-config-server",
       "epoch": "1",
       "version": "1.30.0",
@@ -63,24 +54,6 @@
       "arch": "noarch",
       "src": "NetworkManager-1.30.0-7.el8.src.rpm",
       "filename": "NetworkManager-config-server-1.30.0-7.el8.noarch.rpm"
-    },
-    {
-      "name": "NetworkManager-config-server",
-      "epoch": "1",
-      "version": "1.30.0",
-      "release": "7.el8",
-      "arch": "noarch",
-      "src": "NetworkManager-1.30.0-7.el8.src.rpm",
-      "filename": "NetworkManager-config-server-1.30.0-7.el8.noarch.rpm"
-    },
-    {
-      "name": "NetworkManager-dispatcher-routing-rules",
-      "epoch": "1",
-      "version": "1.30.0",
-      "release": "7.el8",
-      "arch": "noarch",
-      "src": "NetworkManager-1.30.0-7.el8.src.rpm",
-      "filename": "NetworkManager-dispatcher-routing-rules-1.30.0-7.el8.noarch.rpm"
     },
     {
       "name": "NetworkManager-dispatcher-routing-rules",
@@ -357,6 +330,18 @@
       "id": "RLSA-2021:1574",
       "title": "RLSA-2021:1574",
       "type": "self"
+    },
+    {
+      "href": "https://access.redhat.com/errata/RHSA-2021:1574",
+      "id": "RHSA-2021:1574",
+      "title": "Red Hat RHSA-2021:1574",
+      "type": "vendor"
+    },
+    {
+      "href": "https://creativecommons.org/licenses/by/4.0/",
+      "id": "CC-BY-4.0",
+      "title": "License: CC-BY-4.0",
+      "type": "other"
     }
   ],
   "cveids": [

@@ -38,15 +38,6 @@
       "filename": "nodejs-docs-16.19.1-1.module+el8.7.0+1178+d52dba78.noarch.rpm"
     },
     {
-      "name": "nodejs-docs",
-      "epoch": "1",
-      "version": "16.19.1",
-      "release": "1.module+el8.7.0+1178+d52dba78",
-      "arch": "noarch",
-      "src": "nodejs-16.19.1-1.module+el8.7.0+1178+d52dba78.src.rpm",
-      "filename": "nodejs-docs-16.19.1-1.module+el8.7.0+1178+d52dba78.noarch.rpm"
-    },
-    {
       "name": "nodejs-full-i18n",
       "epoch": "1",
       "version": "16.19.1",
@@ -63,24 +54,6 @@
       "arch": "noarch",
       "src": "nodejs-nodemon-2.0.20-3.module+el8.7.0+1178+d52dba78.src.rpm",
       "filename": "nodejs-nodemon-2.0.20-3.module+el8.7.0+1178+d52dba78.noarch.rpm"
-    },
-    {
-      "name": "nodejs-nodemon",
-      "epoch": "0",
-      "version": "2.0.20",
-      "release": "3.module+el8.7.0+1178+d52dba78",
-      "arch": "noarch",
-      "src": "nodejs-nodemon-2.0.20-3.module+el8.7.0+1178+d52dba78.src.rpm",
-      "filename": "nodejs-nodemon-2.0.20-3.module+el8.7.0+1178+d52dba78.noarch.rpm"
-    },
-    {
-      "name": "nodejs-packaging",
-      "epoch": "0",
-      "version": "25",
-      "release": "1.module+el8.6.0+1046+80feca58",
-      "arch": "noarch",
-      "src": "nodejs-packaging-25-1.module+el8.6.0+1046+80feca58.src.rpm",
-      "filename": "nodejs-packaging-25-1.module+el8.6.0+1046+80feca58.noarch.rpm"
     },
     {
       "name": "nodejs-packaging",
@@ -200,6 +173,18 @@
       "id": "RLSA-2023:1582",
       "title": "RLSA-2023:1582",
       "type": "self"
+    },
+    {
+      "href": "https://access.redhat.com/errata/RHSA-2023:1582",
+      "id": "RHSA-2023:1582",
+      "title": "Red Hat RHSA-2023:1582",
+      "type": "vendor"
+    },
+    {
+      "href": "https://creativecommons.org/licenses/by/4.0/",
+      "id": "CC-BY-4.0",
+      "title": "License: CC-BY-4.0",
+      "type": "other"
     }
   ],
   "cveids": [

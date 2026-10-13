@@ -20,24 +20,6 @@
       "filename": "postgresql-jdbc-42.2.14-3.el8_9.noarch.rpm"
     },
     {
-      "name": "postgresql-jdbc",
-      "epoch": "0",
-      "version": "42.2.14",
-      "release": "3.el8_9",
-      "arch": "noarch",
-      "src": "postgresql-jdbc-42.2.14-3.el8_9.src.rpm",
-      "filename": "postgresql-jdbc-42.2.14-3.el8_9.noarch.rpm"
-    },
-    {
-      "name": "postgresql-jdbc-javadoc",
-      "epoch": "0",
-      "version": "42.2.14",
-      "release": "3.el8_9",
-      "arch": "noarch",
-      "src": "postgresql-jdbc-42.2.14-3.el8_9.src.rpm",
-      "filename": "postgresql-jdbc-javadoc-42.2.14-3.el8_9.noarch.rpm"
-    },
-    {
       "name": "postgresql-jdbc-javadoc",
       "epoch": "0",
       "version": "42.2.14",
@@ -64,6 +46,18 @@
       "id": "RLSA-2024:1435",
       "title": "RLSA-2024:1435",
       "type": "self"
+    },
+    {
+      "href": "https://access.redhat.com/errata/RHSA-2024:1435",
+      "id": "RHSA-2024:1435",
+      "title": "Red Hat RHSA-2024:1435",
+      "type": "vendor"
+    },
+    {
+      "href": "https://creativecommons.org/licenses/by/4.0/",
+      "id": "CC-BY-4.0",
+      "title": "License: CC-BY-4.0",
+      "type": "other"
     }
   ],
   "cveids": [

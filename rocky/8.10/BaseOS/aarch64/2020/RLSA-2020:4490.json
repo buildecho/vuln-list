@@ -20,42 +20,6 @@
       "filename": "gnupg2-2.2.20-2.el8.aarch64.rpm"
     },
     {
-      "name": "gnupg2",
-      "epoch": "0",
-      "version": "2.2.20",
-      "release": "2.el8",
-      "arch": "aarch64",
-      "src": "gnupg2-2.2.20-2.el8.src.rpm",
-      "filename": "gnupg2-2.2.20-2.el8.aarch64.rpm"
-    },
-    {
-      "name": "gnupg2",
-      "epoch": "0",
-      "version": "2.2.20",
-      "release": "2.el8",
-      "arch": "aarch64",
-      "src": "gnupg2-2.2.20-2.el8.src.rpm",
-      "filename": "gnupg2-2.2.20-2.el8.aarch64.rpm"
-    },
-    {
-      "name": "gnupg2-smime",
-      "epoch": "0",
-      "version": "2.2.20",
-      "release": "2.el8",
-      "arch": "aarch64",
-      "src": "gnupg2-2.2.20-2.el8.src.rpm",
-      "filename": "gnupg2-smime-2.2.20-2.el8.aarch64.rpm"
-    },
-    {
-      "name": "gnupg2-smime",
-      "epoch": "0",
-      "version": "2.2.20",
-      "release": "2.el8",
-      "arch": "aarch64",
-      "src": "gnupg2-2.2.20-2.el8.src.rpm",
-      "filename": "gnupg2-smime-2.2.20-2.el8.aarch64.rpm"
-    },
-    {
       "name": "gnupg2-smime",
       "epoch": "0",
       "version": "2.2.20",
@@ -88,6 +52,18 @@
       "id": "RLSA-2020:4490",
       "title": "RLSA-2020:4490",
       "type": "self"
+    },
+    {
+      "href": "https://access.redhat.com/errata/RHSA-2020:4490",
+      "id": "RHSA-2020:4490",
+      "title": "Red Hat RHSA-2020:4490",
+      "type": "vendor"
+    },
+    {
+      "href": "https://creativecommons.org/licenses/by/4.0/",
+      "id": "CC-BY-4.0",
+      "title": "License: CC-BY-4.0",
+      "type": "other"
     }
   ],
   "cveids": [

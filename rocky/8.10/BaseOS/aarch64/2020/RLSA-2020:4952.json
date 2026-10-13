@@ -20,42 +20,6 @@
       "filename": "freetype-2.9.1-4.el8_3.1.aarch64.rpm"
     },
     {
-      "name": "freetype",
-      "epoch": "0",
-      "version": "2.9.1",
-      "release": "4.el8_3.1",
-      "arch": "aarch64",
-      "src": "freetype-2.9.1-4.el8_3.1.src.rpm",
-      "filename": "freetype-2.9.1-4.el8_3.1.aarch64.rpm"
-    },
-    {
-      "name": "freetype",
-      "epoch": "0",
-      "version": "2.9.1",
-      "release": "4.el8_3.1",
-      "arch": "aarch64",
-      "src": "freetype-2.9.1-4.el8_3.1.src.rpm",
-      "filename": "freetype-2.9.1-4.el8_3.1.aarch64.rpm"
-    },
-    {
-      "name": "freetype-devel",
-      "epoch": "0",
-      "version": "2.9.1",
-      "release": "4.el8_3.1",
-      "arch": "aarch64",
-      "src": "freetype-2.9.1-4.el8_3.1.src.rpm",
-      "filename": "freetype-devel-2.9.1-4.el8_3.1.aarch64.rpm"
-    },
-    {
-      "name": "freetype-devel",
-      "epoch": "0",
-      "version": "2.9.1",
-      "release": "4.el8_3.1",
-      "arch": "aarch64",
-      "src": "freetype-2.9.1-4.el8_3.1.src.rpm",
-      "filename": "freetype-devel-2.9.1-4.el8_3.1.aarch64.rpm"
-    },
-    {
       "name": "freetype-devel",
       "epoch": "0",
       "version": "2.9.1",
@@ -82,6 +46,18 @@
       "id": "RLSA-2020:4952",
       "title": "RLSA-2020:4952",
       "type": "self"
+    },
+    {
+      "href": "https://access.redhat.com/errata/RHSA-2020:4952",
+      "id": "RHSA-2020:4952",
+      "title": "Red Hat RHSA-2020:4952",
+      "type": "vendor"
+    },
+    {
+      "href": "https://creativecommons.org/licenses/by/4.0/",
+      "id": "CC-BY-4.0",
+      "title": "License: CC-BY-4.0",
+      "type": "other"
     }
   ],
   "cveids": [

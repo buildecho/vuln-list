@@ -18,33 +18,6 @@
       "arch": "aarch64",
       "src": "gdk-pixbuf2-2.36.12-5.el8.src.rpm",
       "filename": "gdk-pixbuf2-2.36.12-5.el8.aarch64.rpm"
-    },
-    {
-      "name": "gdk-pixbuf2",
-      "epoch": "0",
-      "version": "2.36.12",
-      "release": "5.el8",
-      "arch": "aarch64",
-      "src": "gdk-pixbuf2-2.36.12-5.el8.src.rpm",
-      "filename": "gdk-pixbuf2-2.36.12-5.el8.aarch64.rpm"
-    },
-    {
-      "name": "gdk-pixbuf2",
-      "epoch": "0",
-      "version": "2.36.12",
-      "release": "5.el8",
-      "arch": "aarch64",
-      "src": "gdk-pixbuf2-2.36.12-5.el8.src.rpm",
-      "filename": "gdk-pixbuf2-2.36.12-5.el8.aarch64.rpm"
-    },
-    {
-      "name": "gdk-pixbuf2",
-      "epoch": "0",
-      "version": "2.36.12",
-      "release": "5.el8",
-      "arch": "aarch64",
-      "src": "gdk-pixbuf2-2.36.12-5.el8.src.rpm",
-      "filename": "gdk-pixbuf2-2.36.12-5.el8.aarch64.rpm"
     }
   ],
   "references": [
@@ -654,6 +627,18 @@
       "id": "RLSA-2019:3553",
       "title": "RLSA-2019:3553",
       "type": "self"
+    },
+    {
+      "href": "https://access.redhat.com/errata/RHSA-2019:3553",
+      "id": "RHSA-2019:3553",
+      "title": "Red Hat RHSA-2019:3553",
+      "type": "vendor"
+    },
+    {
+      "href": "https://creativecommons.org/licenses/by/4.0/",
+      "id": "CC-BY-4.0",
+      "title": "License: CC-BY-4.0",
+      "type": "other"
     }
   ],
   "cveids": [

@@ -38,15 +38,6 @@
       "filename": "rsyslog-doc-8.2102.0-7.el8_6.1.noarch.rpm"
     },
     {
-      "name": "rsyslog-doc",
-      "epoch": "0",
-      "version": "8.2102.0",
-      "release": "7.el8_6.1",
-      "arch": "noarch",
-      "src": "rsyslog-8.2102.0-7.el8_6.1.src.rpm",
-      "filename": "rsyslog-doc-8.2102.0-7.el8_6.1.noarch.rpm"
-    },
-    {
       "name": "rsyslog-elasticsearch",
       "epoch": "0",
       "version": "8.2102.0",
@@ -217,6 +208,18 @@
       "id": "RLSA-2022:4799",
       "title": "RLSA-2022:4799",
       "type": "self"
+    },
+    {
+      "href": "https://access.redhat.com/errata/RHSA-2022:4799",
+      "id": "RHSA-2022:4799",
+      "title": "Red Hat RHSA-2022:4799",
+      "type": "vendor"
+    },
+    {
+      "href": "https://creativecommons.org/licenses/by/4.0/",
+      "id": "CC-BY-4.0",
+      "title": "License: CC-BY-4.0",
+      "type": "other"
     }
   ],
   "cveids": [

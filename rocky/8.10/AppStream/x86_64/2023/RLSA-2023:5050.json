@@ -38,24 +38,6 @@
       "filename": "httpd-filesystem-2.4.37-56.module+el8.8.0+1284+07ef499e.6.noarch.rpm"
     },
     {
-      "name": "httpd-filesystem",
-      "epoch": "0",
-      "version": "2.4.37",
-      "release": "56.module+el8.8.0+1284+07ef499e.6",
-      "arch": "noarch",
-      "src": "httpd-2.4.37-56.module+el8.8.0+1284+07ef499e.6.src.rpm",
-      "filename": "httpd-filesystem-2.4.37-56.module+el8.8.0+1284+07ef499e.6.noarch.rpm"
-    },
-    {
-      "name": "httpd-manual",
-      "epoch": "0",
-      "version": "2.4.37",
-      "release": "56.module+el8.8.0+1284+07ef499e.6",
-      "arch": "noarch",
-      "src": "httpd-2.4.37-56.module+el8.8.0+1284+07ef499e.6.src.rpm",
-      "filename": "httpd-manual-2.4.37-56.module+el8.8.0+1284+07ef499e.6.noarch.rpm"
-    },
-    {
       "name": "httpd-manual",
       "epoch": "0",
       "version": "2.4.37",
@@ -145,6 +127,18 @@
       "id": "RLSA-2023:5050",
       "title": "RLSA-2023:5050",
       "type": "self"
+    },
+    {
+      "href": "https://access.redhat.com/errata/RHSA-2023:5050",
+      "id": "RHSA-2023:5050",
+      "title": "Red Hat RHSA-2023:5050",
+      "type": "vendor"
+    },
+    {
+      "href": "https://creativecommons.org/licenses/by/4.0/",
+      "id": "CC-BY-4.0",
+      "title": "License: CC-BY-4.0",
+      "type": "other"
     }
   ],
   "cveids": [

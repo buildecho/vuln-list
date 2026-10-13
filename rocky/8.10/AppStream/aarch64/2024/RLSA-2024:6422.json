@@ -38,15 +38,6 @@
       "filename": "flatpak-selinux-1.12.9-3.el8_10.noarch.rpm"
     },
     {
-      "name": "flatpak-selinux",
-      "epoch": "0",
-      "version": "1.12.9",
-      "release": "3.el8_10",
-      "arch": "noarch",
-      "src": "flatpak-1.12.9-3.el8_10.src.rpm",
-      "filename": "flatpak-selinux-1.12.9-3.el8_10.noarch.rpm"
-    },
-    {
       "name": "flatpak-session-helper",
       "epoch": "0",
       "version": "1.12.9",
@@ -68,6 +59,18 @@
       "id": "RLSA-2024:6422",
       "title": "RLSA-2024:6422",
       "type": "self"
+    },
+    {
+      "href": "https://access.redhat.com/errata/RHSA-2024:6422",
+      "id": "RHSA-2024:6422",
+      "title": "Red Hat RHSA-2024:6422",
+      "type": "vendor"
+    },
+    {
+      "href": "https://creativecommons.org/licenses/by/4.0/",
+      "id": "CC-BY-4.0",
+      "title": "License: CC-BY-4.0",
+      "type": "other"
     }
   ],
   "cveids": [

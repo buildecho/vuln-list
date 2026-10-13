@@ -29,15 +29,6 @@
       "filename": "dhcp-common-4.3.6-44.el8_4.1.noarch.rpm"
     },
     {
-      "name": "dhcp-common",
-      "epoch": "2",
-      "version": "4.3.6",
-      "release": "44.el8_4.1",
-      "arch": "noarch",
-      "src": "dhcp-4.3.6-44.el8_4.1.src.rpm",
-      "filename": "dhcp-common-4.3.6-44.el8_4.1.noarch.rpm"
-    },
-    {
       "name": "dhcp-libs",
       "epoch": "2",
       "version": "4.3.6",
@@ -91,6 +82,18 @@
       "id": "RLSA-2021:2359",
       "title": "RLSA-2021:2359",
       "type": "self"
+    },
+    {
+      "href": "https://access.redhat.com/errata/RHSA-2021:2359",
+      "id": "RHSA-2021:2359",
+      "title": "Red Hat RHSA-2021:2359",
+      "type": "vendor"
+    },
+    {
+      "href": "https://creativecommons.org/licenses/by/4.0/",
+      "id": "CC-BY-4.0",
+      "title": "License: CC-BY-4.0",
+      "type": "other"
     }
   ],
   "cveids": [

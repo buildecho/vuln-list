@@ -20,24 +20,6 @@
       "filename": "sqlite-3.26.0-16.el8_6.aarch64.rpm"
     },
     {
-      "name": "sqlite",
-      "epoch": "0",
-      "version": "3.26.0",
-      "release": "16.el8_6",
-      "arch": "aarch64",
-      "src": "sqlite-3.26.0-16.el8_6.src.rpm",
-      "filename": "sqlite-3.26.0-16.el8_6.aarch64.rpm"
-    },
-    {
-      "name": "sqlite-devel",
-      "epoch": "0",
-      "version": "3.26.0",
-      "release": "16.el8_6",
-      "arch": "aarch64",
-      "src": "sqlite-3.26.0-16.el8_6.src.rpm",
-      "filename": "sqlite-devel-3.26.0-16.el8_6.aarch64.rpm"
-    },
-    {
       "name": "sqlite-devel",
       "epoch": "0",
       "version": "3.26.0",
@@ -54,42 +36,6 @@
       "arch": "noarch",
       "src": "sqlite-3.26.0-16.el8_6.src.rpm",
       "filename": "sqlite-doc-3.26.0-16.el8_6.noarch.rpm"
-    },
-    {
-      "name": "sqlite-doc",
-      "epoch": "0",
-      "version": "3.26.0",
-      "release": "16.el8_6",
-      "arch": "noarch",
-      "src": "sqlite-3.26.0-16.el8_6.src.rpm",
-      "filename": "sqlite-doc-3.26.0-16.el8_6.noarch.rpm"
-    },
-    {
-      "name": "sqlite-doc",
-      "epoch": "0",
-      "version": "3.26.0",
-      "release": "16.el8_6",
-      "arch": "noarch",
-      "src": "sqlite-3.26.0-16.el8_6.src.rpm",
-      "filename": "sqlite-doc-3.26.0-16.el8_6.noarch.rpm"
-    },
-    {
-      "name": "sqlite-doc",
-      "epoch": "0",
-      "version": "3.26.0",
-      "release": "16.el8_6",
-      "arch": "noarch",
-      "src": "sqlite-3.26.0-16.el8_6.src.rpm",
-      "filename": "sqlite-doc-3.26.0-16.el8_6.noarch.rpm"
-    },
-    {
-      "name": "sqlite-libs",
-      "epoch": "0",
-      "version": "3.26.0",
-      "release": "16.el8_6",
-      "arch": "aarch64",
-      "src": "sqlite-3.26.0-16.el8_6.src.rpm",
-      "filename": "sqlite-libs-3.26.0-16.el8_6.aarch64.rpm"
     },
     {
       "name": "sqlite-libs",
@@ -129,6 +75,18 @@
       "id": "RLSA-2022:7108",
       "title": "RLSA-2022:7108",
       "type": "self"
+    },
+    {
+      "href": "https://access.redhat.com/errata/RHSA-2022:7108",
+      "id": "RHSA-2022:7108",
+      "title": "Red Hat RHSA-2022:7108",
+      "type": "vendor"
+    },
+    {
+      "href": "https://creativecommons.org/licenses/by/4.0/",
+      "id": "CC-BY-4.0",
+      "title": "License: CC-BY-4.0",
+      "type": "other"
     }
   ],
   "cveids": [

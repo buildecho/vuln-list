@@ -20,33 +20,6 @@
       "filename": "lz4-1.8.3-3.el8_4.aarch64.rpm"
     },
     {
-      "name": "lz4",
-      "epoch": "0",
-      "version": "1.8.3",
-      "release": "3.el8_4",
-      "arch": "aarch64",
-      "src": "lz4-1.8.3-3.el8_4.src.rpm",
-      "filename": "lz4-1.8.3-3.el8_4.aarch64.rpm"
-    },
-    {
-      "name": "lz4",
-      "epoch": "0",
-      "version": "1.8.3",
-      "release": "3.el8_4",
-      "arch": "aarch64",
-      "src": "lz4-1.8.3-3.el8_4.src.rpm",
-      "filename": "lz4-1.8.3-3.el8_4.aarch64.rpm"
-    },
-    {
-      "name": "lz4",
-      "epoch": "0",
-      "version": "1.8.3",
-      "release": "3.el8_4",
-      "arch": "aarch64",
-      "src": "lz4-1.8.3-3.el8_4.src.rpm",
-      "filename": "lz4-1.8.3-3.el8_4.aarch64.rpm"
-    },
-    {
       "name": "lz4-devel",
       "epoch": "0",
       "version": "1.8.3",
@@ -54,60 +27,6 @@
       "arch": "aarch64",
       "src": "lz4-1.8.3-3.el8_4.src.rpm",
       "filename": "lz4-devel-1.8.3-3.el8_4.aarch64.rpm"
-    },
-    {
-      "name": "lz4-devel",
-      "epoch": "0",
-      "version": "1.8.3",
-      "release": "3.el8_4",
-      "arch": "aarch64",
-      "src": "lz4-1.8.3-3.el8_4.src.rpm",
-      "filename": "lz4-devel-1.8.3-3.el8_4.aarch64.rpm"
-    },
-    {
-      "name": "lz4-devel",
-      "epoch": "0",
-      "version": "1.8.3",
-      "release": "3.el8_4",
-      "arch": "aarch64",
-      "src": "lz4-1.8.3-3.el8_4.src.rpm",
-      "filename": "lz4-devel-1.8.3-3.el8_4.aarch64.rpm"
-    },
-    {
-      "name": "lz4-devel",
-      "epoch": "0",
-      "version": "1.8.3",
-      "release": "3.el8_4",
-      "arch": "aarch64",
-      "src": "lz4-1.8.3-3.el8_4.src.rpm",
-      "filename": "lz4-devel-1.8.3-3.el8_4.aarch64.rpm"
-    },
-    {
-      "name": "lz4-libs",
-      "epoch": "0",
-      "version": "1.8.3",
-      "release": "3.el8_4",
-      "arch": "aarch64",
-      "src": "lz4-1.8.3-3.el8_4.src.rpm",
-      "filename": "lz4-libs-1.8.3-3.el8_4.aarch64.rpm"
-    },
-    {
-      "name": "lz4-libs",
-      "epoch": "0",
-      "version": "1.8.3",
-      "release": "3.el8_4",
-      "arch": "aarch64",
-      "src": "lz4-1.8.3-3.el8_4.src.rpm",
-      "filename": "lz4-libs-1.8.3-3.el8_4.aarch64.rpm"
-    },
-    {
-      "name": "lz4-libs",
-      "epoch": "0",
-      "version": "1.8.3",
-      "release": "3.el8_4",
-      "arch": "aarch64",
-      "src": "lz4-1.8.3-3.el8_4.src.rpm",
-      "filename": "lz4-libs-1.8.3-3.el8_4.aarch64.rpm"
     },
     {
       "name": "lz4-libs",
@@ -136,6 +55,18 @@
       "id": "RLSA-2021:2575",
       "title": "RLSA-2021:2575",
       "type": "self"
+    },
+    {
+      "href": "https://access.redhat.com/errata/RHSA-2021:2575",
+      "id": "RHSA-2021:2575",
+      "title": "Red Hat RHSA-2021:2575",
+      "type": "vendor"
+    },
+    {
+      "href": "https://creativecommons.org/licenses/by/4.0/",
+      "id": "CC-BY-4.0",
+      "title": "License: CC-BY-4.0",
+      "type": "other"
     }
   ],
   "cveids": [

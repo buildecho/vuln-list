@@ -20,24 +20,6 @@
       "filename": "webkit2gtk3-2.36.7-1.el8_6.aarch64.rpm"
     },
     {
-      "name": "webkit2gtk3",
-      "epoch": "0",
-      "version": "2.36.7",
-      "release": "1.el8_6",
-      "arch": "aarch64",
-      "src": "webkit2gtk3-2.36.7-1.el8_6.src.rpm",
-      "filename": "webkit2gtk3-2.36.7-1.el8_6.aarch64.rpm"
-    },
-    {
-      "name": "webkit2gtk3-devel",
-      "epoch": "0",
-      "version": "2.36.7",
-      "release": "1.el8_6",
-      "arch": "aarch64",
-      "src": "webkit2gtk3-2.36.7-1.el8_6.src.rpm",
-      "filename": "webkit2gtk3-devel-2.36.7-1.el8_6.aarch64.rpm"
-    },
-    {
       "name": "webkit2gtk3-devel",
       "epoch": "0",
       "version": "2.36.7",
@@ -54,24 +36,6 @@
       "arch": "aarch64",
       "src": "webkit2gtk3-2.36.7-1.el8_6.src.rpm",
       "filename": "webkit2gtk3-jsc-2.36.7-1.el8_6.aarch64.rpm"
-    },
-    {
-      "name": "webkit2gtk3-jsc",
-      "epoch": "0",
-      "version": "2.36.7",
-      "release": "1.el8_6",
-      "arch": "aarch64",
-      "src": "webkit2gtk3-2.36.7-1.el8_6.src.rpm",
-      "filename": "webkit2gtk3-jsc-2.36.7-1.el8_6.aarch64.rpm"
-    },
-    {
-      "name": "webkit2gtk3-jsc-devel",
-      "epoch": "0",
-      "version": "2.36.7",
-      "release": "1.el8_6",
-      "arch": "aarch64",
-      "src": "webkit2gtk3-2.36.7-1.el8_6.src.rpm",
-      "filename": "webkit2gtk3-jsc-devel-2.36.7-1.el8_6.aarch64.rpm"
     },
     {
       "name": "webkit2gtk3-jsc-devel",
@@ -220,6 +184,18 @@
       "id": "RLSA-2022:7704",
       "title": "RLSA-2022:7704",
       "type": "self"
+    },
+    {
+      "href": "https://access.redhat.com/errata/RHSA-2022:7704",
+      "id": "RHSA-2022:7704",
+      "title": "Red Hat RHSA-2022:7704",
+      "type": "vendor"
+    },
+    {
+      "href": "https://creativecommons.org/licenses/by/4.0/",
+      "id": "CC-BY-4.0",
+      "title": "License: CC-BY-4.0",
+      "type": "other"
     }
   ],
   "cveids": [

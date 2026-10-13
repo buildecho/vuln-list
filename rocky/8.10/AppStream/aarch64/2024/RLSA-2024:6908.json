@@ -47,24 +47,6 @@
       "filename": "golang-docs-1.21.13-2.module+el8.10.0+1868+7f5969f2.noarch.rpm"
     },
     {
-      "name": "golang-docs",
-      "epoch": "0",
-      "version": "1.21.13",
-      "release": "2.module+el8.10.0+1868+7f5969f2",
-      "arch": "noarch",
-      "src": "golang-1.21.13-2.module+el8.10.0+1868+7f5969f2.src.rpm",
-      "filename": "golang-docs-1.21.13-2.module+el8.10.0+1868+7f5969f2.noarch.rpm"
-    },
-    {
-      "name": "golang-misc",
-      "epoch": "0",
-      "version": "1.21.13",
-      "release": "2.module+el8.10.0+1868+7f5969f2",
-      "arch": "noarch",
-      "src": "golang-1.21.13-2.module+el8.10.0+1868+7f5969f2.src.rpm",
-      "filename": "golang-misc-1.21.13-2.module+el8.10.0+1868+7f5969f2.noarch.rpm"
-    },
-    {
       "name": "golang-misc",
       "epoch": "0",
       "version": "1.21.13",
@@ -81,24 +63,6 @@
       "arch": "noarch",
       "src": "golang-1.21.13-2.module+el8.10.0+1868+7f5969f2.src.rpm",
       "filename": "golang-src-1.21.13-2.module+el8.10.0+1868+7f5969f2.noarch.rpm"
-    },
-    {
-      "name": "golang-src",
-      "epoch": "0",
-      "version": "1.21.13",
-      "release": "2.module+el8.10.0+1868+7f5969f2",
-      "arch": "noarch",
-      "src": "golang-1.21.13-2.module+el8.10.0+1868+7f5969f2.src.rpm",
-      "filename": "golang-src-1.21.13-2.module+el8.10.0+1868+7f5969f2.noarch.rpm"
-    },
-    {
-      "name": "golang-tests",
-      "epoch": "0",
-      "version": "1.21.13",
-      "release": "2.module+el8.10.0+1868+7f5969f2",
-      "arch": "noarch",
-      "src": "golang-1.21.13-2.module+el8.10.0+1868+7f5969f2.src.rpm",
-      "filename": "golang-tests-1.21.13-2.module+el8.10.0+1868+7f5969f2.noarch.rpm"
     },
     {
       "name": "golang-tests",
@@ -169,6 +133,18 @@
       "id": "RLSA-2024:6908",
       "title": "RLSA-2024:6908",
       "type": "self"
+    },
+    {
+      "href": "https://access.redhat.com/errata/RHSA-2024:6908",
+      "id": "RHSA-2024:6908",
+      "title": "Red Hat RHSA-2024:6908",
+      "type": "vendor"
+    },
+    {
+      "href": "https://creativecommons.org/licenses/by/4.0/",
+      "id": "CC-BY-4.0",
+      "title": "License: CC-BY-4.0",
+      "type": "other"
     }
   ],
   "cveids": [

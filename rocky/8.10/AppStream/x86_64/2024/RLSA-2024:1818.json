@@ -65,24 +65,6 @@
       "filename": "java-1.8.0-openjdk-javadoc-1.8.0.412.b08-2.el8.noarch.rpm"
     },
     {
-      "name": "java-1.8.0-openjdk-javadoc",
-      "epoch": "1",
-      "version": "1.8.0.412.b08",
-      "release": "2.el8",
-      "arch": "noarch",
-      "src": "java-1.8.0-openjdk-1.8.0.412.b08-2.el8.src.rpm",
-      "filename": "java-1.8.0-openjdk-javadoc-1.8.0.412.b08-2.el8.noarch.rpm"
-    },
-    {
-      "name": "java-1.8.0-openjdk-javadoc-zip",
-      "epoch": "1",
-      "version": "1.8.0.412.b08",
-      "release": "2.el8",
-      "arch": "noarch",
-      "src": "java-1.8.0-openjdk-1.8.0.412.b08-2.el8.src.rpm",
-      "filename": "java-1.8.0-openjdk-javadoc-zip-1.8.0.412.b08-2.el8.noarch.rpm"
-    },
-    {
       "name": "java-1.8.0-openjdk-javadoc-zip",
       "epoch": "1",
       "version": "1.8.0.412.b08",
@@ -144,60 +126,6 @@
       "arch": "noarch",
       "src": "java-1.8.0-openjdk-1.8.0.412.b08-2.el8.src.rpm",
       "filename": "java-1.8.0-openjdk-javadoc-1.8.0.412.b08-2.el9.noarch.rpm"
-    },
-    {
-      "name": "java-1.8.0-openjdk-javadoc",
-      "epoch": "1",
-      "version": "1.8.0.412.b08",
-      "release": "2.el9",
-      "arch": "noarch",
-      "src": "java-1.8.0-openjdk-1.8.0.412.b08-2.el8.src.rpm",
-      "filename": "java-1.8.0-openjdk-javadoc-1.8.0.412.b08-2.el9.noarch.rpm"
-    },
-    {
-      "name": "java-1.8.0-openjdk-javadoc",
-      "epoch": "1",
-      "version": "1.8.0.412.b08",
-      "release": "2.el9",
-      "arch": "noarch",
-      "src": "java-1.8.0-openjdk-1.8.0.412.b08-2.el8.src.rpm",
-      "filename": "java-1.8.0-openjdk-javadoc-1.8.0.412.b08-2.el9.noarch.rpm"
-    },
-    {
-      "name": "java-1.8.0-openjdk-javadoc",
-      "epoch": "1",
-      "version": "1.8.0.412.b08",
-      "release": "2.el9",
-      "arch": "noarch",
-      "src": "java-1.8.0-openjdk-1.8.0.412.b08-2.el8.src.rpm",
-      "filename": "java-1.8.0-openjdk-javadoc-1.8.0.412.b08-2.el9.noarch.rpm"
-    },
-    {
-      "name": "java-1.8.0-openjdk-javadoc-zip",
-      "epoch": "1",
-      "version": "1.8.0.412.b08",
-      "release": "2.el9",
-      "arch": "noarch",
-      "src": "java-1.8.0-openjdk-1.8.0.412.b08-2.el8.src.rpm",
-      "filename": "java-1.8.0-openjdk-javadoc-zip-1.8.0.412.b08-2.el9.noarch.rpm"
-    },
-    {
-      "name": "java-1.8.0-openjdk-javadoc-zip",
-      "epoch": "1",
-      "version": "1.8.0.412.b08",
-      "release": "2.el9",
-      "arch": "noarch",
-      "src": "java-1.8.0-openjdk-1.8.0.412.b08-2.el8.src.rpm",
-      "filename": "java-1.8.0-openjdk-javadoc-zip-1.8.0.412.b08-2.el9.noarch.rpm"
-    },
-    {
-      "name": "java-1.8.0-openjdk-javadoc-zip",
-      "epoch": "1",
-      "version": "1.8.0.412.b08",
-      "release": "2.el9",
-      "arch": "noarch",
-      "src": "java-1.8.0-openjdk-1.8.0.412.b08-2.el8.src.rpm",
-      "filename": "java-1.8.0-openjdk-javadoc-zip-1.8.0.412.b08-2.el9.noarch.rpm"
     },
     {
       "name": "java-1.8.0-openjdk-javadoc-zip",
@@ -268,6 +196,18 @@
       "id": "RLSA-2024:1818",
       "title": "RLSA-2024:1818",
       "type": "self"
+    },
+    {
+      "href": "https://access.redhat.com/errata/RHSA-2024:1818",
+      "id": "RHSA-2024:1818",
+      "title": "Red Hat RHSA-2024:1818",
+      "type": "vendor"
+    },
+    {
+      "href": "https://creativecommons.org/licenses/by/4.0/",
+      "id": "CC-BY-4.0",
+      "title": "License: CC-BY-4.0",
+      "type": "other"
     }
   ],
   "cveids": [

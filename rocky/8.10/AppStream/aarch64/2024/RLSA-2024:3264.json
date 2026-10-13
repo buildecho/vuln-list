@@ -47,15 +47,6 @@
       "filename": "pcp-doc-5.3.7-20.el8_10.noarch.rpm"
     },
     {
-      "name": "pcp-doc",
-      "epoch": "0",
-      "version": "5.3.7",
-      "release": "20.el8_10",
-      "arch": "noarch",
-      "src": "pcp-5.3.7-20.el8_10.src.rpm",
-      "filename": "pcp-doc-5.3.7-20.el8_10.noarch.rpm"
-    },
-    {
       "name": "pcp-export-pcp2elasticsearch",
       "epoch": "0",
       "version": "5.3.7",
@@ -928,6 +919,18 @@
       "id": "RLSA-2024:3264",
       "title": "RLSA-2024:3264",
       "type": "self"
+    },
+    {
+      "href": "https://access.redhat.com/errata/RHSA-2024:3264",
+      "id": "RHSA-2024:3264",
+      "title": "Red Hat RHSA-2024:3264",
+      "type": "vendor"
+    },
+    {
+      "href": "https://creativecommons.org/licenses/by/4.0/",
+      "id": "CC-BY-4.0",
+      "title": "License: CC-BY-4.0",
+      "type": "other"
     }
   ],
   "cveids": [

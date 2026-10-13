@@ -20,33 +20,6 @@
       "filename": "icu-60.3-2.el8_1.x86_64.rpm"
     },
     {
-      "name": "icu",
-      "epoch": "0",
-      "version": "60.3",
-      "release": "2.el8_1",
-      "arch": "x86_64",
-      "src": "icu-60.3-2.el8_1.src.rpm",
-      "filename": "icu-60.3-2.el8_1.x86_64.rpm"
-    },
-    {
-      "name": "icu",
-      "epoch": "0",
-      "version": "60.3",
-      "release": "2.el8_1",
-      "arch": "x86_64",
-      "src": "icu-60.3-2.el8_1.src.rpm",
-      "filename": "icu-60.3-2.el8_1.x86_64.rpm"
-    },
-    {
-      "name": "icu",
-      "epoch": "0",
-      "version": "60.3",
-      "release": "2.el8_1",
-      "arch": "x86_64",
-      "src": "icu-60.3-2.el8_1.src.rpm",
-      "filename": "icu-60.3-2.el8_1.x86_64.rpm"
-    },
-    {
       "name": "libicu",
       "epoch": "0",
       "version": "60.3",
@@ -54,60 +27,6 @@
       "arch": "i686",
       "src": "icu-60.3-2.el8_1.src.rpm",
       "filename": "libicu-60.3-2.el8_1.i686.rpm"
-    },
-    {
-      "name": "libicu",
-      "epoch": "0",
-      "version": "60.3",
-      "release": "2.el8_1",
-      "arch": "i686",
-      "src": "icu-60.3-2.el8_1.src.rpm",
-      "filename": "libicu-60.3-2.el8_1.i686.rpm"
-    },
-    {
-      "name": "libicu",
-      "epoch": "0",
-      "version": "60.3",
-      "release": "2.el8_1",
-      "arch": "i686",
-      "src": "icu-60.3-2.el8_1.src.rpm",
-      "filename": "libicu-60.3-2.el8_1.i686.rpm"
-    },
-    {
-      "name": "libicu",
-      "epoch": "0",
-      "version": "60.3",
-      "release": "2.el8_1",
-      "arch": "i686",
-      "src": "icu-60.3-2.el8_1.src.rpm",
-      "filename": "libicu-60.3-2.el8_1.i686.rpm"
-    },
-    {
-      "name": "libicu",
-      "epoch": "0",
-      "version": "60.3",
-      "release": "2.el8_1",
-      "arch": "x86_64",
-      "src": "icu-60.3-2.el8_1.src.rpm",
-      "filename": "libicu-60.3-2.el8_1.x86_64.rpm"
-    },
-    {
-      "name": "libicu",
-      "epoch": "0",
-      "version": "60.3",
-      "release": "2.el8_1",
-      "arch": "x86_64",
-      "src": "icu-60.3-2.el8_1.src.rpm",
-      "filename": "libicu-60.3-2.el8_1.x86_64.rpm"
-    },
-    {
-      "name": "libicu",
-      "epoch": "0",
-      "version": "60.3",
-      "release": "2.el8_1",
-      "arch": "x86_64",
-      "src": "icu-60.3-2.el8_1.src.rpm",
-      "filename": "libicu-60.3-2.el8_1.x86_64.rpm"
     },
     {
       "name": "libicu",
@@ -132,126 +51,9 @@
       "epoch": "0",
       "version": "60.3",
       "release": "2.el8_1",
-      "arch": "i686",
-      "src": "icu-60.3-2.el8_1.src.rpm",
-      "filename": "libicu-devel-60.3-2.el8_1.i686.rpm"
-    },
-    {
-      "name": "libicu-devel",
-      "epoch": "0",
-      "version": "60.3",
-      "release": "2.el8_1",
-      "arch": "i686",
-      "src": "icu-60.3-2.el8_1.src.rpm",
-      "filename": "libicu-devel-60.3-2.el8_1.i686.rpm"
-    },
-    {
-      "name": "libicu-devel",
-      "epoch": "0",
-      "version": "60.3",
-      "release": "2.el8_1",
-      "arch": "i686",
-      "src": "icu-60.3-2.el8_1.src.rpm",
-      "filename": "libicu-devel-60.3-2.el8_1.i686.rpm"
-    },
-    {
-      "name": "libicu-devel",
-      "epoch": "0",
-      "version": "60.3",
-      "release": "2.el8_1",
       "arch": "x86_64",
       "src": "icu-60.3-2.el8_1.src.rpm",
       "filename": "libicu-devel-60.3-2.el8_1.x86_64.rpm"
-    },
-    {
-      "name": "libicu-devel",
-      "epoch": "0",
-      "version": "60.3",
-      "release": "2.el8_1",
-      "arch": "x86_64",
-      "src": "icu-60.3-2.el8_1.src.rpm",
-      "filename": "libicu-devel-60.3-2.el8_1.x86_64.rpm"
-    },
-    {
-      "name": "libicu-devel",
-      "epoch": "0",
-      "version": "60.3",
-      "release": "2.el8_1",
-      "arch": "x86_64",
-      "src": "icu-60.3-2.el8_1.src.rpm",
-      "filename": "libicu-devel-60.3-2.el8_1.x86_64.rpm"
-    },
-    {
-      "name": "libicu-devel",
-      "epoch": "0",
-      "version": "60.3",
-      "release": "2.el8_1",
-      "arch": "x86_64",
-      "src": "icu-60.3-2.el8_1.src.rpm",
-      "filename": "libicu-devel-60.3-2.el8_1.x86_64.rpm"
-    },
-    {
-      "name": "libicu-doc",
-      "epoch": "0",
-      "version": "60.3",
-      "release": "2.el8_1",
-      "arch": "noarch",
-      "src": "icu-60.3-2.el8_1.src.rpm",
-      "filename": "libicu-doc-60.3-2.el8_1.noarch.rpm"
-    },
-    {
-      "name": "libicu-doc",
-      "epoch": "0",
-      "version": "60.3",
-      "release": "2.el8_1",
-      "arch": "noarch",
-      "src": "icu-60.3-2.el8_1.src.rpm",
-      "filename": "libicu-doc-60.3-2.el8_1.noarch.rpm"
-    },
-    {
-      "name": "libicu-doc",
-      "epoch": "0",
-      "version": "60.3",
-      "release": "2.el8_1",
-      "arch": "noarch",
-      "src": "icu-60.3-2.el8_1.src.rpm",
-      "filename": "libicu-doc-60.3-2.el8_1.noarch.rpm"
-    },
-    {
-      "name": "libicu-doc",
-      "epoch": "0",
-      "version": "60.3",
-      "release": "2.el8_1",
-      "arch": "noarch",
-      "src": "icu-60.3-2.el8_1.src.rpm",
-      "filename": "libicu-doc-60.3-2.el8_1.noarch.rpm"
-    },
-    {
-      "name": "libicu-doc",
-      "epoch": "0",
-      "version": "60.3",
-      "release": "2.el8_1",
-      "arch": "noarch",
-      "src": "icu-60.3-2.el8_1.src.rpm",
-      "filename": "libicu-doc-60.3-2.el8_1.noarch.rpm"
-    },
-    {
-      "name": "libicu-doc",
-      "epoch": "0",
-      "version": "60.3",
-      "release": "2.el8_1",
-      "arch": "noarch",
-      "src": "icu-60.3-2.el8_1.src.rpm",
-      "filename": "libicu-doc-60.3-2.el8_1.noarch.rpm"
-    },
-    {
-      "name": "libicu-doc",
-      "epoch": "0",
-      "version": "60.3",
-      "release": "2.el8_1",
-      "arch": "noarch",
-      "src": "icu-60.3-2.el8_1.src.rpm",
-      "filename": "libicu-doc-60.3-2.el8_1.noarch.rpm"
     },
     {
       "name": "libicu-doc",
@@ -280,6 +82,18 @@
       "id": "RLSA-2020:0902",
       "title": "RLSA-2020:0902",
       "type": "self"
+    },
+    {
+      "href": "https://access.redhat.com/errata/RHSA-2020:0902",
+      "id": "RHSA-2020:0902",
+      "title": "Red Hat RHSA-2020:0902",
+      "type": "vendor"
+    },
+    {
+      "href": "https://creativecommons.org/licenses/by/4.0/",
+      "id": "CC-BY-4.0",
+      "title": "License: CC-BY-4.0",
+      "type": "other"
     }
   ],
   "cveids": [

@@ -56,15 +56,6 @@
       "filename": "glibc-doc-2.28-251.el8_10.2.noarch.rpm"
     },
     {
-      "name": "glibc-doc",
-      "epoch": "0",
-      "version": "2.28",
-      "release": "251.el8_10.2",
-      "arch": "noarch",
-      "src": "glibc-2.28-251.el8_10.2.src.rpm",
-      "filename": "glibc-doc-2.28-251.el8_10.2.noarch.rpm"
-    },
-    {
       "name": "glibc-gconv-extra",
       "epoch": "0",
       "version": "2.28",
@@ -1942,6 +1933,18 @@
       "id": "RLSA-2024:3344",
       "title": "RLSA-2024:3344",
       "type": "self"
+    },
+    {
+      "href": "https://access.redhat.com/errata/RHSA-2024:3344",
+      "id": "RHSA-2024:3344",
+      "title": "Red Hat RHSA-2024:3344",
+      "type": "vendor"
+    },
+    {
+      "href": "https://creativecommons.org/licenses/by/4.0/",
+      "id": "CC-BY-4.0",
+      "title": "License: CC-BY-4.0",
+      "type": "other"
     }
   ],
   "cveids": [

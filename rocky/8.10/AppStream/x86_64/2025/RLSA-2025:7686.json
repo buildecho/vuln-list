@@ -36,15 +36,6 @@
       "arch": "noarch",
       "src": "redis-6.2.18-1.module+el8.10.0+1980+8f0924a4.src.rpm",
       "filename": "redis-doc-6.2.18-1.module+el8.10.0+1980+8f0924a4.noarch.rpm"
-    },
-    {
-      "name": "redis-doc",
-      "epoch": "0",
-      "version": "6.2.18",
-      "release": "1.module+el8.10.0+1980+8f0924a4",
-      "arch": "noarch",
-      "src": "redis-6.2.18-1.module+el8.10.0+1980+8f0924a4.src.rpm",
-      "filename": "redis-doc-6.2.18-1.module+el8.10.0+1980+8f0924a4.noarch.rpm"
     }
   ],
   "references": [
@@ -64,6 +55,18 @@
       "id": "RLSA-2025:7686",
       "title": "RLSA-2025:7686",
       "type": "self"
+    },
+    {
+      "href": "https://access.redhat.com/errata/RHSA-2025:7686",
+      "id": "RHSA-2025:7686",
+      "title": "Red Hat RHSA-2025:7686",
+      "type": "vendor"
+    },
+    {
+      "href": "https://creativecommons.org/licenses/by/4.0/",
+      "id": "CC-BY-4.0",
+      "title": "License: CC-BY-4.0",
+      "type": "other"
     }
   ],
   "cveids": [

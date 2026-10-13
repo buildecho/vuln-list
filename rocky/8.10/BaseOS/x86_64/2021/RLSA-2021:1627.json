@@ -20,33 +20,6 @@
       "filename": "trousers-0.3.15-1.el8.x86_64.rpm"
     },
     {
-      "name": "trousers",
-      "epoch": "0",
-      "version": "0.3.15",
-      "release": "1.el8",
-      "arch": "x86_64",
-      "src": "trousers-0.3.15-1.el8.src.rpm",
-      "filename": "trousers-0.3.15-1.el8.x86_64.rpm"
-    },
-    {
-      "name": "trousers",
-      "epoch": "0",
-      "version": "0.3.15",
-      "release": "1.el8",
-      "arch": "x86_64",
-      "src": "trousers-0.3.15-1.el8.src.rpm",
-      "filename": "trousers-0.3.15-1.el8.x86_64.rpm"
-    },
-    {
-      "name": "trousers",
-      "epoch": "0",
-      "version": "0.3.15",
-      "release": "1.el8",
-      "arch": "x86_64",
-      "src": "trousers-0.3.15-1.el8.src.rpm",
-      "filename": "trousers-0.3.15-1.el8.x86_64.rpm"
-    },
-    {
       "name": "trousers-lib",
       "epoch": "0",
       "version": "0.3.15",
@@ -54,60 +27,6 @@
       "arch": "i686",
       "src": "trousers-0.3.15-1.el8.src.rpm",
       "filename": "trousers-lib-0.3.15-1.el8.i686.rpm"
-    },
-    {
-      "name": "trousers-lib",
-      "epoch": "0",
-      "version": "0.3.15",
-      "release": "1.el8",
-      "arch": "i686",
-      "src": "trousers-0.3.15-1.el8.src.rpm",
-      "filename": "trousers-lib-0.3.15-1.el8.i686.rpm"
-    },
-    {
-      "name": "trousers-lib",
-      "epoch": "0",
-      "version": "0.3.15",
-      "release": "1.el8",
-      "arch": "i686",
-      "src": "trousers-0.3.15-1.el8.src.rpm",
-      "filename": "trousers-lib-0.3.15-1.el8.i686.rpm"
-    },
-    {
-      "name": "trousers-lib",
-      "epoch": "0",
-      "version": "0.3.15",
-      "release": "1.el8",
-      "arch": "i686",
-      "src": "trousers-0.3.15-1.el8.src.rpm",
-      "filename": "trousers-lib-0.3.15-1.el8.i686.rpm"
-    },
-    {
-      "name": "trousers-lib",
-      "epoch": "0",
-      "version": "0.3.15",
-      "release": "1.el8",
-      "arch": "x86_64",
-      "src": "trousers-0.3.15-1.el8.src.rpm",
-      "filename": "trousers-lib-0.3.15-1.el8.x86_64.rpm"
-    },
-    {
-      "name": "trousers-lib",
-      "epoch": "0",
-      "version": "0.3.15",
-      "release": "1.el8",
-      "arch": "x86_64",
-      "src": "trousers-0.3.15-1.el8.src.rpm",
-      "filename": "trousers-lib-0.3.15-1.el8.x86_64.rpm"
-    },
-    {
-      "name": "trousers-lib",
-      "epoch": "0",
-      "version": "0.3.15",
-      "release": "1.el8",
-      "arch": "x86_64",
-      "src": "trousers-0.3.15-1.el8.src.rpm",
-      "filename": "trousers-lib-0.3.15-1.el8.x86_64.rpm"
     },
     {
       "name": "trousers-lib",
@@ -158,6 +77,18 @@
       "id": "RLSA-2021:1627",
       "title": "RLSA-2021:1627",
       "type": "self"
+    },
+    {
+      "href": "https://access.redhat.com/errata/RHSA-2021:1627",
+      "id": "RHSA-2021:1627",
+      "title": "Red Hat RHSA-2021:1627",
+      "type": "vendor"
+    },
+    {
+      "href": "https://creativecommons.org/licenses/by/4.0/",
+      "id": "CC-BY-4.0",
+      "title": "License: CC-BY-4.0",
+      "type": "other"
     }
   ],
   "cveids": [

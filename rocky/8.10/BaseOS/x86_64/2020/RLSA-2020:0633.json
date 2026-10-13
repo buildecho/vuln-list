@@ -18,33 +18,6 @@
       "arch": "x86_64",
       "src": "ppp-2.4.7-26.el8_1.src.rpm",
       "filename": "ppp-2.4.7-26.el8_1.x86_64.rpm"
-    },
-    {
-      "name": "ppp",
-      "epoch": "0",
-      "version": "2.4.7",
-      "release": "26.el8_1",
-      "arch": "x86_64",
-      "src": "ppp-2.4.7-26.el8_1.src.rpm",
-      "filename": "ppp-2.4.7-26.el8_1.x86_64.rpm"
-    },
-    {
-      "name": "ppp",
-      "epoch": "0",
-      "version": "2.4.7",
-      "release": "26.el8_1",
-      "arch": "x86_64",
-      "src": "ppp-2.4.7-26.el8_1.src.rpm",
-      "filename": "ppp-2.4.7-26.el8_1.x86_64.rpm"
-    },
-    {
-      "name": "ppp",
-      "epoch": "0",
-      "version": "2.4.7",
-      "release": "26.el8_1",
-      "arch": "x86_64",
-      "src": "ppp-2.4.7-26.el8_1.src.rpm",
-      "filename": "ppp-2.4.7-26.el8_1.x86_64.rpm"
     }
   ],
   "references": [
@@ -64,6 +37,18 @@
       "id": "RLSA-2020:0633",
       "title": "RLSA-2020:0633",
       "type": "self"
+    },
+    {
+      "href": "https://access.redhat.com/errata/RHSA-2020:0633",
+      "id": "RHSA-2020:0633",
+      "title": "Red Hat RHSA-2020:0633",
+      "type": "vendor"
+    },
+    {
+      "href": "https://creativecommons.org/licenses/by/4.0/",
+      "id": "CC-BY-4.0",
+      "title": "License: CC-BY-4.0",
+      "type": "other"
     }
   ],
   "cveids": [

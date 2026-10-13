@@ -29,15 +29,6 @@
       "filename": "dbus-common-1.12.8-24.el8_8.1.noarch.rpm"
     },
     {
-      "name": "dbus-common",
-      "epoch": "1",
-      "version": "1.12.8",
-      "release": "24.el8_8.1",
-      "arch": "noarch",
-      "src": "dbus-1.12.8-24.el8_8.1.src.rpm",
-      "filename": "dbus-common-1.12.8-24.el8_8.1.noarch.rpm"
-    },
-    {
       "name": "dbus-daemon",
       "epoch": "1",
       "version": "1.12.8",
@@ -82,6 +73,18 @@
       "id": "RLSA-2023:4498",
       "title": "RLSA-2023:4498",
       "type": "self"
+    },
+    {
+      "href": "https://access.redhat.com/errata/RHSA-2023:4498",
+      "id": "RHSA-2023:4498",
+      "title": "Red Hat RHSA-2023:4498",
+      "type": "vendor"
+    },
+    {
+      "href": "https://creativecommons.org/licenses/by/4.0/",
+      "id": "CC-BY-4.0",
+      "title": "License: CC-BY-4.0",
+      "type": "other"
     }
   ],
   "cveids": [

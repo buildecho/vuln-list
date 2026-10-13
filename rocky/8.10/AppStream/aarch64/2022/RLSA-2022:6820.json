@@ -23,37 +23,10 @@
       "name": "prometheus-jmx-exporter",
       "epoch": "0",
       "version": "0.12.0",
-      "release": "8.el8",
-      "arch": "noarch",
-      "src": "prometheus-jmx-exporter-0.12.0-8.el8.src.rpm",
-      "filename": "prometheus-jmx-exporter-0.12.0-8.el8.noarch.rpm"
-    },
-    {
-      "name": "prometheus-jmx-exporter",
-      "epoch": "0",
-      "version": "0.12.0",
       "release": "8.el8_6",
       "arch": "noarch",
       "src": "prometheus-jmx-exporter-0.12.0-8.el8.src.rpm",
       "filename": "prometheus-jmx-exporter-0.12.0-8.el8_6.noarch.rpm"
-    },
-    {
-      "name": "prometheus-jmx-exporter",
-      "epoch": "0",
-      "version": "0.12.0",
-      "release": "8.el8_6",
-      "arch": "noarch",
-      "src": "prometheus-jmx-exporter-0.12.0-8.el8.src.rpm",
-      "filename": "prometheus-jmx-exporter-0.12.0-8.el8_6.noarch.rpm"
-    },
-    {
-      "name": "prometheus-jmx-exporter-openjdk11",
-      "epoch": "0",
-      "version": "0.12.0",
-      "release": "8.el8",
-      "arch": "noarch",
-      "src": "prometheus-jmx-exporter-0.12.0-8.el8.src.rpm",
-      "filename": "prometheus-jmx-exporter-openjdk11-0.12.0-8.el8.noarch.rpm"
     },
     {
       "name": "prometheus-jmx-exporter-openjdk11",
@@ -74,15 +47,6 @@
       "filename": "prometheus-jmx-exporter-openjdk11-0.12.0-8.el8_6.noarch.rpm"
     },
     {
-      "name": "prometheus-jmx-exporter-openjdk11",
-      "epoch": "0",
-      "version": "0.12.0",
-      "release": "8.el8_6",
-      "arch": "noarch",
-      "src": "prometheus-jmx-exporter-0.12.0-8.el8.src.rpm",
-      "filename": "prometheus-jmx-exporter-openjdk11-0.12.0-8.el8_6.noarch.rpm"
-    },
-    {
       "name": "prometheus-jmx-exporter-openjdk17",
       "epoch": "0",
       "version": "0.12.0",
@@ -90,24 +54,6 @@
       "arch": "noarch",
       "src": "prometheus-jmx-exporter-0.12.0-8.el8.src.rpm",
       "filename": "prometheus-jmx-exporter-openjdk17-0.12.0-8.el8.noarch.rpm"
-    },
-    {
-      "name": "prometheus-jmx-exporter-openjdk17",
-      "epoch": "0",
-      "version": "0.12.0",
-      "release": "8.el8",
-      "arch": "noarch",
-      "src": "prometheus-jmx-exporter-0.12.0-8.el8.src.rpm",
-      "filename": "prometheus-jmx-exporter-openjdk17-0.12.0-8.el8.noarch.rpm"
-    },
-    {
-      "name": "prometheus-jmx-exporter-openjdk8",
-      "epoch": "0",
-      "version": "0.12.0",
-      "release": "8.el8",
-      "arch": "noarch",
-      "src": "prometheus-jmx-exporter-0.12.0-8.el8.src.rpm",
-      "filename": "prometheus-jmx-exporter-openjdk8-0.12.0-8.el8.noarch.rpm"
     },
     {
       "name": "prometheus-jmx-exporter-openjdk8",
@@ -136,6 +82,18 @@
       "id": "RLSA-2022:6820",
       "title": "RLSA-2022:6820",
       "type": "self"
+    },
+    {
+      "href": "https://access.redhat.com/errata/RHSA-2022:6820",
+      "id": "RHSA-2022:6820",
+      "title": "Red Hat RHSA-2022:6820",
+      "type": "vendor"
+    },
+    {
+      "href": "https://creativecommons.org/licenses/by/4.0/",
+      "id": "CC-BY-4.0",
+      "title": "License: CC-BY-4.0",
+      "type": "other"
     }
   ],
   "cveids": [

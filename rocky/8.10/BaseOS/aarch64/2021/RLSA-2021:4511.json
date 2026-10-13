@@ -20,24 +20,6 @@
       "filename": "curl-7.61.1-22.el8.aarch64.rpm"
     },
     {
-      "name": "curl",
-      "epoch": "0",
-      "version": "7.61.1",
-      "release": "22.el8",
-      "arch": "aarch64",
-      "src": "curl-7.61.1-22.el8.src.rpm",
-      "filename": "curl-7.61.1-22.el8.aarch64.rpm"
-    },
-    {
-      "name": "libcurl",
-      "epoch": "0",
-      "version": "7.61.1",
-      "release": "22.el8",
-      "arch": "aarch64",
-      "src": "curl-7.61.1-22.el8.src.rpm",
-      "filename": "libcurl-7.61.1-22.el8.aarch64.rpm"
-    },
-    {
       "name": "libcurl",
       "epoch": "0",
       "version": "7.61.1",
@@ -54,24 +36,6 @@
       "arch": "aarch64",
       "src": "curl-7.61.1-22.el8.src.rpm",
       "filename": "libcurl-devel-7.61.1-22.el8.aarch64.rpm"
-    },
-    {
-      "name": "libcurl-devel",
-      "epoch": "0",
-      "version": "7.61.1",
-      "release": "22.el8",
-      "arch": "aarch64",
-      "src": "curl-7.61.1-22.el8.src.rpm",
-      "filename": "libcurl-devel-7.61.1-22.el8.aarch64.rpm"
-    },
-    {
-      "name": "libcurl-minimal",
-      "epoch": "0",
-      "version": "7.61.1",
-      "release": "22.el8",
-      "arch": "aarch64",
-      "src": "curl-7.61.1-22.el8.src.rpm",
-      "filename": "libcurl-minimal-7.61.1-22.el8.aarch64.rpm"
     },
     {
       "name": "libcurl-minimal",
@@ -127,6 +91,18 @@
       "id": "RLSA-2021:4511",
       "title": "RLSA-2021:4511",
       "type": "self"
+    },
+    {
+      "href": "https://access.redhat.com/errata/RHSA-2021:4511",
+      "id": "RHSA-2021:4511",
+      "title": "Red Hat RHSA-2021:4511",
+      "type": "vendor"
+    },
+    {
+      "href": "https://creativecommons.org/licenses/by/4.0/",
+      "id": "CC-BY-4.0",
+      "title": "License: CC-BY-4.0",
+      "type": "other"
     }
   ],
   "cveids": [

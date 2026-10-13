@@ -155,15 +155,6 @@
       "filename": "postgresql-test-rpm-macros-15.10-1.module+el8.10.0+1899+05bbdd2c.noarch.rpm"
     },
     {
-      "name": "postgresql-test-rpm-macros",
-      "epoch": "0",
-      "version": "15.10",
-      "release": "1.module+el8.10.0+1899+05bbdd2c",
-      "arch": "noarch",
-      "src": "postgresql-15.10-1.module+el8.10.0+1899+05bbdd2c.src.rpm",
-      "filename": "postgresql-test-rpm-macros-15.10-1.module+el8.10.0+1899+05bbdd2c.noarch.rpm"
-    },
-    {
       "name": "postgresql-upgrade",
       "epoch": "0",
       "version": "15.10",
@@ -221,6 +212,18 @@
       "id": "RLSA-2024:10830",
       "title": "RLSA-2024:10830",
       "type": "self"
+    },
+    {
+      "href": "https://access.redhat.com/errata/RHSA-2024:10830",
+      "id": "RHSA-2024:10830",
+      "title": "Red Hat RHSA-2024:10830",
+      "type": "vendor"
+    },
+    {
+      "href": "https://creativecommons.org/licenses/by/4.0/",
+      "id": "CC-BY-4.0",
+      "title": "License: CC-BY-4.0",
+      "type": "other"
     }
   ],
   "cveids": [

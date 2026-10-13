@@ -18,24 +18,6 @@
       "arch": "x86_64",
       "src": "file-roller-3.28.1-4.el8.src.rpm",
       "filename": "file-roller-3.28.1-4.el8.x86_64.rpm"
-    },
-    {
-      "name": "file-roller",
-      "epoch": "0",
-      "version": "3.28.1",
-      "release": "4.el8",
-      "arch": "x86_64",
-      "src": "file-roller-3.28.1-4.el8.src.rpm",
-      "filename": "file-roller-3.28.1-4.el8.x86_64.rpm"
-    },
-    {
-      "name": "file-roller",
-      "epoch": "0",
-      "version": "3.28.1",
-      "release": "4.el8",
-      "arch": "x86_64",
-      "src": "file-roller-3.28.1-4.el8.src.rpm",
-      "filename": "file-roller-3.28.1-4.el8.x86_64.rpm"
     }
   ],
   "references": [
@@ -55,6 +37,18 @@
       "id": "RLSA-2021:4179",
       "title": "RLSA-2021:4179",
       "type": "self"
+    },
+    {
+      "href": "https://access.redhat.com/errata/RHSA-2021:4179",
+      "id": "RHSA-2021:4179",
+      "title": "Red Hat RHSA-2021:4179",
+      "type": "vendor"
+    },
+    {
+      "href": "https://creativecommons.org/licenses/by/4.0/",
+      "id": "CC-BY-4.0",
+      "title": "License: CC-BY-4.0",
+      "type": "other"
     }
   ],
   "cveids": [

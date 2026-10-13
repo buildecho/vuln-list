@@ -18,15 +18,6 @@
       "arch": "noarch",
       "src": "python-dns-1.15.0-12.el8_10.src.rpm",
       "filename": "python3-dns-1.15.0-12.el8_10.noarch.rpm"
-    },
-    {
-      "name": "python3-dns",
-      "epoch": "0",
-      "version": "1.15.0",
-      "release": "12.el8_10",
-      "arch": "noarch",
-      "src": "python-dns-1.15.0-12.el8_10.src.rpm",
-      "filename": "python3-dns-1.15.0-12.el8_10.noarch.rpm"
     }
   ],
   "references": [
@@ -46,6 +37,18 @@
       "id": "RLSA-2024:3275",
       "title": "RLSA-2024:3275",
       "type": "self"
+    },
+    {
+      "href": "https://access.redhat.com/errata/RHSA-2024:3275",
+      "id": "RHSA-2024:3275",
+      "title": "Red Hat RHSA-2024:3275",
+      "type": "vendor"
+    },
+    {
+      "href": "https://creativecommons.org/licenses/by/4.0/",
+      "id": "CC-BY-4.0",
+      "title": "License: CC-BY-4.0",
+      "type": "other"
     }
   ],
   "cveids": [

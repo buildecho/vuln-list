@@ -27,15 +27,6 @@
       "arch": "noarch",
       "src": "procps-ng-3.3.15-14.el8.src.rpm",
       "filename": "procps-ng-i18n-3.3.15-14.el8.noarch.rpm"
-    },
-    {
-      "name": "procps-ng-i18n",
-      "epoch": "0",
-      "version": "3.3.15",
-      "release": "14.el8",
-      "arch": "noarch",
-      "src": "procps-ng-3.3.15-14.el8.src.rpm",
-      "filename": "procps-ng-i18n-3.3.15-14.el8.noarch.rpm"
     }
   ],
   "references": [
@@ -55,6 +46,18 @@
       "id": "RLSA-2023:7187",
       "title": "RLSA-2023:7187",
       "type": "self"
+    },
+    {
+      "href": "https://access.redhat.com/errata/RHSA-2023:7187",
+      "id": "RHSA-2023:7187",
+      "title": "Red Hat RHSA-2023:7187",
+      "type": "vendor"
+    },
+    {
+      "href": "https://creativecommons.org/licenses/by/4.0/",
+      "id": "CC-BY-4.0",
+      "title": "License: CC-BY-4.0",
+      "type": "other"
     }
   ],
   "cveids": [

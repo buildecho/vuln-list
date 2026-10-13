@@ -38,15 +38,6 @@
       "filename": "qt5-qtbase-common-5.15.2-4.el8.noarch.rpm"
     },
     {
-      "name": "qt5-qtbase-common",
-      "epoch": "0",
-      "version": "5.15.2",
-      "release": "4.el8",
-      "arch": "noarch",
-      "src": "qt5-qtbase-5.15.2-4.el8.src.rpm",
-      "filename": "qt5-qtbase-common-5.15.2-4.el8.noarch.rpm"
-    },
-    {
       "name": "qt5-qtbase-devel",
       "epoch": "0",
       "version": "5.15.2",
@@ -190,6 +181,18 @@
       "id": "RLSA-2022:1796",
       "title": "RLSA-2022:1796",
       "type": "self"
+    },
+    {
+      "href": "https://access.redhat.com/errata/RHSA-2022:1796",
+      "id": "RHSA-2022:1796",
+      "title": "Red Hat RHSA-2022:1796",
+      "type": "vendor"
+    },
+    {
+      "href": "https://creativecommons.org/licenses/by/4.0/",
+      "id": "CC-BY-4.0",
+      "title": "License: CC-BY-4.0",
+      "type": "other"
     }
   ],
   "cveids": [

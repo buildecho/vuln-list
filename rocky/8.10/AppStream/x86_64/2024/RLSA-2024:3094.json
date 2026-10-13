@@ -18,15 +18,6 @@
       "arch": "noarch",
       "src": "perl-CPAN-2.18-399.el8.src.rpm",
       "filename": "perl-CPAN-2.18-399.el8.noarch.rpm"
-    },
-    {
-      "name": "perl-CPAN",
-      "epoch": "0",
-      "version": "2.18",
-      "release": "399.el8",
-      "arch": "noarch",
-      "src": "perl-CPAN-2.18-399.el8.src.rpm",
-      "filename": "perl-CPAN-2.18-399.el8.noarch.rpm"
     }
   ],
   "references": [
@@ -46,6 +37,18 @@
       "id": "RLSA-2024:3094",
       "title": "RLSA-2024:3094",
       "type": "self"
+    },
+    {
+      "href": "https://access.redhat.com/errata/RHSA-2024:3094",
+      "id": "RHSA-2024:3094",
+      "title": "Red Hat RHSA-2024:3094",
+      "type": "vendor"
+    },
+    {
+      "href": "https://creativecommons.org/licenses/by/4.0/",
+      "id": "CC-BY-4.0",
+      "title": "License: CC-BY-4.0",
+      "type": "other"
     }
   ],
   "cveids": [

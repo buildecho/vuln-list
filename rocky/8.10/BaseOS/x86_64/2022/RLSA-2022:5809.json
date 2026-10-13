@@ -24,24 +24,6 @@
       "epoch": "0",
       "version": "10.32",
       "release": "3.el8_6",
-      "arch": "i686",
-      "src": "pcre2-10.32-3.el8_6.src.rpm",
-      "filename": "pcre2-10.32-3.el8_6.i686.rpm"
-    },
-    {
-      "name": "pcre2",
-      "epoch": "0",
-      "version": "10.32",
-      "release": "3.el8_6",
-      "arch": "x86_64",
-      "src": "pcre2-10.32-3.el8_6.src.rpm",
-      "filename": "pcre2-10.32-3.el8_6.x86_64.rpm"
-    },
-    {
-      "name": "pcre2",
-      "epoch": "0",
-      "version": "10.32",
-      "release": "3.el8_6",
       "arch": "x86_64",
       "src": "pcre2-10.32-3.el8_6.src.rpm",
       "filename": "pcre2-10.32-3.el8_6.x86_64.rpm"
@@ -54,24 +36,6 @@
       "arch": "i686",
       "src": "pcre2-10.32-3.el8_6.src.rpm",
       "filename": "pcre2-devel-10.32-3.el8_6.i686.rpm"
-    },
-    {
-      "name": "pcre2-devel",
-      "epoch": "0",
-      "version": "10.32",
-      "release": "3.el8_6",
-      "arch": "i686",
-      "src": "pcre2-10.32-3.el8_6.src.rpm",
-      "filename": "pcre2-devel-10.32-3.el8_6.i686.rpm"
-    },
-    {
-      "name": "pcre2-devel",
-      "epoch": "0",
-      "version": "10.32",
-      "release": "3.el8_6",
-      "arch": "x86_64",
-      "src": "pcre2-10.32-3.el8_6.src.rpm",
-      "filename": "pcre2-devel-10.32-3.el8_6.x86_64.rpm"
     },
     {
       "name": "pcre2-devel",
@@ -96,24 +60,6 @@
       "epoch": "0",
       "version": "10.32",
       "release": "3.el8_6",
-      "arch": "i686",
-      "src": "pcre2-10.32-3.el8_6.src.rpm",
-      "filename": "pcre2-utf16-10.32-3.el8_6.i686.rpm"
-    },
-    {
-      "name": "pcre2-utf16",
-      "epoch": "0",
-      "version": "10.32",
-      "release": "3.el8_6",
-      "arch": "x86_64",
-      "src": "pcre2-10.32-3.el8_6.src.rpm",
-      "filename": "pcre2-utf16-10.32-3.el8_6.x86_64.rpm"
-    },
-    {
-      "name": "pcre2-utf16",
-      "epoch": "0",
-      "version": "10.32",
-      "release": "3.el8_6",
       "arch": "x86_64",
       "src": "pcre2-10.32-3.el8_6.src.rpm",
       "filename": "pcre2-utf16-10.32-3.el8_6.x86_64.rpm"
@@ -126,24 +72,6 @@
       "arch": "i686",
       "src": "pcre2-10.32-3.el8_6.src.rpm",
       "filename": "pcre2-utf32-10.32-3.el8_6.i686.rpm"
-    },
-    {
-      "name": "pcre2-utf32",
-      "epoch": "0",
-      "version": "10.32",
-      "release": "3.el8_6",
-      "arch": "i686",
-      "src": "pcre2-10.32-3.el8_6.src.rpm",
-      "filename": "pcre2-utf32-10.32-3.el8_6.i686.rpm"
-    },
-    {
-      "name": "pcre2-utf32",
-      "epoch": "0",
-      "version": "10.32",
-      "release": "3.el8_6",
-      "arch": "x86_64",
-      "src": "pcre2-10.32-3.el8_6.src.rpm",
-      "filename": "pcre2-utf32-10.32-3.el8_6.x86_64.rpm"
     },
     {
       "name": "pcre2-utf32",
@@ -172,6 +100,18 @@
       "id": "RLSA-2022:5809",
       "title": "RLSA-2022:5809",
       "type": "self"
+    },
+    {
+      "href": "https://access.redhat.com/errata/RHSA-2022:5809",
+      "id": "RHSA-2022:5809",
+      "title": "Red Hat RHSA-2022:5809",
+      "type": "vendor"
+    },
+    {
+      "href": "https://creativecommons.org/licenses/by/4.0/",
+      "id": "CC-BY-4.0",
+      "title": "License: CC-BY-4.0",
+      "type": "other"
     }
   ],
   "cveids": [

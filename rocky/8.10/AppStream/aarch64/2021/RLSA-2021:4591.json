@@ -29,15 +29,6 @@
       "filename": "gcc-toolset-11-annobin-docs-9.85-1.el8_5.1.noarch.rpm"
     },
     {
-      "name": "gcc-toolset-11-annobin-docs",
-      "epoch": "0",
-      "version": "9.85",
-      "release": "1.el8_5.1",
-      "arch": "noarch",
-      "src": "gcc-toolset-11-annobin-9.85-1.el8_5.1.src.rpm",
-      "filename": "gcc-toolset-11-annobin-docs-9.85-1.el8_5.1.noarch.rpm"
-    },
-    {
       "name": "gcc-toolset-11-annobin-plugin-gcc",
       "epoch": "0",
       "version": "9.85",
@@ -64,6 +55,18 @@
       "id": "RLSA-2021:4591",
       "title": "RLSA-2021:4591",
       "type": "self"
+    },
+    {
+      "href": "https://access.redhat.com/errata/RHSA-2021:4591",
+      "id": "RHSA-2021:4591",
+      "title": "Red Hat RHSA-2021:4591",
+      "type": "vendor"
+    },
+    {
+      "href": "https://creativecommons.org/licenses/by/4.0/",
+      "id": "CC-BY-4.0",
+      "title": "License: CC-BY-4.0",
+      "type": "other"
     }
   ],
   "cveids": [

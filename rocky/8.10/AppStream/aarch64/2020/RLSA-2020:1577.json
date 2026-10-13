@@ -38,60 +38,6 @@
       "filename": "gegl-0.2.0-39.el8.aarch64.rpm"
     },
     {
-      "name": "gegl",
-      "epoch": "0",
-      "version": "0.2.0",
-      "release": "39.el8",
-      "arch": "aarch64",
-      "src": "gegl-0.2.0-39.el8.src.rpm",
-      "filename": "gegl-0.2.0-39.el8.aarch64.rpm"
-    },
-    {
-      "name": "gegl",
-      "epoch": "0",
-      "version": "0.2.0",
-      "release": "39.el8",
-      "arch": "aarch64",
-      "src": "gegl-0.2.0-39.el8.src.rpm",
-      "filename": "gegl-0.2.0-39.el8.aarch64.rpm"
-    },
-    {
-      "name": "gegl",
-      "epoch": "0",
-      "version": "0.2.0",
-      "release": "39.el8",
-      "arch": "aarch64",
-      "src": "gegl-0.2.0-39.el8.src.rpm",
-      "filename": "gegl-0.2.0-39.el8.aarch64.rpm"
-    },
-    {
-      "name": "libgexiv2",
-      "epoch": "0",
-      "version": "0.10.8",
-      "release": "4.el8",
-      "arch": "aarch64",
-      "src": "libgexiv2-0.10.8-4.el8.src.rpm",
-      "filename": "libgexiv2-0.10.8-4.el8.aarch64.rpm"
-    },
-    {
-      "name": "libgexiv2",
-      "epoch": "0",
-      "version": "0.10.8",
-      "release": "4.el8",
-      "arch": "aarch64",
-      "src": "libgexiv2-0.10.8-4.el8.src.rpm",
-      "filename": "libgexiv2-0.10.8-4.el8.aarch64.rpm"
-    },
-    {
-      "name": "libgexiv2",
-      "epoch": "0",
-      "version": "0.10.8",
-      "release": "4.el8",
-      "arch": "aarch64",
-      "src": "libgexiv2-0.10.8-4.el8.src.rpm",
-      "filename": "libgexiv2-0.10.8-4.el8.aarch64.rpm"
-    },
-    {
       "name": "libgexiv2",
       "epoch": "0",
       "version": "0.10.8",
@@ -447,6 +393,18 @@
       "id": "RLSA-2020:1577",
       "title": "RLSA-2020:1577",
       "type": "self"
+    },
+    {
+      "href": "https://access.redhat.com/errata/RHSA-2020:1577",
+      "id": "RHSA-2020:1577",
+      "title": "Red Hat RHSA-2020:1577",
+      "type": "vendor"
+    },
+    {
+      "href": "https://creativecommons.org/licenses/by/4.0/",
+      "id": "CC-BY-4.0",
+      "title": "License: CC-BY-4.0",
+      "type": "other"
     }
   ],
   "cveids": [

@@ -72,15 +72,6 @@
       "arch": "noarch",
       "src": "protobuf-3.5.0-15.el8.src.rpm",
       "filename": "python3-protobuf-3.5.0-15.el8.noarch.rpm"
-    },
-    {
-      "name": "python3-protobuf",
-      "epoch": "0",
-      "version": "3.5.0",
-      "release": "15.el8",
-      "arch": "noarch",
-      "src": "protobuf-3.5.0-15.el8.src.rpm",
-      "filename": "python3-protobuf-3.5.0-15.el8.noarch.rpm"
     }
   ],
   "references": [
@@ -100,6 +91,18 @@
       "id": "RLSA-2022:7464",
       "title": "RLSA-2022:7464",
       "type": "self"
+    },
+    {
+      "href": "https://access.redhat.com/errata/RHSA-2022:7464",
+      "id": "RHSA-2022:7464",
+      "title": "Red Hat RHSA-2022:7464",
+      "type": "vendor"
+    },
+    {
+      "href": "https://creativecommons.org/licenses/by/4.0/",
+      "id": "CC-BY-4.0",
+      "title": "License: CC-BY-4.0",
+      "type": "other"
     }
   ],
   "cveids": [

@@ -74,15 +74,6 @@
       "filename": "autocorr-en-6.4.7.2-19.el8_10.noarch.rpm"
     },
     {
-      "name": "autocorr-en",
-      "epoch": "1",
-      "version": "6.4.7.2",
-      "release": "19.el8_10",
-      "arch": "noarch",
-      "src": "libreoffice-6.4.7.2-19.el8_10.src.rpm",
-      "filename": "autocorr-en-6.4.7.2-19.el8_10.noarch.rpm"
-    },
-    {
       "name": "autocorr-es",
       "epoch": "1",
       "version": "6.4.7.2",
@@ -351,15 +342,6 @@
       "arch": "x86_64",
       "src": "libreoffice-6.4.7.2-19.el8_10.src.rpm",
       "filename": "libreoffice-core-6.4.7.2-19.el8_10.x86_64.rpm"
-    },
-    {
-      "name": "libreoffice-data",
-      "epoch": "1",
-      "version": "6.4.7.2",
-      "release": "19.el8_10",
-      "arch": "noarch",
-      "src": "libreoffice-6.4.7.2-19.el8_10.src.rpm",
-      "filename": "libreoffice-data-6.4.7.2-19.el8_10.noarch.rpm"
     },
     {
       "name": "libreoffice-data",
@@ -1487,15 +1469,6 @@
       "filename": "libreoffice-opensymbol-fonts-6.4.7.2-19.el8_10.noarch.rpm"
     },
     {
-      "name": "libreoffice-opensymbol-fonts",
-      "epoch": "1",
-      "version": "6.4.7.2",
-      "release": "19.el8_10",
-      "arch": "noarch",
-      "src": "libreoffice-6.4.7.2-19.el8_10.src.rpm",
-      "filename": "libreoffice-opensymbol-fonts-6.4.7.2-19.el8_10.noarch.rpm"
-    },
-    {
       "name": "libreoffice-pdfimport",
       "epoch": "1",
       "version": "6.4.7.2",
@@ -1521,15 +1494,6 @@
       "arch": "x86_64",
       "src": "libreoffice-6.4.7.2-19.el8_10.src.rpm",
       "filename": "libreoffice-ure-6.4.7.2-19.el8_10.x86_64.rpm"
-    },
-    {
-      "name": "libreoffice-ure-common",
-      "epoch": "1",
-      "version": "6.4.7.2",
-      "release": "19.el8_10",
-      "arch": "noarch",
-      "src": "libreoffice-6.4.7.2-19.el8_10.src.rpm",
-      "filename": "libreoffice-ure-common-6.4.7.2-19.el8_10.noarch.rpm"
     },
     {
       "name": "libreoffice-ure-common",
@@ -1594,6 +1558,18 @@
       "id": "RLSA-2025:2868",
       "title": "RLSA-2025:2868",
       "type": "self"
+    },
+    {
+      "href": "https://access.redhat.com/errata/RHSA-2025:2868",
+      "id": "RHSA-2025:2868",
+      "title": "Red Hat RHSA-2025:2868",
+      "type": "vendor"
+    },
+    {
+      "href": "https://creativecommons.org/licenses/by/4.0/",
+      "id": "CC-BY-4.0",
+      "title": "License: CC-BY-4.0",
+      "type": "other"
     }
   ],
   "cveids": [

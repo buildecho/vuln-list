@@ -65,24 +65,6 @@
       "filename": "java-1.8.0-openjdk-javadoc-1.8.0.312.b07-1.el8_4.noarch.rpm"
     },
     {
-      "name": "java-1.8.0-openjdk-javadoc",
-      "epoch": "1",
-      "version": "1.8.0.312.b07",
-      "release": "1.el8_4",
-      "arch": "noarch",
-      "src": "java-1.8.0-openjdk-1.8.0.312.b07-1.el8_4.src.rpm",
-      "filename": "java-1.8.0-openjdk-javadoc-1.8.0.312.b07-1.el8_4.noarch.rpm"
-    },
-    {
-      "name": "java-1.8.0-openjdk-javadoc-zip",
-      "epoch": "1",
-      "version": "1.8.0.312.b07",
-      "release": "1.el8_4",
-      "arch": "noarch",
-      "src": "java-1.8.0-openjdk-1.8.0.312.b07-1.el8_4.src.rpm",
-      "filename": "java-1.8.0-openjdk-javadoc-zip-1.8.0.312.b07-1.el8_4.noarch.rpm"
-    },
-    {
       "name": "java-1.8.0-openjdk-javadoc-zip",
       "epoch": "1",
       "version": "1.8.0.312.b07",
@@ -246,6 +228,18 @@
       "id": "RLSA-2021:3893",
       "title": "RLSA-2021:3893",
       "type": "self"
+    },
+    {
+      "href": "https://access.redhat.com/errata/RHSA-2021:3893",
+      "id": "RHSA-2021:3893",
+      "title": "Red Hat RHSA-2021:3893",
+      "type": "vendor"
+    },
+    {
+      "href": "https://creativecommons.org/licenses/by/4.0/",
+      "id": "CC-BY-4.0",
+      "title": "License: CC-BY-4.0",
+      "type": "other"
     }
   ],
   "cveids": [

@@ -20,132 +20,6 @@
       "filename": "nodejs-nodemon-1.18.3-1.module+el8.3.0+101+f84c7154.noarch.rpm"
     },
     {
-      "name": "nodejs-nodemon",
-      "epoch": "0",
-      "version": "1.18.3",
-      "release": "1.module+el8.3.0+101+f84c7154",
-      "arch": "noarch",
-      "src": "nodejs-nodemon-1.18.3-1.module+el8.3.0+101+f84c7154.src.rpm",
-      "filename": "nodejs-nodemon-1.18.3-1.module+el8.3.0+101+f84c7154.noarch.rpm"
-    },
-    {
-      "name": "nodejs-nodemon",
-      "epoch": "0",
-      "version": "1.18.3",
-      "release": "1.module+el8.3.0+101+f84c7154",
-      "arch": "noarch",
-      "src": "nodejs-nodemon-1.18.3-1.module+el8.3.0+101+f84c7154.src.rpm",
-      "filename": "nodejs-nodemon-1.18.3-1.module+el8.3.0+101+f84c7154.noarch.rpm"
-    },
-    {
-      "name": "nodejs-nodemon",
-      "epoch": "0",
-      "version": "1.18.3",
-      "release": "1.module+el8.3.0+101+f84c7154",
-      "arch": "noarch",
-      "src": "nodejs-nodemon-1.18.3-1.module+el8.3.0+101+f84c7154.src.rpm",
-      "filename": "nodejs-nodemon-1.18.3-1.module+el8.3.0+101+f84c7154.noarch.rpm"
-    },
-    {
-      "name": "nodejs-nodemon",
-      "epoch": "0",
-      "version": "1.18.3",
-      "release": "1.module+el8.3.0+101+f84c7154",
-      "arch": "noarch",
-      "src": "nodejs-nodemon-1.18.3-1.module+el8.3.0+101+f84c7154.src.rpm",
-      "filename": "nodejs-nodemon-1.18.3-1.module+el8.3.0+101+f84c7154.noarch.rpm"
-    },
-    {
-      "name": "nodejs-nodemon",
-      "epoch": "0",
-      "version": "1.18.3",
-      "release": "1.module+el8.3.0+101+f84c7154",
-      "arch": "noarch",
-      "src": "nodejs-nodemon-1.18.3-1.module+el8.3.0+101+f84c7154.src.rpm",
-      "filename": "nodejs-nodemon-1.18.3-1.module+el8.3.0+101+f84c7154.noarch.rpm"
-    },
-    {
-      "name": "nodejs-nodemon",
-      "epoch": "0",
-      "version": "1.18.3",
-      "release": "1.module+el8.3.0+101+f84c7154",
-      "arch": "noarch",
-      "src": "nodejs-nodemon-1.18.3-1.module+el8.3.0+101+f84c7154.src.rpm",
-      "filename": "nodejs-nodemon-1.18.3-1.module+el8.3.0+101+f84c7154.noarch.rpm"
-    },
-    {
-      "name": "nodejs-nodemon",
-      "epoch": "0",
-      "version": "1.18.3",
-      "release": "1.module+el8.3.0+101+f84c7154",
-      "arch": "noarch",
-      "src": "nodejs-nodemon-1.18.3-1.module+el8.3.0+101+f84c7154.src.rpm",
-      "filename": "nodejs-nodemon-1.18.3-1.module+el8.3.0+101+f84c7154.noarch.rpm"
-    },
-    {
-      "name": "nodejs-packaging",
-      "epoch": "0",
-      "version": "17",
-      "release": "3.module+el8.3.0+101+f84c7154",
-      "arch": "noarch",
-      "src": "nodejs-packaging-17-3.module+el8.3.0+101+f84c7154.src.rpm",
-      "filename": "nodejs-packaging-17-3.module+el8.3.0+101+f84c7154.noarch.rpm"
-    },
-    {
-      "name": "nodejs-packaging",
-      "epoch": "0",
-      "version": "17",
-      "release": "3.module+el8.3.0+101+f84c7154",
-      "arch": "noarch",
-      "src": "nodejs-packaging-17-3.module+el8.3.0+101+f84c7154.src.rpm",
-      "filename": "nodejs-packaging-17-3.module+el8.3.0+101+f84c7154.noarch.rpm"
-    },
-    {
-      "name": "nodejs-packaging",
-      "epoch": "0",
-      "version": "17",
-      "release": "3.module+el8.3.0+101+f84c7154",
-      "arch": "noarch",
-      "src": "nodejs-packaging-17-3.module+el8.3.0+101+f84c7154.src.rpm",
-      "filename": "nodejs-packaging-17-3.module+el8.3.0+101+f84c7154.noarch.rpm"
-    },
-    {
-      "name": "nodejs-packaging",
-      "epoch": "0",
-      "version": "17",
-      "release": "3.module+el8.3.0+101+f84c7154",
-      "arch": "noarch",
-      "src": "nodejs-packaging-17-3.module+el8.3.0+101+f84c7154.src.rpm",
-      "filename": "nodejs-packaging-17-3.module+el8.3.0+101+f84c7154.noarch.rpm"
-    },
-    {
-      "name": "nodejs-packaging",
-      "epoch": "0",
-      "version": "17",
-      "release": "3.module+el8.3.0+101+f84c7154",
-      "arch": "noarch",
-      "src": "nodejs-packaging-17-3.module+el8.3.0+101+f84c7154.src.rpm",
-      "filename": "nodejs-packaging-17-3.module+el8.3.0+101+f84c7154.noarch.rpm"
-    },
-    {
-      "name": "nodejs-packaging",
-      "epoch": "0",
-      "version": "17",
-      "release": "3.module+el8.3.0+101+f84c7154",
-      "arch": "noarch",
-      "src": "nodejs-packaging-17-3.module+el8.3.0+101+f84c7154.src.rpm",
-      "filename": "nodejs-packaging-17-3.module+el8.3.0+101+f84c7154.noarch.rpm"
-    },
-    {
-      "name": "nodejs-packaging",
-      "epoch": "0",
-      "version": "17",
-      "release": "3.module+el8.3.0+101+f84c7154",
-      "arch": "noarch",
-      "src": "nodejs-packaging-17-3.module+el8.3.0+101+f84c7154.src.rpm",
-      "filename": "nodejs-packaging-17-3.module+el8.3.0+101+f84c7154.noarch.rpm"
-    },
-    {
       "name": "nodejs-packaging",
       "epoch": "0",
       "version": "17",
@@ -227,6 +101,18 @@
       "id": "RLSA-2020:0579",
       "title": "RLSA-2020:0579",
       "type": "self"
+    },
+    {
+      "href": "https://access.redhat.com/errata/RHSA-2020:0579",
+      "id": "RHSA-2020:0579",
+      "title": "Red Hat RHSA-2020:0579",
+      "type": "vendor"
+    },
+    {
+      "href": "https://creativecommons.org/licenses/by/4.0/",
+      "id": "CC-BY-4.0",
+      "title": "License: CC-BY-4.0",
+      "type": "other"
     }
   ],
   "cveids": [

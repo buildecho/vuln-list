@@ -18,24 +18,6 @@
       "arch": "aarch64",
       "src": "gzip-1.9-13.el8_5.src.rpm",
       "filename": "gzip-1.9-13.el8_5.aarch64.rpm"
-    },
-    {
-      "name": "gzip",
-      "epoch": "0",
-      "version": "1.9",
-      "release": "13.el8_5",
-      "arch": "aarch64",
-      "src": "gzip-1.9-13.el8_5.src.rpm",
-      "filename": "gzip-1.9-13.el8_5.aarch64.rpm"
-    },
-    {
-      "name": "gzip",
-      "epoch": "0",
-      "version": "1.9",
-      "release": "13.el8_5",
-      "arch": "aarch64",
-      "src": "gzip-1.9-13.el8_5.src.rpm",
-      "filename": "gzip-1.9-13.el8_5.aarch64.rpm"
     }
   ],
   "references": [
@@ -55,6 +37,18 @@
       "id": "RLSA-2022:1537",
       "title": "RLSA-2022:1537",
       "type": "self"
+    },
+    {
+      "href": "https://access.redhat.com/errata/RHSA-2022:1537",
+      "id": "RHSA-2022:1537",
+      "title": "Red Hat RHSA-2022:1537",
+      "type": "vendor"
+    },
+    {
+      "href": "https://creativecommons.org/licenses/by/4.0/",
+      "id": "CC-BY-4.0",
+      "title": "License: CC-BY-4.0",
+      "type": "other"
     }
   ],
   "cveids": [

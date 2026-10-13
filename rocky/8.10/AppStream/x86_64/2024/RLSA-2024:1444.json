@@ -20,24 +20,6 @@
       "filename": "nodejs-nodemon-3.0.1-1.module+el8.8.0+1459+02651ab6.noarch.rpm"
     },
     {
-      "name": "nodejs-nodemon",
-      "epoch": "0",
-      "version": "3.0.1",
-      "release": "1.module+el8.8.0+1459+02651ab6",
-      "arch": "noarch",
-      "src": "nodejs-nodemon-3.0.1-1.module+el8.8.0+1459+02651ab6.src.rpm",
-      "filename": "nodejs-nodemon-3.0.1-1.module+el8.8.0+1459+02651ab6.noarch.rpm"
-    },
-    {
-      "name": "nodejs-packaging",
-      "epoch": "0",
-      "version": "26",
-      "release": "1.module+el8.8.0+1461+f50bb75a",
-      "arch": "noarch",
-      "src": "nodejs-packaging-26-1.module+el8.8.0+1461+f50bb75a.src.rpm",
-      "filename": "nodejs-packaging-26-1.module+el8.8.0+1461+f50bb75a.noarch.rpm"
-    },
-    {
       "name": "nodejs-packaging",
       "epoch": "0",
       "version": "26",
@@ -75,6 +57,18 @@
       "id": "RLSA-2024:1444",
       "title": "RLSA-2024:1444",
       "type": "self"
+    },
+    {
+      "href": "https://access.redhat.com/errata/RHSA-2024:1444",
+      "id": "RHSA-2024:1444",
+      "title": "Red Hat RHSA-2024:1444",
+      "type": "vendor"
+    },
+    {
+      "href": "https://creativecommons.org/licenses/by/4.0/",
+      "id": "CC-BY-4.0",
+      "title": "License: CC-BY-4.0",
+      "type": "other"
     }
   ],
   "cveids": [

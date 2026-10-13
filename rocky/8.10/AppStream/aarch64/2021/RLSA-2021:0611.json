@@ -20,60 +20,6 @@
       "filename": "xterm-331-1.el8_3.2.aarch64.rpm"
     },
     {
-      "name": "xterm",
-      "epoch": "0",
-      "version": "331",
-      "release": "1.el8_3.2",
-      "arch": "aarch64",
-      "src": "xterm-331-1.el8_3.2.src.rpm",
-      "filename": "xterm-331-1.el8_3.2.aarch64.rpm"
-    },
-    {
-      "name": "xterm",
-      "epoch": "0",
-      "version": "331",
-      "release": "1.el8_3.2",
-      "arch": "aarch64",
-      "src": "xterm-331-1.el8_3.2.src.rpm",
-      "filename": "xterm-331-1.el8_3.2.aarch64.rpm"
-    },
-    {
-      "name": "xterm",
-      "epoch": "0",
-      "version": "331",
-      "release": "1.el8_3.2",
-      "arch": "aarch64",
-      "src": "xterm-331-1.el8_3.2.src.rpm",
-      "filename": "xterm-331-1.el8_3.2.aarch64.rpm"
-    },
-    {
-      "name": "xterm-resize",
-      "epoch": "0",
-      "version": "331",
-      "release": "1.el8_3.2",
-      "arch": "aarch64",
-      "src": "xterm-331-1.el8_3.2.src.rpm",
-      "filename": "xterm-resize-331-1.el8_3.2.aarch64.rpm"
-    },
-    {
-      "name": "xterm-resize",
-      "epoch": "0",
-      "version": "331",
-      "release": "1.el8_3.2",
-      "arch": "aarch64",
-      "src": "xterm-331-1.el8_3.2.src.rpm",
-      "filename": "xterm-resize-331-1.el8_3.2.aarch64.rpm"
-    },
-    {
-      "name": "xterm-resize",
-      "epoch": "0",
-      "version": "331",
-      "release": "1.el8_3.2",
-      "arch": "aarch64",
-      "src": "xterm-331-1.el8_3.2.src.rpm",
-      "filename": "xterm-resize-331-1.el8_3.2.aarch64.rpm"
-    },
-    {
       "name": "xterm-resize",
       "epoch": "0",
       "version": "331",
@@ -100,6 +46,18 @@
       "id": "RLSA-2021:0611",
       "title": "RLSA-2021:0611",
       "type": "self"
+    },
+    {
+      "href": "https://access.redhat.com/errata/RHSA-2021:0611",
+      "id": "RHSA-2021:0611",
+      "title": "Red Hat RHSA-2021:0611",
+      "type": "vendor"
+    },
+    {
+      "href": "https://creativecommons.org/licenses/by/4.0/",
+      "id": "CC-BY-4.0",
+      "title": "License: CC-BY-4.0",
+      "type": "other"
     }
   ],
   "cveids": [

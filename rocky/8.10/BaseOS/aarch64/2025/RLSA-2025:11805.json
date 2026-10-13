@@ -47,15 +47,6 @@
       "filename": "perl-IO-Zlib-1.10-423.el8_10.noarch.rpm"
     },
     {
-      "name": "perl-IO-Zlib",
-      "epoch": "1",
-      "version": "1.10",
-      "release": "423.el8_10",
-      "arch": "noarch",
-      "src": "perl-5.26.3-423.el8_10.src.rpm",
-      "filename": "perl-IO-Zlib-1.10-423.el8_10.noarch.rpm"
-    },
-    {
       "name": "perl-libs",
       "epoch": "4",
       "version": "5.26.3",
@@ -72,15 +63,6 @@
       "arch": "aarch64",
       "src": "perl-5.26.3-423.el8_10.src.rpm",
       "filename": "perl-macros-5.26.3-423.el8_10.aarch64.rpm"
-    },
-    {
-      "name": "perl-Math-Complex",
-      "epoch": "0",
-      "version": "1.59",
-      "release": "423.el8_10",
-      "arch": "noarch",
-      "src": "perl-5.26.3-423.el8_10.src.rpm",
-      "filename": "perl-Math-Complex-1.59-423.el8_10.noarch.rpm"
     },
     {
       "name": "perl-Math-Complex",
@@ -109,6 +91,18 @@
       "id": "RLSA-2025:11805",
       "title": "RLSA-2025:11805",
       "type": "self"
+    },
+    {
+      "href": "https://access.redhat.com/errata/RHSA-2025:11805",
+      "id": "RHSA-2025:11805",
+      "title": "Red Hat RHSA-2025:11805",
+      "type": "vendor"
+    },
+    {
+      "href": "https://creativecommons.org/licenses/by/4.0/",
+      "id": "CC-BY-4.0",
+      "title": "License: CC-BY-4.0",
+      "type": "other"
     }
   ],
   "cveids": [

@@ -20,60 +20,6 @@
       "filename": "sane-backends-1.0.27-22.el8.x86_64.rpm"
     },
     {
-      "name": "sane-backends",
-      "epoch": "0",
-      "version": "1.0.27",
-      "release": "22.el8",
-      "arch": "x86_64",
-      "src": "sane-backends-1.0.27-22.el8.src.rpm",
-      "filename": "sane-backends-1.0.27-22.el8.x86_64.rpm"
-    },
-    {
-      "name": "sane-backends",
-      "epoch": "0",
-      "version": "1.0.27",
-      "release": "22.el8",
-      "arch": "x86_64",
-      "src": "sane-backends-1.0.27-22.el8.src.rpm",
-      "filename": "sane-backends-1.0.27-22.el8.x86_64.rpm"
-    },
-    {
-      "name": "sane-backends",
-      "epoch": "0",
-      "version": "1.0.27",
-      "release": "22.el8",
-      "arch": "x86_64",
-      "src": "sane-backends-1.0.27-22.el8.src.rpm",
-      "filename": "sane-backends-1.0.27-22.el8.x86_64.rpm"
-    },
-    {
-      "name": "sane-backends-daemon",
-      "epoch": "0",
-      "version": "1.0.27",
-      "release": "22.el8",
-      "arch": "x86_64",
-      "src": "sane-backends-1.0.27-22.el8.src.rpm",
-      "filename": "sane-backends-daemon-1.0.27-22.el8.x86_64.rpm"
-    },
-    {
-      "name": "sane-backends-daemon",
-      "epoch": "0",
-      "version": "1.0.27",
-      "release": "22.el8",
-      "arch": "x86_64",
-      "src": "sane-backends-1.0.27-22.el8.src.rpm",
-      "filename": "sane-backends-daemon-1.0.27-22.el8.x86_64.rpm"
-    },
-    {
-      "name": "sane-backends-daemon",
-      "epoch": "0",
-      "version": "1.0.27",
-      "release": "22.el8",
-      "arch": "x86_64",
-      "src": "sane-backends-1.0.27-22.el8.src.rpm",
-      "filename": "sane-backends-daemon-1.0.27-22.el8.x86_64.rpm"
-    },
-    {
       "name": "sane-backends-daemon",
       "epoch": "0",
       "version": "1.0.27",
@@ -96,126 +42,9 @@
       "epoch": "0",
       "version": "1.0.27",
       "release": "22.el8",
-      "arch": "i686",
-      "src": "sane-backends-1.0.27-22.el8.src.rpm",
-      "filename": "sane-backends-devel-1.0.27-22.el8.i686.rpm"
-    },
-    {
-      "name": "sane-backends-devel",
-      "epoch": "0",
-      "version": "1.0.27",
-      "release": "22.el8",
-      "arch": "i686",
-      "src": "sane-backends-1.0.27-22.el8.src.rpm",
-      "filename": "sane-backends-devel-1.0.27-22.el8.i686.rpm"
-    },
-    {
-      "name": "sane-backends-devel",
-      "epoch": "0",
-      "version": "1.0.27",
-      "release": "22.el8",
-      "arch": "i686",
-      "src": "sane-backends-1.0.27-22.el8.src.rpm",
-      "filename": "sane-backends-devel-1.0.27-22.el8.i686.rpm"
-    },
-    {
-      "name": "sane-backends-devel",
-      "epoch": "0",
-      "version": "1.0.27",
-      "release": "22.el8",
       "arch": "x86_64",
       "src": "sane-backends-1.0.27-22.el8.src.rpm",
       "filename": "sane-backends-devel-1.0.27-22.el8.x86_64.rpm"
-    },
-    {
-      "name": "sane-backends-devel",
-      "epoch": "0",
-      "version": "1.0.27",
-      "release": "22.el8",
-      "arch": "x86_64",
-      "src": "sane-backends-1.0.27-22.el8.src.rpm",
-      "filename": "sane-backends-devel-1.0.27-22.el8.x86_64.rpm"
-    },
-    {
-      "name": "sane-backends-devel",
-      "epoch": "0",
-      "version": "1.0.27",
-      "release": "22.el8",
-      "arch": "x86_64",
-      "src": "sane-backends-1.0.27-22.el8.src.rpm",
-      "filename": "sane-backends-devel-1.0.27-22.el8.x86_64.rpm"
-    },
-    {
-      "name": "sane-backends-devel",
-      "epoch": "0",
-      "version": "1.0.27",
-      "release": "22.el8",
-      "arch": "x86_64",
-      "src": "sane-backends-1.0.27-22.el8.src.rpm",
-      "filename": "sane-backends-devel-1.0.27-22.el8.x86_64.rpm"
-    },
-    {
-      "name": "sane-backends-doc",
-      "epoch": "0",
-      "version": "1.0.27",
-      "release": "22.el8",
-      "arch": "noarch",
-      "src": "sane-backends-1.0.27-22.el8.src.rpm",
-      "filename": "sane-backends-doc-1.0.27-22.el8.noarch.rpm"
-    },
-    {
-      "name": "sane-backends-doc",
-      "epoch": "0",
-      "version": "1.0.27",
-      "release": "22.el8",
-      "arch": "noarch",
-      "src": "sane-backends-1.0.27-22.el8.src.rpm",
-      "filename": "sane-backends-doc-1.0.27-22.el8.noarch.rpm"
-    },
-    {
-      "name": "sane-backends-doc",
-      "epoch": "0",
-      "version": "1.0.27",
-      "release": "22.el8",
-      "arch": "noarch",
-      "src": "sane-backends-1.0.27-22.el8.src.rpm",
-      "filename": "sane-backends-doc-1.0.27-22.el8.noarch.rpm"
-    },
-    {
-      "name": "sane-backends-doc",
-      "epoch": "0",
-      "version": "1.0.27",
-      "release": "22.el8",
-      "arch": "noarch",
-      "src": "sane-backends-1.0.27-22.el8.src.rpm",
-      "filename": "sane-backends-doc-1.0.27-22.el8.noarch.rpm"
-    },
-    {
-      "name": "sane-backends-doc",
-      "epoch": "0",
-      "version": "1.0.27",
-      "release": "22.el8",
-      "arch": "noarch",
-      "src": "sane-backends-1.0.27-22.el8.src.rpm",
-      "filename": "sane-backends-doc-1.0.27-22.el8.noarch.rpm"
-    },
-    {
-      "name": "sane-backends-doc",
-      "epoch": "0",
-      "version": "1.0.27",
-      "release": "22.el8",
-      "arch": "noarch",
-      "src": "sane-backends-1.0.27-22.el8.src.rpm",
-      "filename": "sane-backends-doc-1.0.27-22.el8.noarch.rpm"
-    },
-    {
-      "name": "sane-backends-doc",
-      "epoch": "0",
-      "version": "1.0.27",
-      "release": "22.el8",
-      "arch": "noarch",
-      "src": "sane-backends-1.0.27-22.el8.src.rpm",
-      "filename": "sane-backends-doc-1.0.27-22.el8.noarch.rpm"
     },
     {
       "name": "sane-backends-doc",
@@ -240,90 +69,9 @@
       "epoch": "0",
       "version": "1.0.27",
       "release": "22.el8",
-      "arch": "i686",
-      "src": "sane-backends-1.0.27-22.el8.src.rpm",
-      "filename": "sane-backends-drivers-cameras-1.0.27-22.el8.i686.rpm"
-    },
-    {
-      "name": "sane-backends-drivers-cameras",
-      "epoch": "0",
-      "version": "1.0.27",
-      "release": "22.el8",
-      "arch": "i686",
-      "src": "sane-backends-1.0.27-22.el8.src.rpm",
-      "filename": "sane-backends-drivers-cameras-1.0.27-22.el8.i686.rpm"
-    },
-    {
-      "name": "sane-backends-drivers-cameras",
-      "epoch": "0",
-      "version": "1.0.27",
-      "release": "22.el8",
-      "arch": "i686",
-      "src": "sane-backends-1.0.27-22.el8.src.rpm",
-      "filename": "sane-backends-drivers-cameras-1.0.27-22.el8.i686.rpm"
-    },
-    {
-      "name": "sane-backends-drivers-cameras",
-      "epoch": "0",
-      "version": "1.0.27",
-      "release": "22.el8",
       "arch": "x86_64",
       "src": "sane-backends-1.0.27-22.el8.src.rpm",
       "filename": "sane-backends-drivers-cameras-1.0.27-22.el8.x86_64.rpm"
-    },
-    {
-      "name": "sane-backends-drivers-cameras",
-      "epoch": "0",
-      "version": "1.0.27",
-      "release": "22.el8",
-      "arch": "x86_64",
-      "src": "sane-backends-1.0.27-22.el8.src.rpm",
-      "filename": "sane-backends-drivers-cameras-1.0.27-22.el8.x86_64.rpm"
-    },
-    {
-      "name": "sane-backends-drivers-cameras",
-      "epoch": "0",
-      "version": "1.0.27",
-      "release": "22.el8",
-      "arch": "x86_64",
-      "src": "sane-backends-1.0.27-22.el8.src.rpm",
-      "filename": "sane-backends-drivers-cameras-1.0.27-22.el8.x86_64.rpm"
-    },
-    {
-      "name": "sane-backends-drivers-cameras",
-      "epoch": "0",
-      "version": "1.0.27",
-      "release": "22.el8",
-      "arch": "x86_64",
-      "src": "sane-backends-1.0.27-22.el8.src.rpm",
-      "filename": "sane-backends-drivers-cameras-1.0.27-22.el8.x86_64.rpm"
-    },
-    {
-      "name": "sane-backends-drivers-scanners",
-      "epoch": "0",
-      "version": "1.0.27",
-      "release": "22.el8",
-      "arch": "i686",
-      "src": "sane-backends-1.0.27-22.el8.src.rpm",
-      "filename": "sane-backends-drivers-scanners-1.0.27-22.el8.i686.rpm"
-    },
-    {
-      "name": "sane-backends-drivers-scanners",
-      "epoch": "0",
-      "version": "1.0.27",
-      "release": "22.el8",
-      "arch": "i686",
-      "src": "sane-backends-1.0.27-22.el8.src.rpm",
-      "filename": "sane-backends-drivers-scanners-1.0.27-22.el8.i686.rpm"
-    },
-    {
-      "name": "sane-backends-drivers-scanners",
-      "epoch": "0",
-      "version": "1.0.27",
-      "release": "22.el8",
-      "arch": "i686",
-      "src": "sane-backends-1.0.27-22.el8.src.rpm",
-      "filename": "sane-backends-drivers-scanners-1.0.27-22.el8.i686.rpm"
     },
     {
       "name": "sane-backends-drivers-scanners",
@@ -344,33 +92,6 @@
       "filename": "sane-backends-drivers-scanners-1.0.27-22.el8.x86_64.rpm"
     },
     {
-      "name": "sane-backends-drivers-scanners",
-      "epoch": "0",
-      "version": "1.0.27",
-      "release": "22.el8",
-      "arch": "x86_64",
-      "src": "sane-backends-1.0.27-22.el8.src.rpm",
-      "filename": "sane-backends-drivers-scanners-1.0.27-22.el8.x86_64.rpm"
-    },
-    {
-      "name": "sane-backends-drivers-scanners",
-      "epoch": "0",
-      "version": "1.0.27",
-      "release": "22.el8",
-      "arch": "x86_64",
-      "src": "sane-backends-1.0.27-22.el8.src.rpm",
-      "filename": "sane-backends-drivers-scanners-1.0.27-22.el8.x86_64.rpm"
-    },
-    {
-      "name": "sane-backends-drivers-scanners",
-      "epoch": "0",
-      "version": "1.0.27",
-      "release": "22.el8",
-      "arch": "x86_64",
-      "src": "sane-backends-1.0.27-22.el8.src.rpm",
-      "filename": "sane-backends-drivers-scanners-1.0.27-22.el8.x86_64.rpm"
-    },
-    {
       "name": "sane-backends-libs",
       "epoch": "0",
       "version": "1.0.27",
@@ -378,60 +99,6 @@
       "arch": "i686",
       "src": "sane-backends-1.0.27-22.el8.src.rpm",
       "filename": "sane-backends-libs-1.0.27-22.el8.i686.rpm"
-    },
-    {
-      "name": "sane-backends-libs",
-      "epoch": "0",
-      "version": "1.0.27",
-      "release": "22.el8",
-      "arch": "i686",
-      "src": "sane-backends-1.0.27-22.el8.src.rpm",
-      "filename": "sane-backends-libs-1.0.27-22.el8.i686.rpm"
-    },
-    {
-      "name": "sane-backends-libs",
-      "epoch": "0",
-      "version": "1.0.27",
-      "release": "22.el8",
-      "arch": "i686",
-      "src": "sane-backends-1.0.27-22.el8.src.rpm",
-      "filename": "sane-backends-libs-1.0.27-22.el8.i686.rpm"
-    },
-    {
-      "name": "sane-backends-libs",
-      "epoch": "0",
-      "version": "1.0.27",
-      "release": "22.el8",
-      "arch": "i686",
-      "src": "sane-backends-1.0.27-22.el8.src.rpm",
-      "filename": "sane-backends-libs-1.0.27-22.el8.i686.rpm"
-    },
-    {
-      "name": "sane-backends-libs",
-      "epoch": "0",
-      "version": "1.0.27",
-      "release": "22.el8",
-      "arch": "x86_64",
-      "src": "sane-backends-1.0.27-22.el8.src.rpm",
-      "filename": "sane-backends-libs-1.0.27-22.el8.x86_64.rpm"
-    },
-    {
-      "name": "sane-backends-libs",
-      "epoch": "0",
-      "version": "1.0.27",
-      "release": "22.el8",
-      "arch": "x86_64",
-      "src": "sane-backends-1.0.27-22.el8.src.rpm",
-      "filename": "sane-backends-libs-1.0.27-22.el8.x86_64.rpm"
-    },
-    {
-      "name": "sane-backends-libs",
-      "epoch": "0",
-      "version": "1.0.27",
-      "release": "22.el8",
-      "arch": "x86_64",
-      "src": "sane-backends-1.0.27-22.el8.src.rpm",
-      "filename": "sane-backends-libs-1.0.27-22.el8.x86_64.rpm"
     },
     {
       "name": "sane-backends-libs",
@@ -460,6 +127,18 @@
       "id": "RLSA-2021:1744",
       "title": "RLSA-2021:1744",
       "type": "self"
+    },
+    {
+      "href": "https://access.redhat.com/errata/RHSA-2021:1744",
+      "id": "RHSA-2021:1744",
+      "title": "Red Hat RHSA-2021:1744",
+      "type": "vendor"
+    },
+    {
+      "href": "https://creativecommons.org/licenses/by/4.0/",
+      "id": "CC-BY-4.0",
+      "title": "License: CC-BY-4.0",
+      "type": "other"
     }
   ],
   "cveids": [

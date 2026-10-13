@@ -18,15 +18,6 @@
       "arch": "noarch",
       "src": "python-jinja2-2.10.1-2.el8_0.src.rpm",
       "filename": "python3-jinja2-2.10.1-2.el8_0.noarch.rpm"
-    },
-    {
-      "name": "python3-jinja2",
-      "epoch": "0",
-      "version": "2.10.1",
-      "release": "2.el8_0",
-      "arch": "noarch",
-      "src": "python-jinja2-2.10.1-2.el8_0.src.rpm",
-      "filename": "python3-jinja2-2.10.1-2.el8_0.noarch.rpm"
     }
   ],
   "references": [
@@ -46,6 +37,18 @@
       "id": "RLSA-2019:1152",
       "title": "RLSA-2019:1152",
       "type": "self"
+    },
+    {
+      "href": "https://access.redhat.com/errata/RHSA-2019:1152",
+      "id": "RHSA-2019:1152",
+      "title": "Red Hat RHSA-2019:1152",
+      "type": "vendor"
+    },
+    {
+      "href": "https://creativecommons.org/licenses/by/4.0/",
+      "id": "CC-BY-4.0",
+      "title": "License: CC-BY-4.0",
+      "type": "other"
     }
   ],
   "cveids": [

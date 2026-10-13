@@ -20,15 +20,6 @@
       "filename": "openssl-1.1.1k-7.el8_6.x86_64.rpm"
     },
     {
-      "name": "openssl",
-      "epoch": "1",
-      "version": "1.1.1k",
-      "release": "7.el8_6",
-      "arch": "x86_64",
-      "src": "openssl-1.1.1k-7.el8_6.src.rpm",
-      "filename": "openssl-1.1.1k-7.el8_6.x86_64.rpm"
-    },
-    {
       "name": "openssl-devel",
       "epoch": "1",
       "version": "1.1.1k",
@@ -36,24 +27,6 @@
       "arch": "i686",
       "src": "openssl-1.1.1k-7.el8_6.src.rpm",
       "filename": "openssl-devel-1.1.1k-7.el8_6.i686.rpm"
-    },
-    {
-      "name": "openssl-devel",
-      "epoch": "1",
-      "version": "1.1.1k",
-      "release": "7.el8_6",
-      "arch": "i686",
-      "src": "openssl-1.1.1k-7.el8_6.src.rpm",
-      "filename": "openssl-devel-1.1.1k-7.el8_6.i686.rpm"
-    },
-    {
-      "name": "openssl-devel",
-      "epoch": "1",
-      "version": "1.1.1k",
-      "release": "7.el8_6",
-      "arch": "x86_64",
-      "src": "openssl-1.1.1k-7.el8_6.src.rpm",
-      "filename": "openssl-devel-1.1.1k-7.el8_6.x86_64.rpm"
     },
     {
       "name": "openssl-devel",
@@ -78,36 +51,9 @@
       "epoch": "1",
       "version": "1.1.1k",
       "release": "7.el8_6",
-      "arch": "i686",
-      "src": "openssl-1.1.1k-7.el8_6.src.rpm",
-      "filename": "openssl-libs-1.1.1k-7.el8_6.i686.rpm"
-    },
-    {
-      "name": "openssl-libs",
-      "epoch": "1",
-      "version": "1.1.1k",
-      "release": "7.el8_6",
       "arch": "x86_64",
       "src": "openssl-1.1.1k-7.el8_6.src.rpm",
       "filename": "openssl-libs-1.1.1k-7.el8_6.x86_64.rpm"
-    },
-    {
-      "name": "openssl-libs",
-      "epoch": "1",
-      "version": "1.1.1k",
-      "release": "7.el8_6",
-      "arch": "x86_64",
-      "src": "openssl-1.1.1k-7.el8_6.src.rpm",
-      "filename": "openssl-libs-1.1.1k-7.el8_6.x86_64.rpm"
-    },
-    {
-      "name": "openssl-perl",
-      "epoch": "1",
-      "version": "1.1.1k",
-      "release": "7.el8_6",
-      "arch": "x86_64",
-      "src": "openssl-1.1.1k-7.el8_6.src.rpm",
-      "filename": "openssl-perl-1.1.1k-7.el8_6.x86_64.rpm"
     },
     {
       "name": "openssl-perl",
@@ -163,6 +109,18 @@
       "id": "RLSA-2022:5818",
       "title": "RLSA-2022:5818",
       "type": "self"
+    },
+    {
+      "href": "https://access.redhat.com/errata/RHSA-2022:5818",
+      "id": "RHSA-2022:5818",
+      "title": "Red Hat RHSA-2022:5818",
+      "type": "vendor"
+    },
+    {
+      "href": "https://creativecommons.org/licenses/by/4.0/",
+      "id": "CC-BY-4.0",
+      "title": "License: CC-BY-4.0",
+      "type": "other"
     }
   ],
   "cveids": [

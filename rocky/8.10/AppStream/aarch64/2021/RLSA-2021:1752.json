@@ -56,15 +56,6 @@
       "filename": "evolution-data-server-langpacks-3.28.5-15.el8.noarch.rpm"
     },
     {
-      "name": "evolution-data-server-langpacks",
-      "epoch": "0",
-      "version": "3.28.5",
-      "release": "15.el8",
-      "arch": "noarch",
-      "src": "evolution-data-server-3.28.5-15.el8.src.rpm",
-      "filename": "evolution-data-server-langpacks-3.28.5-15.el8.noarch.rpm"
-    },
-    {
       "name": "evolution-ews",
       "epoch": "0",
       "version": "3.28.5",
@@ -83,15 +74,6 @@
       "filename": "evolution-ews-langpacks-3.28.5-10.el8.noarch.rpm"
     },
     {
-      "name": "evolution-ews-langpacks",
-      "epoch": "0",
-      "version": "3.28.5",
-      "release": "10.el8",
-      "arch": "noarch",
-      "src": "evolution-ews-3.28.5-10.el8.src.rpm",
-      "filename": "evolution-ews-langpacks-3.28.5-10.el8.noarch.rpm"
-    },
-    {
       "name": "evolution-help",
       "epoch": "0",
       "version": "3.28.5",
@@ -99,24 +81,6 @@
       "arch": "noarch",
       "src": "evolution-3.28.5-16.el8.src.rpm",
       "filename": "evolution-help-3.28.5-16.el8.noarch.rpm"
-    },
-    {
-      "name": "evolution-help",
-      "epoch": "0",
-      "version": "3.28.5",
-      "release": "16.el8",
-      "arch": "noarch",
-      "src": "evolution-3.28.5-16.el8.src.rpm",
-      "filename": "evolution-help-3.28.5-16.el8.noarch.rpm"
-    },
-    {
-      "name": "evolution-langpacks",
-      "epoch": "0",
-      "version": "3.28.5",
-      "release": "16.el8",
-      "arch": "noarch",
-      "src": "evolution-3.28.5-16.el8.src.rpm",
-      "filename": "evolution-langpacks-3.28.5-16.el8.noarch.rpm"
     },
     {
       "name": "evolution-langpacks",
@@ -183,6 +147,18 @@
       "id": "RLSA-2021:1752",
       "title": "RLSA-2021:1752",
       "type": "self"
+    },
+    {
+      "href": "https://access.redhat.com/errata/RHSA-2021:1752",
+      "id": "RHSA-2021:1752",
+      "title": "Red Hat RHSA-2021:1752",
+      "type": "vendor"
+    },
+    {
+      "href": "https://creativecommons.org/licenses/by/4.0/",
+      "id": "CC-BY-4.0",
+      "title": "License: CC-BY-4.0",
+      "type": "other"
     }
   ],
   "cveids": [

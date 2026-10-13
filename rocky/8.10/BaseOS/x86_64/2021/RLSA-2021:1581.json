@@ -56,15 +56,6 @@
       "filename": "sqlite-doc-3.26.0-13.el8.noarch.rpm"
     },
     {
-      "name": "sqlite-doc",
-      "epoch": "0",
-      "version": "3.26.0",
-      "release": "13.el8",
-      "arch": "noarch",
-      "src": "sqlite-3.26.0-13.el8.src.rpm",
-      "filename": "sqlite-doc-3.26.0-13.el8.noarch.rpm"
-    },
-    {
       "name": "sqlite-libs",
       "epoch": "0",
       "version": "3.26.0",
@@ -116,6 +107,18 @@
       "id": "RLSA-2021:1581",
       "title": "RLSA-2021:1581",
       "type": "self"
+    },
+    {
+      "href": "https://access.redhat.com/errata/RHSA-2021:1581",
+      "id": "RHSA-2021:1581",
+      "title": "Red Hat RHSA-2021:1581",
+      "type": "vendor"
+    },
+    {
+      "href": "https://creativecommons.org/licenses/by/4.0/",
+      "id": "CC-BY-4.0",
+      "title": "License: CC-BY-4.0",
+      "type": "other"
     }
   ],
   "cveids": [

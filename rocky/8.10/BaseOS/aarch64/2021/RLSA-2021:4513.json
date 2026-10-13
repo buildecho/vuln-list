@@ -20,42 +20,6 @@
       "filename": "libsepol-2.9-3.el8.aarch64.rpm"
     },
     {
-      "name": "libsepol",
-      "epoch": "0",
-      "version": "2.9",
-      "release": "3.el8",
-      "arch": "aarch64",
-      "src": "libsepol-2.9-3.el8.src.rpm",
-      "filename": "libsepol-2.9-3.el8.aarch64.rpm"
-    },
-    {
-      "name": "libsepol",
-      "epoch": "0",
-      "version": "2.9",
-      "release": "3.el8",
-      "arch": "aarch64",
-      "src": "libsepol-2.9-3.el8.src.rpm",
-      "filename": "libsepol-2.9-3.el8.aarch64.rpm"
-    },
-    {
-      "name": "libsepol-devel",
-      "epoch": "0",
-      "version": "2.9",
-      "release": "3.el8",
-      "arch": "aarch64",
-      "src": "libsepol-2.9-3.el8.src.rpm",
-      "filename": "libsepol-devel-2.9-3.el8.aarch64.rpm"
-    },
-    {
-      "name": "libsepol-devel",
-      "epoch": "0",
-      "version": "2.9",
-      "release": "3.el8",
-      "arch": "aarch64",
-      "src": "libsepol-2.9-3.el8.src.rpm",
-      "filename": "libsepol-devel-2.9-3.el8.aarch64.rpm"
-    },
-    {
       "name": "libsepol-devel",
       "epoch": "0",
       "version": "2.9",
@@ -115,6 +79,18 @@
       "id": "RLSA-2021:4513",
       "title": "RLSA-2021:4513",
       "type": "self"
+    },
+    {
+      "href": "https://access.redhat.com/errata/RHSA-2021:4513",
+      "id": "RHSA-2021:4513",
+      "title": "Red Hat RHSA-2021:4513",
+      "type": "vendor"
+    },
+    {
+      "href": "https://creativecommons.org/licenses/by/4.0/",
+      "id": "CC-BY-4.0",
+      "title": "License: CC-BY-4.0",
+      "type": "other"
     }
   ],
   "cveids": [

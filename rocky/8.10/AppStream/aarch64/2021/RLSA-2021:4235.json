@@ -18,24 +18,6 @@
       "arch": "aarch64",
       "src": "jasper-2.0.14-5.el8.src.rpm",
       "filename": "jasper-libs-2.0.14-5.el8.aarch64.rpm"
-    },
-    {
-      "name": "jasper-libs",
-      "epoch": "0",
-      "version": "2.0.14",
-      "release": "5.el8",
-      "arch": "aarch64",
-      "src": "jasper-2.0.14-5.el8.src.rpm",
-      "filename": "jasper-libs-2.0.14-5.el8.aarch64.rpm"
-    },
-    {
-      "name": "jasper-libs",
-      "epoch": "0",
-      "version": "2.0.14",
-      "release": "5.el8",
-      "arch": "aarch64",
-      "src": "jasper-2.0.14-5.el8.src.rpm",
-      "filename": "jasper-libs-2.0.14-5.el8.aarch64.rpm"
     }
   ],
   "references": [
@@ -88,6 +70,18 @@
       "id": "RLSA-2021:4235",
       "title": "RLSA-2021:4235",
       "type": "self"
+    },
+    {
+      "href": "https://access.redhat.com/errata/RHSA-2021:4235",
+      "id": "RHSA-2021:4235",
+      "title": "Red Hat RHSA-2021:4235",
+      "type": "vendor"
+    },
+    {
+      "href": "https://creativecommons.org/licenses/by/4.0/",
+      "id": "CC-BY-4.0",
+      "title": "License: CC-BY-4.0",
+      "type": "other"
     }
   ],
   "cveids": [

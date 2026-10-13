@@ -20,15 +20,6 @@
       "filename": "platform-python-setuptools-39.2.0-6.el8_7.1.noarch.rpm"
     },
     {
-      "name": "platform-python-setuptools",
-      "epoch": "0",
-      "version": "39.2.0",
-      "release": "6.el8_7.1",
-      "arch": "noarch",
-      "src": "python-setuptools-39.2.0-6.el8_7.1.src.rpm",
-      "filename": "platform-python-setuptools-39.2.0-6.el8_7.1.noarch.rpm"
-    },
-    {
       "name": "python3-setuptools",
       "epoch": "0",
       "version": "39.2.0",
@@ -36,24 +27,6 @@
       "arch": "noarch",
       "src": "python-setuptools-39.2.0-6.el8_7.1.src.rpm",
       "filename": "python3-setuptools-39.2.0-6.el8_7.1.noarch.rpm"
-    },
-    {
-      "name": "python3-setuptools",
-      "epoch": "0",
-      "version": "39.2.0",
-      "release": "6.el8_7.1",
-      "arch": "noarch",
-      "src": "python-setuptools-39.2.0-6.el8_7.1.src.rpm",
-      "filename": "python3-setuptools-39.2.0-6.el8_7.1.noarch.rpm"
-    },
-    {
-      "name": "python3-setuptools-wheel",
-      "epoch": "0",
-      "version": "39.2.0",
-      "release": "6.el8_7.1",
-      "arch": "noarch",
-      "src": "python-setuptools-39.2.0-6.el8_7.1.src.rpm",
-      "filename": "python3-setuptools-wheel-39.2.0-6.el8_7.1.noarch.rpm"
     },
     {
       "name": "python3-setuptools-wheel",
@@ -82,6 +55,18 @@
       "id": "RLSA-2023:0835",
       "title": "RLSA-2023:0835",
       "type": "self"
+    },
+    {
+      "href": "https://access.redhat.com/errata/RHSA-2023:0835",
+      "id": "RHSA-2023:0835",
+      "title": "Red Hat RHSA-2023:0835",
+      "type": "vendor"
+    },
+    {
+      "href": "https://creativecommons.org/licenses/by/4.0/",
+      "id": "CC-BY-4.0",
+      "title": "License: CC-BY-4.0",
+      "type": "other"
     }
   ],
   "cveids": [

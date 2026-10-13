@@ -20,24 +20,6 @@
       "filename": "ghostscript-9.27-1.el8.aarch64.rpm"
     },
     {
-      "name": "ghostscript",
-      "epoch": "0",
-      "version": "9.27",
-      "release": "1.el8",
-      "arch": "aarch64",
-      "src": "ghostscript-9.27-1.el8.src.rpm",
-      "filename": "ghostscript-9.27-1.el8.aarch64.rpm"
-    },
-    {
-      "name": "ghostscript",
-      "epoch": "0",
-      "version": "9.27",
-      "release": "1.el8",
-      "arch": "aarch64",
-      "src": "ghostscript-9.27-1.el8.src.rpm",
-      "filename": "ghostscript-9.27-1.el8.aarch64.rpm"
-    },
-    {
       "name": "ghostscript-x11",
       "epoch": "0",
       "version": "9.27",
@@ -45,42 +27,6 @@
       "arch": "aarch64",
       "src": "ghostscript-9.27-1.el8.src.rpm",
       "filename": "ghostscript-x11-9.27-1.el8.aarch64.rpm"
-    },
-    {
-      "name": "ghostscript-x11",
-      "epoch": "0",
-      "version": "9.27",
-      "release": "1.el8",
-      "arch": "aarch64",
-      "src": "ghostscript-9.27-1.el8.src.rpm",
-      "filename": "ghostscript-x11-9.27-1.el8.aarch64.rpm"
-    },
-    {
-      "name": "ghostscript-x11",
-      "epoch": "0",
-      "version": "9.27",
-      "release": "1.el8",
-      "arch": "aarch64",
-      "src": "ghostscript-9.27-1.el8.src.rpm",
-      "filename": "ghostscript-x11-9.27-1.el8.aarch64.rpm"
-    },
-    {
-      "name": "libgs",
-      "epoch": "0",
-      "version": "9.27",
-      "release": "1.el8",
-      "arch": "aarch64",
-      "src": "ghostscript-9.27-1.el8.src.rpm",
-      "filename": "libgs-9.27-1.el8.aarch64.rpm"
-    },
-    {
-      "name": "libgs",
-      "epoch": "0",
-      "version": "9.27",
-      "release": "1.el8",
-      "arch": "aarch64",
-      "src": "ghostscript-9.27-1.el8.src.rpm",
-      "filename": "libgs-9.27-1.el8.aarch64.rpm"
     },
     {
       "name": "libgs",
@@ -422,6 +368,18 @@
       "id": "RLSA-2021:1852",
       "title": "RLSA-2021:1852",
       "type": "self"
+    },
+    {
+      "href": "https://access.redhat.com/errata/RHSA-2021:1852",
+      "id": "RHSA-2021:1852",
+      "title": "Red Hat RHSA-2021:1852",
+      "type": "vendor"
+    },
+    {
+      "href": "https://creativecommons.org/licenses/by/4.0/",
+      "id": "CC-BY-4.0",
+      "title": "License: CC-BY-4.0",
+      "type": "other"
     }
   ],
   "cveids": [
