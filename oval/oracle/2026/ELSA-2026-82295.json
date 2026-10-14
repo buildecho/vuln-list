@@ -1,0 +1,308 @@
+{
+  "Title": "ELSA-2026-82295:  hplip security update (IMPORTANT)",
+  "Description": "[3.26.6-3]\n- Fix LEDM scanning\n\n[3.26.6-2]\n- fix OSH issues\n\n[3.26.6-1]\n- Rebase to 3.26.6",
+  "Platform": [
+    "Oracle Linux 8"
+  ],
+  "References": [
+    {
+      "Source": "elsa",
+      "URI": "https://linux.oracle.com/errata/ELSA-2026-82295.html",
+      "ID": "ELSA-2026-82295"
+    },
+    {
+      "Source": "CVE",
+      "URI": "https://linux.oracle.com/cve/CVE-2020-6923.html",
+      "ID": "CVE-2020-6923"
+    },
+    {
+      "Source": "CVE",
+      "URI": "https://linux.oracle.com/cve/CVE-2025-43023.html",
+      "ID": "CVE-2025-43023"
+    },
+    {
+      "Source": "CVE",
+      "URI": "https://linux.oracle.com/cve/CVE-2026-91097.html",
+      "ID": "CVE-2026-91097"
+    },
+    {
+      "Source": "CVE",
+      "URI": "https://linux.oracle.com/cve/CVE-2026-91098.html",
+      "ID": "CVE-2026-91098"
+    },
+    {
+      "Source": "CVE",
+      "URI": "https://linux.oracle.com/cve/CVE-2026-91099.html",
+      "ID": "CVE-2026-91099"
+    },
+    {
+      "Source": "CVE",
+      "URI": "https://linux.oracle.com/cve/CVE-2026-91100.html",
+      "ID": "CVE-2026-91100"
+    },
+    {
+      "Source": "CVE",
+      "URI": "https://linux.oracle.com/cve/CVE-2026-91101.html",
+      "ID": "CVE-2026-91101"
+    },
+    {
+      "Source": "CVE",
+      "URI": "https://linux.oracle.com/cve/CVE-2026-91102.html",
+      "ID": "CVE-2026-91102"
+    },
+    {
+      "Source": "CVE",
+      "URI": "https://linux.oracle.com/cve/CVE-2026-91103.html",
+      "ID": "CVE-2026-91103"
+    },
+    {
+      "Source": "CVE",
+      "URI": "https://linux.oracle.com/cve/CVE-2026-91104.html",
+      "ID": "CVE-2026-91104"
+    },
+    {
+      "Source": "CVE",
+      "URI": "https://linux.oracle.com/cve/CVE-2026-91105.html",
+      "ID": "CVE-2026-91105"
+    },
+    {
+      "Source": "CVE",
+      "URI": "https://linux.oracle.com/cve/CVE-2026-91106.html",
+      "ID": "CVE-2026-91106"
+    }
+  ],
+  "Criteria": {
+    "Operator": "AND",
+    "Criterias": [
+      {
+        "Operator": "OR",
+        "Criterias": [
+          {
+            "Operator": "AND",
+            "Criterias": [
+              {
+                "Operator": "OR",
+                "Criterias": [
+                  {
+                    "Operator": "AND",
+                    "Criterias": null,
+                    "Criterions": [
+                      {
+                        "Comment": "hplip is earlier than 0:3.26.6-3.el8_10"
+                      },
+                      {
+                        "Comment": "hplip is signed with the Oracle Linux 8 key"
+                      }
+                    ]
+                  },
+                  {
+                    "Operator": "AND",
+                    "Criterias": null,
+                    "Criterions": [
+                      {
+                        "Comment": "hplip-common is earlier than 0:3.26.6-3.el8_10"
+                      },
+                      {
+                        "Comment": "hplip-common is signed with the Oracle Linux 8 key"
+                      }
+                    ]
+                  },
+                  {
+                    "Operator": "AND",
+                    "Criterias": null,
+                    "Criterions": [
+                      {
+                        "Comment": "hplip-gui is earlier than 0:3.26.6-3.el8_10"
+                      },
+                      {
+                        "Comment": "hplip-gui is signed with the Oracle Linux 8 key"
+                      }
+                    ]
+                  },
+                  {
+                    "Operator": "AND",
+                    "Criterias": null,
+                    "Criterions": [
+                      {
+                        "Comment": "hplip-libs is earlier than 0:3.26.6-3.el8_10"
+                      },
+                      {
+                        "Comment": "hplip-libs is signed with the Oracle Linux 8 key"
+                      }
+                    ]
+                  },
+                  {
+                    "Operator": "AND",
+                    "Criterias": null,
+                    "Criterions": [
+                      {
+                        "Comment": "libsane-hpaio is earlier than 0:3.26.6-3.el8_10"
+                      },
+                      {
+                        "Comment": "libsane-hpaio is signed with the Oracle Linux 8 key"
+                      }
+                    ]
+                  }
+                ],
+                "Criterions": null
+              }
+            ],
+            "Criterions": [
+              {
+                "Comment": "Oracle Linux arch is aarch64"
+              }
+            ]
+          },
+          {
+            "Operator": "AND",
+            "Criterias": [
+              {
+                "Operator": "OR",
+                "Criterias": [
+                  {
+                    "Operator": "AND",
+                    "Criterias": null,
+                    "Criterions": [
+                      {
+                        "Comment": "hplip is earlier than 0:3.26.6-3.el8_10"
+                      },
+                      {
+                        "Comment": "hplip is signed with the Oracle Linux 8 key"
+                      }
+                    ]
+                  },
+                  {
+                    "Operator": "AND",
+                    "Criterias": null,
+                    "Criterions": [
+                      {
+                        "Comment": "hplip-common is earlier than 0:3.26.6-3.el8_10"
+                      },
+                      {
+                        "Comment": "hplip-common is signed with the Oracle Linux 8 key"
+                      }
+                    ]
+                  },
+                  {
+                    "Operator": "AND",
+                    "Criterias": null,
+                    "Criterions": [
+                      {
+                        "Comment": "hplip-gui is earlier than 0:3.26.6-3.el8_10"
+                      },
+                      {
+                        "Comment": "hplip-gui is signed with the Oracle Linux 8 key"
+                      }
+                    ]
+                  },
+                  {
+                    "Operator": "AND",
+                    "Criterias": null,
+                    "Criterions": [
+                      {
+                        "Comment": "hplip-libs is earlier than 0:3.26.6-3.el8_10"
+                      },
+                      {
+                        "Comment": "hplip-libs is signed with the Oracle Linux 8 key"
+                      }
+                    ]
+                  },
+                  {
+                    "Operator": "AND",
+                    "Criterias": null,
+                    "Criterions": [
+                      {
+                        "Comment": "libsane-hpaio is earlier than 0:3.26.6-3.el8_10"
+                      },
+                      {
+                        "Comment": "libsane-hpaio is signed with the Oracle Linux 8 key"
+                      }
+                    ]
+                  }
+                ],
+                "Criterions": null
+              }
+            ],
+            "Criterions": [
+              {
+                "Comment": "Oracle Linux arch is x86_64"
+              }
+            ]
+          }
+        ],
+        "Criterions": null
+      }
+    ],
+    "Criterions": [
+      {
+        "Comment": "Oracle Linux 8 is installed"
+      }
+    ]
+  },
+  "Severity": "IMPORTANT",
+  "Cves": [
+    {
+      "Impact": "",
+      "Href": "https://linux.oracle.com/cve/CVE-2020-6923.html",
+      "ID": "CVE-2020-6923"
+    },
+    {
+      "Impact": "",
+      "Href": "https://linux.oracle.com/cve/CVE-2025-43023.html",
+      "ID": "CVE-2025-43023"
+    },
+    {
+      "Impact": "",
+      "Href": "https://linux.oracle.com/cve/CVE-2026-91097.html",
+      "ID": "CVE-2026-91097"
+    },
+    {
+      "Impact": "",
+      "Href": "https://linux.oracle.com/cve/CVE-2026-91098.html",
+      "ID": "CVE-2026-91098"
+    },
+    {
+      "Impact": "",
+      "Href": "https://linux.oracle.com/cve/CVE-2026-91099.html",
+      "ID": "CVE-2026-91099"
+    },
+    {
+      "Impact": "",
+      "Href": "https://linux.oracle.com/cve/CVE-2026-91100.html",
+      "ID": "CVE-2026-91100"
+    },
+    {
+      "Impact": "",
+      "Href": "https://linux.oracle.com/cve/CVE-2026-91101.html",
+      "ID": "CVE-2026-91101"
+    },
+    {
+      "Impact": "",
+      "Href": "https://linux.oracle.com/cve/CVE-2026-91102.html",
+      "ID": "CVE-2026-91102"
+    },
+    {
+      "Impact": "",
+      "Href": "https://linux.oracle.com/cve/CVE-2026-91103.html",
+      "ID": "CVE-2026-91103"
+    },
+    {
+      "Impact": "",
+      "Href": "https://linux.oracle.com/cve/CVE-2026-91104.html",
+      "ID": "CVE-2026-91104"
+    },
+    {
+      "Impact": "",
+      "Href": "https://linux.oracle.com/cve/CVE-2026-91105.html",
+      "ID": "CVE-2026-91105"
+    },
+    {
+      "Impact": "",
+      "Href": "https://linux.oracle.com/cve/CVE-2026-91106.html",
+      "ID": "CVE-2026-91106"
+    }
+  ],
+  "Issued": {
+    "Date": "2026-10-13"
+  }
+}
