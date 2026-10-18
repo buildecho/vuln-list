@@ -93,7 +93,7 @@
     "fixed_version": "2.6.12-1+deb12u2"
   },
   "CVE-2026-33555": {
-    "fixed_version": "3.0.11-1+deb13u3"
+    "fixed_version": "2.6.12-1+deb12u4"
   },
   "CVE-2026-55203": {},
   "CVE-2026-55204": {},
@@ -101,10 +101,10 @@
     "fixed_version": "1.5.12-1"
   },
   "TEMP-0000000-9C5604": {
-    "fixed_version": "3.0.11-1+deb13u4"
+    "fixed_version": "2.6.12-1+deb12u4"
   },
   "TEMP-0000000-B14A84": {
-    "fixed_version": "3.0.11-1+deb13u4"
+    "fixed_version": "2.6.12-1+deb12u4"
   },
   "TEMP-0000000-B9CD89": {
     "fixed_version": "1.5.12-1"
