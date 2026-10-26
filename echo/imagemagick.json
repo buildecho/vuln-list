@@ -2127,7 +2127,7 @@
     "fixed_version": "8:6.9.11.60+dfsg-1.6+deb12u7"
   },
   "CVE-2026-25971": {
-    "fixed_version": "8:6.9.11.60+dfsg-1.6+deb12u9"
+    "fixed_version": "8:7.1.1.43+dfsg1-1+deb13u6"
   },
   "CVE-2026-25982": {
     "fixed_version": "8:6.9.11.60+dfsg-1.6+deb12u7"
