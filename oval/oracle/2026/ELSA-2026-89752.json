@@ -1,0 +1,110 @@
+{
+  "Title": "ELSA-2026-89752:  oci-seccomp-bpf-hook security update (IMPORTANT)",
+  "Description": "[1.2.11-3]\n- Rebuild for CVE-2026-111943\n- Resolves: RHEL-287608\n\n[1.2.11-2]\n- rebuild with golang to fix CVE-2026-33811\n- Resolves: RHEL-187133",
+  "Platform": [
+    "Oracle Linux 10"
+  ],
+  "References": [
+    {
+      "Source": "elsa",
+      "URI": "https://linux.oracle.com/errata/ELSA-2026-89752.html",
+      "ID": "ELSA-2026-89752"
+    },
+    {
+      "Source": "CVE",
+      "URI": "https://linux.oracle.com/cve/CVE-2026-111943.html",
+      "ID": "CVE-2026-111943"
+    },
+    {
+      "Source": "CVE",
+      "URI": "https://linux.oracle.com/cve/CVE-2026-56853.html",
+      "ID": "CVE-2026-56853"
+    },
+    {
+      "Source": "CVE",
+      "URI": "https://linux.oracle.com/cve/CVE-2026-78667.html",
+      "ID": "CVE-2026-78667"
+    }
+  ],
+  "Criteria": {
+    "Operator": "AND",
+    "Criterias": [
+      {
+        "Operator": "OR",
+        "Criterias": [
+          {
+            "Operator": "AND",
+            "Criterias": [
+              {
+                "Operator": "AND",
+                "Criterias": null,
+                "Criterions": [
+                  {
+                    "Comment": "oci-seccomp-bpf-hook is earlier than 0:1.2.11-3.el10_2"
+                  },
+                  {
+                    "Comment": "oci-seccomp-bpf-hook is signed with the Oracle Linux 10 key"
+                  }
+                ]
+              }
+            ],
+            "Criterions": [
+              {
+                "Comment": "Oracle Linux arch is aarch64"
+              }
+            ]
+          },
+          {
+            "Operator": "AND",
+            "Criterias": [
+              {
+                "Operator": "AND",
+                "Criterias": null,
+                "Criterions": [
+                  {
+                    "Comment": "oci-seccomp-bpf-hook is earlier than 0:1.2.11-3.el10_2"
+                  },
+                  {
+                    "Comment": "oci-seccomp-bpf-hook is signed with the Oracle Linux 10 key"
+                  }
+                ]
+              }
+            ],
+            "Criterions": [
+              {
+                "Comment": "Oracle Linux arch is x86_64"
+              }
+            ]
+          }
+        ],
+        "Criterions": null
+      }
+    ],
+    "Criterions": [
+      {
+        "Comment": "Oracle Linux 10 is installed"
+      }
+    ]
+  },
+  "Severity": "IMPORTANT",
+  "Cves": [
+    {
+      "Impact": "",
+      "Href": "https://linux.oracle.com/cve/CVE-2026-111943.html",
+      "ID": "CVE-2026-111943"
+    },
+    {
+      "Impact": "",
+      "Href": "https://linux.oracle.com/cve/CVE-2026-56853.html",
+      "ID": "CVE-2026-56853"
+    },
+    {
+      "Impact": "",
+      "Href": "https://linux.oracle.com/cve/CVE-2026-78667.html",
+      "ID": "CVE-2026-78667"
+    }
+  ],
+  "Issued": {
+    "Date": "2026-10-26"
+  }
+}
