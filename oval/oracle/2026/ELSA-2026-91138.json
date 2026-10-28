@@ -1,0 +1,146 @@
+{
+  "Title": "ELSA-2026-91138:  yggdrasil security update (IMPORTANT)",
+  "Description": "[0.4.9.2-4]\n- Rebuild yggdrasil against updated golang\n\n[0.4.9.2-3]\n- Rebuild yggdrasil against updated golang\n\n[0.4.9.2-2]\n- Rebuild yggdrasil against updated golang",
+  "Platform": [
+    "Oracle Linux 10"
+  ],
+  "References": [
+    {
+      "Source": "elsa",
+      "URI": "https://linux.oracle.com/errata/ELSA-2026-91138.html",
+      "ID": "ELSA-2026-91138"
+    },
+    {
+      "Source": "CVE",
+      "URI": "https://linux.oracle.com/cve/CVE-2026-111943.html",
+      "ID": "CVE-2026-111943"
+    },
+    {
+      "Source": "CVE",
+      "URI": "https://linux.oracle.com/cve/CVE-2026-78669.html",
+      "ID": "CVE-2026-78669"
+    },
+    {
+      "Source": "CVE",
+      "URI": "https://linux.oracle.com/cve/CVE-2026-94440.html",
+      "ID": "CVE-2026-94440"
+    }
+  ],
+  "Criteria": {
+    "Operator": "AND",
+    "Criterias": [
+      {
+        "Operator": "OR",
+        "Criterias": [
+          {
+            "Operator": "AND",
+            "Criterias": [
+              {
+                "Operator": "OR",
+                "Criterias": [
+                  {
+                    "Operator": "AND",
+                    "Criterias": null,
+                    "Criterions": [
+                      {
+                        "Comment": "yggdrasil is earlier than 0:0.4.9.2-1.el10_2.4"
+                      },
+                      {
+                        "Comment": "yggdrasil is signed with the Oracle Linux 10 key"
+                      }
+                    ]
+                  },
+                  {
+                    "Operator": "AND",
+                    "Criterias": null,
+                    "Criterions": [
+                      {
+                        "Comment": "yggdrasil-devel is earlier than 0:0.4.9.2-1.el10_2.4"
+                      },
+                      {
+                        "Comment": "yggdrasil-devel is signed with the Oracle Linux 10 key"
+                      }
+                    ]
+                  }
+                ],
+                "Criterions": null
+              }
+            ],
+            "Criterions": [
+              {
+                "Comment": "Oracle Linux arch is aarch64"
+              }
+            ]
+          },
+          {
+            "Operator": "AND",
+            "Criterias": [
+              {
+                "Operator": "OR",
+                "Criterias": [
+                  {
+                    "Operator": "AND",
+                    "Criterias": null,
+                    "Criterions": [
+                      {
+                        "Comment": "yggdrasil is earlier than 0:0.4.9.2-1.el10_2.4"
+                      },
+                      {
+                        "Comment": "yggdrasil is signed with the Oracle Linux 10 key"
+                      }
+                    ]
+                  },
+                  {
+                    "Operator": "AND",
+                    "Criterias": null,
+                    "Criterions": [
+                      {
+                        "Comment": "yggdrasil-devel is earlier than 0:0.4.9.2-1.el10_2.4"
+                      },
+                      {
+                        "Comment": "yggdrasil-devel is signed with the Oracle Linux 10 key"
+                      }
+                    ]
+                  }
+                ],
+                "Criterions": null
+              }
+            ],
+            "Criterions": [
+              {
+                "Comment": "Oracle Linux arch is x86_64"
+              }
+            ]
+          }
+        ],
+        "Criterions": null
+      }
+    ],
+    "Criterions": [
+      {
+        "Comment": "Oracle Linux 10 is installed"
+      }
+    ]
+  },
+  "Severity": "IMPORTANT",
+  "Cves": [
+    {
+      "Impact": "",
+      "Href": "https://linux.oracle.com/cve/CVE-2026-111943.html",
+      "ID": "CVE-2026-111943"
+    },
+    {
+      "Impact": "",
+      "Href": "https://linux.oracle.com/cve/CVE-2026-78669.html",
+      "ID": "CVE-2026-78669"
+    },
+    {
+      "Impact": "",
+      "Href": "https://linux.oracle.com/cve/CVE-2026-94440.html",
+      "ID": "CVE-2026-94440"
+    }
+  ],
+  "Issued": {
+    "Date": "2026-10-28"
+  }
+}
