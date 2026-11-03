@@ -373,5 +373,7 @@
   "CVE-2026-62846": {
     "fixed_version": "6.13-2+deb13u4"
   },
-  "TEMP-0000000-9EE226": {}
+  "TEMP-0000000-9EE226": {
+    "fixed_version": "6.13-2+deb13u4"
+  }
 }
