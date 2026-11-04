@@ -1344,8 +1344,12 @@
   "CVE-2026-102702": {
     "fixed_version": "4.20.4+39-gf1e1321c87-0+deb13u1"
   },
-  "CVE-2026-102703": {},
-  "CVE-2026-102704": {},
+  "CVE-2026-102703": {
+    "fixed_version": "4.20.4+63-g7abfd2bce2-0+deb13u1"
+  },
+  "CVE-2026-102704": {
+    "fixed_version": "4.20.4+63-g7abfd2bce2-0+deb13u1"
+  },
   "CVE-2026-23553": {
     "fixed_version": "4.17.7-0+deb12u1"
   },
@@ -1434,9 +1438,6 @@
     "fixed_version": "4.20.4+39-gf1e1321c87-0+deb13u1"
   },
   "CVE-2026-79604": {
-    "fixed_version": "4.20.4+39-gf1e1321c87-0+deb13u1"
-  },
-  "CVE-2026-79608": {
     "fixed_version": "4.20.4+39-gf1e1321c87-0+deb13u1"
   },
   "CVE-2026-79609": {
