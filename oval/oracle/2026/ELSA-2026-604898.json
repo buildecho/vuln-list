@@ -92,6 +92,11 @@
     },
     {
       "Source": "CVE",
+      "URI": "https://linux.oracle.com/cve/CVE-2026-123817.html",
+      "ID": "CVE-2026-123817"
+    },
+    {
+      "Source": "CVE",
       "URI": "https://linux.oracle.com/cve/CVE-2026-22815.html",
       "ID": "CVE-2026-22815"
     },
@@ -378,6 +383,11 @@
       "Impact": "",
       "Href": "https://linux.oracle.com/cve/CVE-2026-111750.html",
       "ID": "CVE-2026-111750"
+    },
+    {
+      "Impact": "",
+      "Href": "https://linux.oracle.com/cve/CVE-2026-123817.html",
+      "ID": "CVE-2026-123817"
     },
     {
       "Impact": "",
