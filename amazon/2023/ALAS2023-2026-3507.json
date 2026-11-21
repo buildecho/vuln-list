@@ -1,0 +1,1030 @@
+{
+  "id": "ALAS2023-2026-3507",
+  "title": "Amazon Linux 2023 - ALAS2023-2026-3507: Critical priority package update for php8.4",
+  "issued": {
+    "date": "2026-11-19 09:00:00"
+  },
+  "updated": {
+    "date": "2026-11-19 16:59:53"
+  },
+  "severity": "Critical",
+  "description": "Package updates are available for Amazon Linux 2023 that fix the following vulnerabilities:\n\"\"\n\nCVE-2026-15353:\n\tSOAP information disclosure through malformed array dimensions. The SOAP extension reads an uninitialized array position when decoding an encoded array whose arraySize attribute is empty, whitespace-only or non-numeric, or when such dimensions come from a WSDL definition. Four bytes of unrelated heap data can then be used as an integer key in the decoded array. An unauthenticated remote client can trigger this with a crafted request to a SoapServer endpoint, and a malicious SOAP server with a response to SoapClient. Heap memory is disclosed only if the application returns or otherwise exposes the decoded array. This issue affects PHP versions 8.2.* before 8.2.36, 8.3.* before 8.3.37, 8.4.* before 8.4.28 and 8.5.* before 8.5.13.\n\nCVE-2026-129538:\n\tPHP-CGI out-of-bounds read and write during PATH_INFO correction\n\nCVE-2026-129506:\n\tPHP's SOAP extension can read freed memory while processing XML containing a document type definition (DTD) and an entity reference in an attribute value. An unauthenticated attacker who can send a crafted request to an exposed SOAP endpoint can crash the PHP process handling it. Applications that load attacker-controlled WSDL or imported schema documents can also be affected.\n\nCVE-2026-129501:\n\tPHP's modern DOM XML serializer can incorrectly share ownership of a generated namespace prefix between an element and its descendant. An application that calls saveXml() on attacker-controlled XML or HTML can consequently use and free the same allocation more than once, which can crash the PHP process.\n\nCVE-2026-129496:\n\tTimezone cache use-after-free can lead to remote code execution\n\nCVE-2026-129481:\n\tUse-after-free after interrupted session shutdown\n\nCVE-2026-129292:\n\tPHP-FPM can include attacker-controlled request metadata without escaping it in the full status response. An unauthenticated attacker can place HTML or JavaScript in a worker's scoreboard entry and execute it in the browser of an operator who later views the full HTML status page. The attacker does not need access to the status endpoint.\n\nCVE-2026-129291:\n\tPHP-FPM epoll use-after-free can lead to local privilege escalation\n\nCVE-2026-129289:\n\tPHP can fail to discard unread bytes from an HTTP request body before reusing a persistent PHP-FPM or LSAPI connection. In PHP-FPM, an unauthenticated attacker can make those bytes form a separate FastCGI request, bypass front-end routing and execute attacker-controlled PHP code with the privileges of the worker.\n\nPHP-FPM request smuggling through an unread HTTP request body - GHSA-qc49-hpvq-g2w6\n\nCVE-2026-128090:\n\tPHAR OpenSSL signature bypass via algorithm downgrade\n\nCVE-2026-128064:\n\tPHP's HTTP and FTP stream wrappers can send data without encryption when an HTTPS or FTPS URL has an uppercase S in its scheme, for example HTTPS://, httpS:// or FTPS://. Applications using file_get_contents(), fopen() or other stream functions may therefore expose passwords, authentication tokens, request bodies or transferred files to an attacker able to observe the network traffic.\n\nCVE-2026-127960:\n\tA malicious HTTP server can cause PHP's built-in HTTP stream wrapper to consume excessive CPU while reading a response. Applications using file_get_contents(), fopen() or other stream functions to fetch an HTTP or HTTPS URL may become slow or unavailable if the response contains a header split across a large number of continuation lines.\n\nCVE-2026-126714:\n\tPartially overwritten session files can lead to remote code execution\n\nCVE-2026-115560:\n\tPHP's session upload progress feature can write attacker-controlled data using one session serialization format and later read it using another. A mismatched decoder can interpret part of a session key as serialized object data. An application with a suitable object gadget chain can then execute code with the privileges of the PHP worker.\n\nThis is a configuration-dependent deserialization issue, separate from the stale global state vulnerability in CVE-2026-109619 (GHSA-6wmf-4rv5-p3rp). Session upload progress was introduced in PHP 5.4.0, so older unsupported releases may also be affected.\n",
+  "packages": [
+    {
+      "name": "php8.4",
+      "epoch": "0",
+      "version": "8.4.28",
+      "release": "1.amzn2023.0.1",
+      "arch": "aarch64",
+      "filename": "Packages/php8.4-8.4.28-1.amzn2023.0.1.aarch64.rpm"
+    },
+    {
+      "name": "php8.4",
+      "epoch": "0",
+      "version": "8.4.28",
+      "release": "1.amzn2023.0.1",
+      "arch": "x86_64",
+      "filename": "Packages/php8.4-8.4.28-1.amzn2023.0.1.x86_64.rpm"
+    },
+    {
+      "name": "php8.4-bcmath",
+      "epoch": "0",
+      "version": "8.4.28",
+      "release": "1.amzn2023.0.1",
+      "arch": "aarch64",
+      "filename": "Packages/php8.4-bcmath-8.4.28-1.amzn2023.0.1.aarch64.rpm"
+    },
+    {
+      "name": "php8.4-bcmath",
+      "epoch": "0",
+      "version": "8.4.28",
+      "release": "1.amzn2023.0.1",
+      "arch": "x86_64",
+      "filename": "Packages/php8.4-bcmath-8.4.28-1.amzn2023.0.1.x86_64.rpm"
+    },
+    {
+      "name": "php8.4-bcmath-debuginfo",
+      "epoch": "0",
+      "version": "8.4.28",
+      "release": "1.amzn2023.0.1",
+      "arch": "aarch64",
+      "filename": "Packages/php8.4-bcmath-debuginfo-8.4.28-1.amzn2023.0.1.aarch64.rpm"
+    },
+    {
+      "name": "php8.4-bcmath-debuginfo",
+      "epoch": "0",
+      "version": "8.4.28",
+      "release": "1.amzn2023.0.1",
+      "arch": "x86_64",
+      "filename": "Packages/php8.4-bcmath-debuginfo-8.4.28-1.amzn2023.0.1.x86_64.rpm"
+    },
+    {
+      "name": "php8.4-cli",
+      "epoch": "0",
+      "version": "8.4.28",
+      "release": "1.amzn2023.0.1",
+      "arch": "aarch64",
+      "filename": "Packages/php8.4-cli-8.4.28-1.amzn2023.0.1.aarch64.rpm"
+    },
+    {
+      "name": "php8.4-cli",
+      "epoch": "0",
+      "version": "8.4.28",
+      "release": "1.amzn2023.0.1",
+      "arch": "x86_64",
+      "filename": "Packages/php8.4-cli-8.4.28-1.amzn2023.0.1.x86_64.rpm"
+    },
+    {
+      "name": "php8.4-cli-debuginfo",
+      "epoch": "0",
+      "version": "8.4.28",
+      "release": "1.amzn2023.0.1",
+      "arch": "aarch64",
+      "filename": "Packages/php8.4-cli-debuginfo-8.4.28-1.amzn2023.0.1.aarch64.rpm"
+    },
+    {
+      "name": "php8.4-cli-debuginfo",
+      "epoch": "0",
+      "version": "8.4.28",
+      "release": "1.amzn2023.0.1",
+      "arch": "x86_64",
+      "filename": "Packages/php8.4-cli-debuginfo-8.4.28-1.amzn2023.0.1.x86_64.rpm"
+    },
+    {
+      "name": "php8.4-common",
+      "epoch": "0",
+      "version": "8.4.28",
+      "release": "1.amzn2023.0.1",
+      "arch": "aarch64",
+      "filename": "Packages/php8.4-common-8.4.28-1.amzn2023.0.1.aarch64.rpm"
+    },
+    {
+      "name": "php8.4-common",
+      "epoch": "0",
+      "version": "8.4.28",
+      "release": "1.amzn2023.0.1",
+      "arch": "x86_64",
+      "filename": "Packages/php8.4-common-8.4.28-1.amzn2023.0.1.x86_64.rpm"
+    },
+    {
+      "name": "php8.4-common-debuginfo",
+      "epoch": "0",
+      "version": "8.4.28",
+      "release": "1.amzn2023.0.1",
+      "arch": "aarch64",
+      "filename": "Packages/php8.4-common-debuginfo-8.4.28-1.amzn2023.0.1.aarch64.rpm"
+    },
+    {
+      "name": "php8.4-common-debuginfo",
+      "epoch": "0",
+      "version": "8.4.28",
+      "release": "1.amzn2023.0.1",
+      "arch": "x86_64",
+      "filename": "Packages/php8.4-common-debuginfo-8.4.28-1.amzn2023.0.1.x86_64.rpm"
+    },
+    {
+      "name": "php8.4-dba",
+      "epoch": "0",
+      "version": "8.4.28",
+      "release": "1.amzn2023.0.1",
+      "arch": "aarch64",
+      "filename": "Packages/php8.4-dba-8.4.28-1.amzn2023.0.1.aarch64.rpm"
+    },
+    {
+      "name": "php8.4-dba",
+      "epoch": "0",
+      "version": "8.4.28",
+      "release": "1.amzn2023.0.1",
+      "arch": "x86_64",
+      "filename": "Packages/php8.4-dba-8.4.28-1.amzn2023.0.1.x86_64.rpm"
+    },
+    {
+      "name": "php8.4-dba-debuginfo",
+      "epoch": "0",
+      "version": "8.4.28",
+      "release": "1.amzn2023.0.1",
+      "arch": "aarch64",
+      "filename": "Packages/php8.4-dba-debuginfo-8.4.28-1.amzn2023.0.1.aarch64.rpm"
+    },
+    {
+      "name": "php8.4-dba-debuginfo",
+      "epoch": "0",
+      "version": "8.4.28",
+      "release": "1.amzn2023.0.1",
+      "arch": "x86_64",
+      "filename": "Packages/php8.4-dba-debuginfo-8.4.28-1.amzn2023.0.1.x86_64.rpm"
+    },
+    {
+      "name": "php8.4-dbg",
+      "epoch": "0",
+      "version": "8.4.28",
+      "release": "1.amzn2023.0.1",
+      "arch": "aarch64",
+      "filename": "Packages/php8.4-dbg-8.4.28-1.amzn2023.0.1.aarch64.rpm"
+    },
+    {
+      "name": "php8.4-dbg",
+      "epoch": "0",
+      "version": "8.4.28",
+      "release": "1.amzn2023.0.1",
+      "arch": "x86_64",
+      "filename": "Packages/php8.4-dbg-8.4.28-1.amzn2023.0.1.x86_64.rpm"
+    },
+    {
+      "name": "php8.4-dbg-debuginfo",
+      "epoch": "0",
+      "version": "8.4.28",
+      "release": "1.amzn2023.0.1",
+      "arch": "aarch64",
+      "filename": "Packages/php8.4-dbg-debuginfo-8.4.28-1.amzn2023.0.1.aarch64.rpm"
+    },
+    {
+      "name": "php8.4-dbg-debuginfo",
+      "epoch": "0",
+      "version": "8.4.28",
+      "release": "1.amzn2023.0.1",
+      "arch": "x86_64",
+      "filename": "Packages/php8.4-dbg-debuginfo-8.4.28-1.amzn2023.0.1.x86_64.rpm"
+    },
+    {
+      "name": "php8.4-debuginfo",
+      "epoch": "0",
+      "version": "8.4.28",
+      "release": "1.amzn2023.0.1",
+      "arch": "aarch64",
+      "filename": "Packages/php8.4-debuginfo-8.4.28-1.amzn2023.0.1.aarch64.rpm"
+    },
+    {
+      "name": "php8.4-debuginfo",
+      "epoch": "0",
+      "version": "8.4.28",
+      "release": "1.amzn2023.0.1",
+      "arch": "x86_64",
+      "filename": "Packages/php8.4-debuginfo-8.4.28-1.amzn2023.0.1.x86_64.rpm"
+    },
+    {
+      "name": "php8.4-debugsource",
+      "epoch": "0",
+      "version": "8.4.28",
+      "release": "1.amzn2023.0.1",
+      "arch": "aarch64",
+      "filename": "Packages/php8.4-debugsource-8.4.28-1.amzn2023.0.1.aarch64.rpm"
+    },
+    {
+      "name": "php8.4-debugsource",
+      "epoch": "0",
+      "version": "8.4.28",
+      "release": "1.amzn2023.0.1",
+      "arch": "x86_64",
+      "filename": "Packages/php8.4-debugsource-8.4.28-1.amzn2023.0.1.x86_64.rpm"
+    },
+    {
+      "name": "php8.4-devel",
+      "epoch": "0",
+      "version": "8.4.28",
+      "release": "1.amzn2023.0.1",
+      "arch": "aarch64",
+      "filename": "Packages/php8.4-devel-8.4.28-1.amzn2023.0.1.aarch64.rpm"
+    },
+    {
+      "name": "php8.4-devel",
+      "epoch": "0",
+      "version": "8.4.28",
+      "release": "1.amzn2023.0.1",
+      "arch": "x86_64",
+      "filename": "Packages/php8.4-devel-8.4.28-1.amzn2023.0.1.x86_64.rpm"
+    },
+    {
+      "name": "php8.4-embedded",
+      "epoch": "0",
+      "version": "8.4.28",
+      "release": "1.amzn2023.0.1",
+      "arch": "aarch64",
+      "filename": "Packages/php8.4-embedded-8.4.28-1.amzn2023.0.1.aarch64.rpm"
+    },
+    {
+      "name": "php8.4-embedded",
+      "epoch": "0",
+      "version": "8.4.28",
+      "release": "1.amzn2023.0.1",
+      "arch": "x86_64",
+      "filename": "Packages/php8.4-embedded-8.4.28-1.amzn2023.0.1.x86_64.rpm"
+    },
+    {
+      "name": "php8.4-embedded-debuginfo",
+      "epoch": "0",
+      "version": "8.4.28",
+      "release": "1.amzn2023.0.1",
+      "arch": "aarch64",
+      "filename": "Packages/php8.4-embedded-debuginfo-8.4.28-1.amzn2023.0.1.aarch64.rpm"
+    },
+    {
+      "name": "php8.4-embedded-debuginfo",
+      "epoch": "0",
+      "version": "8.4.28",
+      "release": "1.amzn2023.0.1",
+      "arch": "x86_64",
+      "filename": "Packages/php8.4-embedded-debuginfo-8.4.28-1.amzn2023.0.1.x86_64.rpm"
+    },
+    {
+      "name": "php8.4-enchant",
+      "epoch": "0",
+      "version": "8.4.28",
+      "release": "1.amzn2023.0.1",
+      "arch": "aarch64",
+      "filename": "Packages/php8.4-enchant-8.4.28-1.amzn2023.0.1.aarch64.rpm"
+    },
+    {
+      "name": "php8.4-enchant",
+      "epoch": "0",
+      "version": "8.4.28",
+      "release": "1.amzn2023.0.1",
+      "arch": "x86_64",
+      "filename": "Packages/php8.4-enchant-8.4.28-1.amzn2023.0.1.x86_64.rpm"
+    },
+    {
+      "name": "php8.4-enchant-debuginfo",
+      "epoch": "0",
+      "version": "8.4.28",
+      "release": "1.amzn2023.0.1",
+      "arch": "aarch64",
+      "filename": "Packages/php8.4-enchant-debuginfo-8.4.28-1.amzn2023.0.1.aarch64.rpm"
+    },
+    {
+      "name": "php8.4-enchant-debuginfo",
+      "epoch": "0",
+      "version": "8.4.28",
+      "release": "1.amzn2023.0.1",
+      "arch": "x86_64",
+      "filename": "Packages/php8.4-enchant-debuginfo-8.4.28-1.amzn2023.0.1.x86_64.rpm"
+    },
+    {
+      "name": "php8.4-ffi",
+      "epoch": "0",
+      "version": "8.4.28",
+      "release": "1.amzn2023.0.1",
+      "arch": "aarch64",
+      "filename": "Packages/php8.4-ffi-8.4.28-1.amzn2023.0.1.aarch64.rpm"
+    },
+    {
+      "name": "php8.4-ffi",
+      "epoch": "0",
+      "version": "8.4.28",
+      "release": "1.amzn2023.0.1",
+      "arch": "x86_64",
+      "filename": "Packages/php8.4-ffi-8.4.28-1.amzn2023.0.1.x86_64.rpm"
+    },
+    {
+      "name": "php8.4-ffi-debuginfo",
+      "epoch": "0",
+      "version": "8.4.28",
+      "release": "1.amzn2023.0.1",
+      "arch": "aarch64",
+      "filename": "Packages/php8.4-ffi-debuginfo-8.4.28-1.amzn2023.0.1.aarch64.rpm"
+    },
+    {
+      "name": "php8.4-ffi-debuginfo",
+      "epoch": "0",
+      "version": "8.4.28",
+      "release": "1.amzn2023.0.1",
+      "arch": "x86_64",
+      "filename": "Packages/php8.4-ffi-debuginfo-8.4.28-1.amzn2023.0.1.x86_64.rpm"
+    },
+    {
+      "name": "php8.4-fpm",
+      "epoch": "0",
+      "version": "8.4.28",
+      "release": "1.amzn2023.0.1",
+      "arch": "aarch64",
+      "filename": "Packages/php8.4-fpm-8.4.28-1.amzn2023.0.1.aarch64.rpm"
+    },
+    {
+      "name": "php8.4-fpm",
+      "epoch": "0",
+      "version": "8.4.28",
+      "release": "1.amzn2023.0.1",
+      "arch": "x86_64",
+      "filename": "Packages/php8.4-fpm-8.4.28-1.amzn2023.0.1.x86_64.rpm"
+    },
+    {
+      "name": "php8.4-fpm-debuginfo",
+      "epoch": "0",
+      "version": "8.4.28",
+      "release": "1.amzn2023.0.1",
+      "arch": "aarch64",
+      "filename": "Packages/php8.4-fpm-debuginfo-8.4.28-1.amzn2023.0.1.aarch64.rpm"
+    },
+    {
+      "name": "php8.4-fpm-debuginfo",
+      "epoch": "0",
+      "version": "8.4.28",
+      "release": "1.amzn2023.0.1",
+      "arch": "x86_64",
+      "filename": "Packages/php8.4-fpm-debuginfo-8.4.28-1.amzn2023.0.1.x86_64.rpm"
+    },
+    {
+      "name": "php8.4-gd",
+      "epoch": "0",
+      "version": "8.4.28",
+      "release": "1.amzn2023.0.1",
+      "arch": "aarch64",
+      "filename": "Packages/php8.4-gd-8.4.28-1.amzn2023.0.1.aarch64.rpm"
+    },
+    {
+      "name": "php8.4-gd",
+      "epoch": "0",
+      "version": "8.4.28",
+      "release": "1.amzn2023.0.1",
+      "arch": "x86_64",
+      "filename": "Packages/php8.4-gd-8.4.28-1.amzn2023.0.1.x86_64.rpm"
+    },
+    {
+      "name": "php8.4-gd-debuginfo",
+      "epoch": "0",
+      "version": "8.4.28",
+      "release": "1.amzn2023.0.1",
+      "arch": "aarch64",
+      "filename": "Packages/php8.4-gd-debuginfo-8.4.28-1.amzn2023.0.1.aarch64.rpm"
+    },
+    {
+      "name": "php8.4-gd-debuginfo",
+      "epoch": "0",
+      "version": "8.4.28",
+      "release": "1.amzn2023.0.1",
+      "arch": "x86_64",
+      "filename": "Packages/php8.4-gd-debuginfo-8.4.28-1.amzn2023.0.1.x86_64.rpm"
+    },
+    {
+      "name": "php8.4-gmp",
+      "epoch": "0",
+      "version": "8.4.28",
+      "release": "1.amzn2023.0.1",
+      "arch": "aarch64",
+      "filename": "Packages/php8.4-gmp-8.4.28-1.amzn2023.0.1.aarch64.rpm"
+    },
+    {
+      "name": "php8.4-gmp",
+      "epoch": "0",
+      "version": "8.4.28",
+      "release": "1.amzn2023.0.1",
+      "arch": "x86_64",
+      "filename": "Packages/php8.4-gmp-8.4.28-1.amzn2023.0.1.x86_64.rpm"
+    },
+    {
+      "name": "php8.4-gmp-debuginfo",
+      "epoch": "0",
+      "version": "8.4.28",
+      "release": "1.amzn2023.0.1",
+      "arch": "aarch64",
+      "filename": "Packages/php8.4-gmp-debuginfo-8.4.28-1.amzn2023.0.1.aarch64.rpm"
+    },
+    {
+      "name": "php8.4-gmp-debuginfo",
+      "epoch": "0",
+      "version": "8.4.28",
+      "release": "1.amzn2023.0.1",
+      "arch": "x86_64",
+      "filename": "Packages/php8.4-gmp-debuginfo-8.4.28-1.amzn2023.0.1.x86_64.rpm"
+    },
+    {
+      "name": "php8.4-intl",
+      "epoch": "0",
+      "version": "8.4.28",
+      "release": "1.amzn2023.0.1",
+      "arch": "aarch64",
+      "filename": "Packages/php8.4-intl-8.4.28-1.amzn2023.0.1.aarch64.rpm"
+    },
+    {
+      "name": "php8.4-intl",
+      "epoch": "0",
+      "version": "8.4.28",
+      "release": "1.amzn2023.0.1",
+      "arch": "x86_64",
+      "filename": "Packages/php8.4-intl-8.4.28-1.amzn2023.0.1.x86_64.rpm"
+    },
+    {
+      "name": "php8.4-intl-debuginfo",
+      "epoch": "0",
+      "version": "8.4.28",
+      "release": "1.amzn2023.0.1",
+      "arch": "aarch64",
+      "filename": "Packages/php8.4-intl-debuginfo-8.4.28-1.amzn2023.0.1.aarch64.rpm"
+    },
+    {
+      "name": "php8.4-intl-debuginfo",
+      "epoch": "0",
+      "version": "8.4.28",
+      "release": "1.amzn2023.0.1",
+      "arch": "x86_64",
+      "filename": "Packages/php8.4-intl-debuginfo-8.4.28-1.amzn2023.0.1.x86_64.rpm"
+    },
+    {
+      "name": "php8.4-ldap",
+      "epoch": "0",
+      "version": "8.4.28",
+      "release": "1.amzn2023.0.1",
+      "arch": "aarch64",
+      "filename": "Packages/php8.4-ldap-8.4.28-1.amzn2023.0.1.aarch64.rpm"
+    },
+    {
+      "name": "php8.4-ldap",
+      "epoch": "0",
+      "version": "8.4.28",
+      "release": "1.amzn2023.0.1",
+      "arch": "x86_64",
+      "filename": "Packages/php8.4-ldap-8.4.28-1.amzn2023.0.1.x86_64.rpm"
+    },
+    {
+      "name": "php8.4-ldap-debuginfo",
+      "epoch": "0",
+      "version": "8.4.28",
+      "release": "1.amzn2023.0.1",
+      "arch": "aarch64",
+      "filename": "Packages/php8.4-ldap-debuginfo-8.4.28-1.amzn2023.0.1.aarch64.rpm"
+    },
+    {
+      "name": "php8.4-ldap-debuginfo",
+      "epoch": "0",
+      "version": "8.4.28",
+      "release": "1.amzn2023.0.1",
+      "arch": "x86_64",
+      "filename": "Packages/php8.4-ldap-debuginfo-8.4.28-1.amzn2023.0.1.x86_64.rpm"
+    },
+    {
+      "name": "php8.4-mbstring",
+      "epoch": "0",
+      "version": "8.4.28",
+      "release": "1.amzn2023.0.1",
+      "arch": "aarch64",
+      "filename": "Packages/php8.4-mbstring-8.4.28-1.amzn2023.0.1.aarch64.rpm"
+    },
+    {
+      "name": "php8.4-mbstring",
+      "epoch": "0",
+      "version": "8.4.28",
+      "release": "1.amzn2023.0.1",
+      "arch": "x86_64",
+      "filename": "Packages/php8.4-mbstring-8.4.28-1.amzn2023.0.1.x86_64.rpm"
+    },
+    {
+      "name": "php8.4-mbstring-debuginfo",
+      "epoch": "0",
+      "version": "8.4.28",
+      "release": "1.amzn2023.0.1",
+      "arch": "aarch64",
+      "filename": "Packages/php8.4-mbstring-debuginfo-8.4.28-1.amzn2023.0.1.aarch64.rpm"
+    },
+    {
+      "name": "php8.4-mbstring-debuginfo",
+      "epoch": "0",
+      "version": "8.4.28",
+      "release": "1.amzn2023.0.1",
+      "arch": "x86_64",
+      "filename": "Packages/php8.4-mbstring-debuginfo-8.4.28-1.amzn2023.0.1.x86_64.rpm"
+    },
+    {
+      "name": "php8.4-modphp",
+      "epoch": "0",
+      "version": "8.4.28",
+      "release": "1.amzn2023.0.1",
+      "arch": "aarch64",
+      "filename": "Packages/php8.4-modphp-8.4.28-1.amzn2023.0.1.aarch64.rpm"
+    },
+    {
+      "name": "php8.4-modphp",
+      "epoch": "0",
+      "version": "8.4.28",
+      "release": "1.amzn2023.0.1",
+      "arch": "x86_64",
+      "filename": "Packages/php8.4-modphp-8.4.28-1.amzn2023.0.1.x86_64.rpm"
+    },
+    {
+      "name": "php8.4-modphp-debuginfo",
+      "epoch": "0",
+      "version": "8.4.28",
+      "release": "1.amzn2023.0.1",
+      "arch": "aarch64",
+      "filename": "Packages/php8.4-modphp-debuginfo-8.4.28-1.amzn2023.0.1.aarch64.rpm"
+    },
+    {
+      "name": "php8.4-modphp-debuginfo",
+      "epoch": "0",
+      "version": "8.4.28",
+      "release": "1.amzn2023.0.1",
+      "arch": "x86_64",
+      "filename": "Packages/php8.4-modphp-debuginfo-8.4.28-1.amzn2023.0.1.x86_64.rpm"
+    },
+    {
+      "name": "php8.4-mysqlnd",
+      "epoch": "0",
+      "version": "8.4.28",
+      "release": "1.amzn2023.0.1",
+      "arch": "aarch64",
+      "filename": "Packages/php8.4-mysqlnd-8.4.28-1.amzn2023.0.1.aarch64.rpm"
+    },
+    {
+      "name": "php8.4-mysqlnd",
+      "epoch": "0",
+      "version": "8.4.28",
+      "release": "1.amzn2023.0.1",
+      "arch": "x86_64",
+      "filename": "Packages/php8.4-mysqlnd-8.4.28-1.amzn2023.0.1.x86_64.rpm"
+    },
+    {
+      "name": "php8.4-mysqlnd-debuginfo",
+      "epoch": "0",
+      "version": "8.4.28",
+      "release": "1.amzn2023.0.1",
+      "arch": "aarch64",
+      "filename": "Packages/php8.4-mysqlnd-debuginfo-8.4.28-1.amzn2023.0.1.aarch64.rpm"
+    },
+    {
+      "name": "php8.4-mysqlnd-debuginfo",
+      "epoch": "0",
+      "version": "8.4.28",
+      "release": "1.amzn2023.0.1",
+      "arch": "x86_64",
+      "filename": "Packages/php8.4-mysqlnd-debuginfo-8.4.28-1.amzn2023.0.1.x86_64.rpm"
+    },
+    {
+      "name": "php8.4-odbc",
+      "epoch": "0",
+      "version": "8.4.28",
+      "release": "1.amzn2023.0.1",
+      "arch": "aarch64",
+      "filename": "Packages/php8.4-odbc-8.4.28-1.amzn2023.0.1.aarch64.rpm"
+    },
+    {
+      "name": "php8.4-odbc",
+      "epoch": "0",
+      "version": "8.4.28",
+      "release": "1.amzn2023.0.1",
+      "arch": "x86_64",
+      "filename": "Packages/php8.4-odbc-8.4.28-1.amzn2023.0.1.x86_64.rpm"
+    },
+    {
+      "name": "php8.4-odbc-debuginfo",
+      "epoch": "0",
+      "version": "8.4.28",
+      "release": "1.amzn2023.0.1",
+      "arch": "aarch64",
+      "filename": "Packages/php8.4-odbc-debuginfo-8.4.28-1.amzn2023.0.1.aarch64.rpm"
+    },
+    {
+      "name": "php8.4-odbc-debuginfo",
+      "epoch": "0",
+      "version": "8.4.28",
+      "release": "1.amzn2023.0.1",
+      "arch": "x86_64",
+      "filename": "Packages/php8.4-odbc-debuginfo-8.4.28-1.amzn2023.0.1.x86_64.rpm"
+    },
+    {
+      "name": "php8.4-opcache",
+      "epoch": "0",
+      "version": "8.4.28",
+      "release": "1.amzn2023.0.1",
+      "arch": "aarch64",
+      "filename": "Packages/php8.4-opcache-8.4.28-1.amzn2023.0.1.aarch64.rpm"
+    },
+    {
+      "name": "php8.4-opcache",
+      "epoch": "0",
+      "version": "8.4.28",
+      "release": "1.amzn2023.0.1",
+      "arch": "x86_64",
+      "filename": "Packages/php8.4-opcache-8.4.28-1.amzn2023.0.1.x86_64.rpm"
+    },
+    {
+      "name": "php8.4-opcache-debuginfo",
+      "epoch": "0",
+      "version": "8.4.28",
+      "release": "1.amzn2023.0.1",
+      "arch": "aarch64",
+      "filename": "Packages/php8.4-opcache-debuginfo-8.4.28-1.amzn2023.0.1.aarch64.rpm"
+    },
+    {
+      "name": "php8.4-opcache-debuginfo",
+      "epoch": "0",
+      "version": "8.4.28",
+      "release": "1.amzn2023.0.1",
+      "arch": "x86_64",
+      "filename": "Packages/php8.4-opcache-debuginfo-8.4.28-1.amzn2023.0.1.x86_64.rpm"
+    },
+    {
+      "name": "php8.4-pdo",
+      "epoch": "0",
+      "version": "8.4.28",
+      "release": "1.amzn2023.0.1",
+      "arch": "aarch64",
+      "filename": "Packages/php8.4-pdo-8.4.28-1.amzn2023.0.1.aarch64.rpm"
+    },
+    {
+      "name": "php8.4-pdo",
+      "epoch": "0",
+      "version": "8.4.28",
+      "release": "1.amzn2023.0.1",
+      "arch": "x86_64",
+      "filename": "Packages/php8.4-pdo-8.4.28-1.amzn2023.0.1.x86_64.rpm"
+    },
+    {
+      "name": "php8.4-pdo-debuginfo",
+      "epoch": "0",
+      "version": "8.4.28",
+      "release": "1.amzn2023.0.1",
+      "arch": "aarch64",
+      "filename": "Packages/php8.4-pdo-debuginfo-8.4.28-1.amzn2023.0.1.aarch64.rpm"
+    },
+    {
+      "name": "php8.4-pdo-debuginfo",
+      "epoch": "0",
+      "version": "8.4.28",
+      "release": "1.amzn2023.0.1",
+      "arch": "x86_64",
+      "filename": "Packages/php8.4-pdo-debuginfo-8.4.28-1.amzn2023.0.1.x86_64.rpm"
+    },
+    {
+      "name": "php8.4-pgsql",
+      "epoch": "0",
+      "version": "8.4.28",
+      "release": "1.amzn2023.0.1",
+      "arch": "aarch64",
+      "filename": "Packages/php8.4-pgsql-8.4.28-1.amzn2023.0.1.aarch64.rpm"
+    },
+    {
+      "name": "php8.4-pgsql",
+      "epoch": "0",
+      "version": "8.4.28",
+      "release": "1.amzn2023.0.1",
+      "arch": "x86_64",
+      "filename": "Packages/php8.4-pgsql-8.4.28-1.amzn2023.0.1.x86_64.rpm"
+    },
+    {
+      "name": "php8.4-pgsql-debuginfo",
+      "epoch": "0",
+      "version": "8.4.28",
+      "release": "1.amzn2023.0.1",
+      "arch": "aarch64",
+      "filename": "Packages/php8.4-pgsql-debuginfo-8.4.28-1.amzn2023.0.1.aarch64.rpm"
+    },
+    {
+      "name": "php8.4-pgsql-debuginfo",
+      "epoch": "0",
+      "version": "8.4.28",
+      "release": "1.amzn2023.0.1",
+      "arch": "x86_64",
+      "filename": "Packages/php8.4-pgsql-debuginfo-8.4.28-1.amzn2023.0.1.x86_64.rpm"
+    },
+    {
+      "name": "php8.4-process",
+      "epoch": "0",
+      "version": "8.4.28",
+      "release": "1.amzn2023.0.1",
+      "arch": "aarch64",
+      "filename": "Packages/php8.4-process-8.4.28-1.amzn2023.0.1.aarch64.rpm"
+    },
+    {
+      "name": "php8.4-process",
+      "epoch": "0",
+      "version": "8.4.28",
+      "release": "1.amzn2023.0.1",
+      "arch": "x86_64",
+      "filename": "Packages/php8.4-process-8.4.28-1.amzn2023.0.1.x86_64.rpm"
+    },
+    {
+      "name": "php8.4-process-debuginfo",
+      "epoch": "0",
+      "version": "8.4.28",
+      "release": "1.amzn2023.0.1",
+      "arch": "aarch64",
+      "filename": "Packages/php8.4-process-debuginfo-8.4.28-1.amzn2023.0.1.aarch64.rpm"
+    },
+    {
+      "name": "php8.4-process-debuginfo",
+      "epoch": "0",
+      "version": "8.4.28",
+      "release": "1.amzn2023.0.1",
+      "arch": "x86_64",
+      "filename": "Packages/php8.4-process-debuginfo-8.4.28-1.amzn2023.0.1.x86_64.rpm"
+    },
+    {
+      "name": "php8.4-snmp",
+      "epoch": "0",
+      "version": "8.4.28",
+      "release": "1.amzn2023.0.1",
+      "arch": "aarch64",
+      "filename": "Packages/php8.4-snmp-8.4.28-1.amzn2023.0.1.aarch64.rpm"
+    },
+    {
+      "name": "php8.4-snmp",
+      "epoch": "0",
+      "version": "8.4.28",
+      "release": "1.amzn2023.0.1",
+      "arch": "x86_64",
+      "filename": "Packages/php8.4-snmp-8.4.28-1.amzn2023.0.1.x86_64.rpm"
+    },
+    {
+      "name": "php8.4-snmp-debuginfo",
+      "epoch": "0",
+      "version": "8.4.28",
+      "release": "1.amzn2023.0.1",
+      "arch": "aarch64",
+      "filename": "Packages/php8.4-snmp-debuginfo-8.4.28-1.amzn2023.0.1.aarch64.rpm"
+    },
+    {
+      "name": "php8.4-snmp-debuginfo",
+      "epoch": "0",
+      "version": "8.4.28",
+      "release": "1.amzn2023.0.1",
+      "arch": "x86_64",
+      "filename": "Packages/php8.4-snmp-debuginfo-8.4.28-1.amzn2023.0.1.x86_64.rpm"
+    },
+    {
+      "name": "php8.4-soap",
+      "epoch": "0",
+      "version": "8.4.28",
+      "release": "1.amzn2023.0.1",
+      "arch": "aarch64",
+      "filename": "Packages/php8.4-soap-8.4.28-1.amzn2023.0.1.aarch64.rpm"
+    },
+    {
+      "name": "php8.4-soap",
+      "epoch": "0",
+      "version": "8.4.28",
+      "release": "1.amzn2023.0.1",
+      "arch": "x86_64",
+      "filename": "Packages/php8.4-soap-8.4.28-1.amzn2023.0.1.x86_64.rpm"
+    },
+    {
+      "name": "php8.4-soap-debuginfo",
+      "epoch": "0",
+      "version": "8.4.28",
+      "release": "1.amzn2023.0.1",
+      "arch": "aarch64",
+      "filename": "Packages/php8.4-soap-debuginfo-8.4.28-1.amzn2023.0.1.aarch64.rpm"
+    },
+    {
+      "name": "php8.4-soap-debuginfo",
+      "epoch": "0",
+      "version": "8.4.28",
+      "release": "1.amzn2023.0.1",
+      "arch": "x86_64",
+      "filename": "Packages/php8.4-soap-debuginfo-8.4.28-1.amzn2023.0.1.x86_64.rpm"
+    },
+    {
+      "name": "php8.4-sodium",
+      "epoch": "0",
+      "version": "8.4.28",
+      "release": "1.amzn2023.0.1",
+      "arch": "aarch64",
+      "filename": "Packages/php8.4-sodium-8.4.28-1.amzn2023.0.1.aarch64.rpm"
+    },
+    {
+      "name": "php8.4-sodium",
+      "epoch": "0",
+      "version": "8.4.28",
+      "release": "1.amzn2023.0.1",
+      "arch": "x86_64",
+      "filename": "Packages/php8.4-sodium-8.4.28-1.amzn2023.0.1.x86_64.rpm"
+    },
+    {
+      "name": "php8.4-sodium-debuginfo",
+      "epoch": "0",
+      "version": "8.4.28",
+      "release": "1.amzn2023.0.1",
+      "arch": "aarch64",
+      "filename": "Packages/php8.4-sodium-debuginfo-8.4.28-1.amzn2023.0.1.aarch64.rpm"
+    },
+    {
+      "name": "php8.4-sodium-debuginfo",
+      "epoch": "0",
+      "version": "8.4.28",
+      "release": "1.amzn2023.0.1",
+      "arch": "x86_64",
+      "filename": "Packages/php8.4-sodium-debuginfo-8.4.28-1.amzn2023.0.1.x86_64.rpm"
+    },
+    {
+      "name": "php8.4-tidy",
+      "epoch": "0",
+      "version": "8.4.28",
+      "release": "1.amzn2023.0.1",
+      "arch": "aarch64",
+      "filename": "Packages/php8.4-tidy-8.4.28-1.amzn2023.0.1.aarch64.rpm"
+    },
+    {
+      "name": "php8.4-tidy",
+      "epoch": "0",
+      "version": "8.4.28",
+      "release": "1.amzn2023.0.1",
+      "arch": "x86_64",
+      "filename": "Packages/php8.4-tidy-8.4.28-1.amzn2023.0.1.x86_64.rpm"
+    },
+    {
+      "name": "php8.4-tidy-debuginfo",
+      "epoch": "0",
+      "version": "8.4.28",
+      "release": "1.amzn2023.0.1",
+      "arch": "aarch64",
+      "filename": "Packages/php8.4-tidy-debuginfo-8.4.28-1.amzn2023.0.1.aarch64.rpm"
+    },
+    {
+      "name": "php8.4-tidy-debuginfo",
+      "epoch": "0",
+      "version": "8.4.28",
+      "release": "1.amzn2023.0.1",
+      "arch": "x86_64",
+      "filename": "Packages/php8.4-tidy-debuginfo-8.4.28-1.amzn2023.0.1.x86_64.rpm"
+    },
+    {
+      "name": "php8.4-xml",
+      "epoch": "0",
+      "version": "8.4.28",
+      "release": "1.amzn2023.0.1",
+      "arch": "aarch64",
+      "filename": "Packages/php8.4-xml-8.4.28-1.amzn2023.0.1.aarch64.rpm"
+    },
+    {
+      "name": "php8.4-xml",
+      "epoch": "0",
+      "version": "8.4.28",
+      "release": "1.amzn2023.0.1",
+      "arch": "x86_64",
+      "filename": "Packages/php8.4-xml-8.4.28-1.amzn2023.0.1.x86_64.rpm"
+    },
+    {
+      "name": "php8.4-xml-debuginfo",
+      "epoch": "0",
+      "version": "8.4.28",
+      "release": "1.amzn2023.0.1",
+      "arch": "aarch64",
+      "filename": "Packages/php8.4-xml-debuginfo-8.4.28-1.amzn2023.0.1.aarch64.rpm"
+    },
+    {
+      "name": "php8.4-xml-debuginfo",
+      "epoch": "0",
+      "version": "8.4.28",
+      "release": "1.amzn2023.0.1",
+      "arch": "x86_64",
+      "filename": "Packages/php8.4-xml-debuginfo-8.4.28-1.amzn2023.0.1.x86_64.rpm"
+    },
+    {
+      "name": "php8.4-zip",
+      "epoch": "0",
+      "version": "8.4.28",
+      "release": "1.amzn2023.0.1",
+      "arch": "aarch64",
+      "filename": "Packages/php8.4-zip-8.4.28-1.amzn2023.0.1.aarch64.rpm"
+    },
+    {
+      "name": "php8.4-zip",
+      "epoch": "0",
+      "version": "8.4.28",
+      "release": "1.amzn2023.0.1",
+      "arch": "x86_64",
+      "filename": "Packages/php8.4-zip-8.4.28-1.amzn2023.0.1.x86_64.rpm"
+    },
+    {
+      "name": "php8.4-zip-debuginfo",
+      "epoch": "0",
+      "version": "8.4.28",
+      "release": "1.amzn2023.0.1",
+      "arch": "aarch64",
+      "filename": "Packages/php8.4-zip-debuginfo-8.4.28-1.amzn2023.0.1.aarch64.rpm"
+    },
+    {
+      "name": "php8.4-zip-debuginfo",
+      "epoch": "0",
+      "version": "8.4.28",
+      "release": "1.amzn2023.0.1",
+      "arch": "x86_64",
+      "filename": "Packages/php8.4-zip-debuginfo-8.4.28-1.amzn2023.0.1.x86_64.rpm"
+    }
+  ],
+  "references": [
+    {
+      "href": "http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-115560",
+      "id": "CVE-2026-115560",
+      "type": "cve"
+    },
+    {
+      "href": "http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-126714",
+      "id": "CVE-2026-126714",
+      "type": "cve"
+    },
+    {
+      "href": "http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-129289",
+      "id": "CVE-2026-129289",
+      "type": "cve"
+    },
+    {
+      "href": "http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-128090",
+      "id": "CVE-2026-128090",
+      "type": "cve"
+    },
+    {
+      "href": "http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-129481",
+      "id": "CVE-2026-129481",
+      "type": "cve"
+    },
+    {
+      "href": "http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-15353",
+      "id": "CVE-2026-15353",
+      "type": "cve"
+    },
+    {
+      "href": "http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-128064",
+      "id": "CVE-2026-128064",
+      "type": "cve"
+    },
+    {
+      "href": "http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-127960",
+      "id": "CVE-2026-127960",
+      "type": "cve"
+    },
+    {
+      "href": "http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-129292",
+      "id": "CVE-2026-129292",
+      "type": "cve"
+    },
+    {
+      "href": "http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-129291",
+      "id": "CVE-2026-129291",
+      "type": "cve"
+    },
+    {
+      "href": "http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-129496",
+      "id": "CVE-2026-129496",
+      "type": "cve"
+    },
+    {
+      "href": "http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-129501",
+      "id": "CVE-2026-129501",
+      "type": "cve"
+    },
+    {
+      "href": "http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-129506",
+      "id": "CVE-2026-129506",
+      "type": "cve"
+    },
+    {
+      "href": "http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-129538",
+      "id": "CVE-2026-129538",
+      "type": "cve"
+    }
+  ],
+  "cveids": [
+    "CVE-2026-115560",
+    "CVE-2026-126714",
+    "CVE-2026-129289",
+    "CVE-2026-128090",
+    "CVE-2026-129481",
+    "CVE-2026-15353",
+    "CVE-2026-128064",
+    "CVE-2026-127960",
+    "CVE-2026-129292",
+    "CVE-2026-129291",
+    "CVE-2026-129496",
+    "CVE-2026-129501",
+    "CVE-2026-129506",
+    "CVE-2026-129538"
+  ]
+}
