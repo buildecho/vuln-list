@@ -56,11 +56,11 @@
   "CVE-2024-56433": {
     "fixed_version": "1"
   },
-  "TEMP-0000000-473926": {},
   "TEMP-0000000-6F6CD4": {
     "fixed_version": "4.0.8"
   },
   "TEMP-0628843-DBAD28": {
     "fixed_version": "1"
-  }
+  },
+  "TEMP-1154946-473926": {}
 }
